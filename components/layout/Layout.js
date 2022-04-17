@@ -1,6 +1,8 @@
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
 
+import Footer from './Footer'
+
 const Navigation = dynamic(() => import('@/components/layout/Navigation'), { ssr: false })
 
 export default function Layout({ children, title = null }) {
@@ -9,7 +11,7 @@ export default function Layout({ children, title = null }) {
   return (
     <>
       <Head>
-        <title>{title ? `${title} - Next Starter` : 'Next Starter'}</title>
+        <title>{title ? `${title} - Haris Kurtishi` : ''}</title>
 
         {/* Favicons */}
         <link rel="icon" href="/favicons/fav-32.ico" sizes="32x32" />
@@ -23,10 +25,8 @@ export default function Layout({ children, title = null }) {
       <div className={`font-sans antialiased flex flex-col ${dev ? 'debug-screens' : ''}`}>
         {/* Navigation here */}
         <Navigation />
-
         {children}
-
-        {/* Footer here */}
+        <Footer />
       </div>
     </>
   )

@@ -1,15 +1,22 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import SVG from 'react-inlinesvg'
+import { Link as ScrollLink } from 'react-scroll'
 
+import Button from '../Button'
 const NavItem = ({ children, href }) => {
   return (
-    <li className="w-full md:w-auto md:mr-6">
-      <Link href={href}>
-        <a className="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent">
-          {children}
-        </a>
-      </Link>
+    <li>
+      <ScrollLink
+        to={href}
+        className="cursor-pointer lg:hover:text-orange-500 "
+        activeClass="md:text-orange-500 lg:before:bg-orange-500 menu-item"
+        spy={true}
+        smooth={true}
+        offset={-200}
+      >
+        <div className="py-4">{children}</div>
+      </ScrollLink>
     </li>
   )
 }
@@ -18,31 +25,51 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className="bg-white shadow-lg flex items-center">
+    <div className="sticky top-0 z-50 flex items-center bg-white">
       <div className="container">
-        <div className="row py-6 justify-between">
-          <div className="col-6">
-            <p className="font-bold text-gray-800 text-2xl">Next Starter</p>
+        <div className="justify-between py-5 row">
+          <div className="flex items-center col-3">
+            <div className="">
+              <ScrollLink to="/" spy={true} smooth={true} offset={-70} duration={500}>
+                <p className="text-2xl text-zinc-900">Haris Kurtishi</p>
+              </ScrollLink>
+            </div>
           </div>
-          <div className="col-2 md:hidden block">
+          <div className="flex items-center col-2 lg:hidden ">
             <label htmlFor="menu-toggle" className="cursor-pointer">
               <SVG
-                src="../svg/menu.svg"
-                className="fill-current text-black w-6 h-6"
+                src={`../svg/${menu ? 'menu-closed.svg' : 'menu.svg'}`}
+                className="w-6 h-6 fill-current text-orange-500"
                 onClick={() => setMenu(!menu)}
               />
             </label>
           </div>
 
           <div
-            className={`md:col-6 md:flex justify-center md:justify-end ${
-              menu ? ' flex' : ' hidden'
+            className={`lg:col-6 lg:flex justify-center text-center ${
+              menu ? ' flex ' : ' hidden '
             }`}
           >
-            <ul className="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
-              <NavItem href="/">Home</NavItem>
-              <NavItem href="/about">About</NavItem>
+            <ul className="flex-col w-full font-bold divide-y-2 lg:flex text-orange-500 md:text-zinc-700 md:font-medium pt-14 lg:space-x-12 lg:w-auto md:p-0 md:flex-row lg:justify-center md:items-center lg:text-left md:divide-y-2 lg:divide-y-0 divide-zinc-700 ">
+              <NavItem href="home">Home</NavItem>
+              <NavItem href="about">About me</NavItem>
+              <NavItem href="projects">Projects</NavItem>
+              <NavItem href="contact">Contact</NavItem>
             </ul>
+          </div>
+
+          <div
+            className={`lg:col-3 hidden lg:flex justify-center items-center lg:space-x-4 lg:justify-end ${
+              menu ? '  ' : ' hidden '
+            }`}
+          >
+            <div>
+              <Link href="#contact" passHref aria-label="Contact Button">
+                <Button as="a" variant="secondary">
+                  Portfolio Here
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

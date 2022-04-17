@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu-item:hover:before {
+  @apply bg-orange-500;
+}
+
+header:before {
+  @apply absolute inset-0 border-b-2 border-transparent dark:border-orange-500;
+  content: '';
+  transform: translateY(-100%);
+  transition: all 0.4s cubic-bezier(0.73, 0.14, 0.14, 0.78);
+}
+
+.menu-item:before {
+  @apply absolute transition duration-200 ease-in bg-transparent;
+  content: '';
+  width: 25px;
+  height: 2px;
+  margin-top: 42px;
+  border-radius: 25px;
+}
+
+.menu-item:hover:before {
+  @apply bg-orange-500;
+}
+
+#header.isTop:before {
+  transform: translateY(0);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
