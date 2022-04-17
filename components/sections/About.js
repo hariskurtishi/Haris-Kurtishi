@@ -2,7 +2,7 @@ import Image from 'next/dist/client/image'
 import SVG from 'react-inlinesvg'
 export default function About() {
   return (
-    <div id="about" className="relative lg:h-[780px]">
+    <div id="about" className="relative h-screen lg:h-[780px]">
       <div className="container">
         <div
           className="absolute left-96 lg:left-[1300px]  bottom-56  lg:bottom-24"
@@ -23,7 +23,11 @@ export default function About() {
                 className="absolute lg:-top-[500px] lg:left-0 lg:-bottom-96  "
                 style={{ zIndex: '-2' }}
               >
-                <SVG src="/svg/aboutbg.svg" className="col-12 lg:w-full" alt="facebook icon" />
+                <SVG
+                  src="/svg/aboutbg.svg"
+                  className="hidden lg:block col-12 lg:w-full"
+                  alt="facebook icon"
+                />
               </div>
               <div
                 className="hidden lg:block absolute -bottom-[1100px] lg:-top-20  "

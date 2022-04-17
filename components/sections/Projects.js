@@ -9,8 +9,12 @@ export default function Projects() {
       <div className="absolute bottom-48" style={{ zIndex: '-30' }}>
         <SVG src="/svg/rectangle3.svg" className="w-full " alt="facebook icon" />
       </div>
-      <div className="text-[55px] text-center container leading-tight" style={{ zIndex: '10' }}>
-        Some Things I’ve <br /> <span className="text-orange-500 text-[65px]">Built.</span>
+      <div
+        className="lg:text-[55px] text-4xl text-center container leading-tight  lg:pt-0"
+        style={{ zIndex: '10' }}
+      >
+        Some Things I’ve <br />
+        <span className="text-orange-500 text-5xl lg:text-[65px]">Built.</span>
       </div>
 
       <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 container">
@@ -65,7 +69,7 @@ export default function Projects() {
             </h3>
           </div>
         </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out col-span-2">
+        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out ">
           <Image
             priority
             src="/images/housemarketplace.jpg"
@@ -117,7 +121,7 @@ export default function Projects() {
             </h3>
           </div>
         </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out col-span-2">
+        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out ">
           <Image
             priority
             src="/images/hulu.jpg"

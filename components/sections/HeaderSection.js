@@ -20,15 +20,15 @@ export default function HeaderSection() {
               </div>
 
               <div className="py-4 lg:py-0">
-                <h1 className="text-5xl lg:text-[100px] font-semibold lg:leading-tight ">
+                <h1 className="text-6xl lg:text-[100px] font-semibold lg:leading-tight ">
                   Frontend
                 </h1>
-                <h1 className="text-5xl lg:text-[100px] font-semibold lg:ml-14 lg:leading-[70px] ">
+                <h1 className="text-6xl lg:text-[100px] font-semibold lg:ml-14 ml-[31px] lg:leading-[70px] ">
                   Developer<span className="text-orange-500">.</span>
                 </h1>
               </div>
 
-              <p className="my-4 lg:my-0 lg:text-left lg:mt-14">
+              <p className="my-2 lg:my-0 lg:text-left lg:mt-14">
                 I’m a Frontend Developer specializing in building (and occasionally designing)
                 exceptional digital experiences.
               </p>

@@ -10,13 +10,16 @@ export default function Contact() {
           <div className=" bg-gray-200 py-14 flex items-center justify-center">
             <div className=" ">
               <div className="text-white py-16 ">
-                <h1 className="font-bold text-5xl text-center text-zinc-900">
+                <h1 className="font-bold text-3xl lg:text-5xl text-center text-zinc-900">
                   Have a specific project in mind?
                 </h1>
-                <div className="col-8 offset-2 py-4">
+                <div className="lg:col-8 lg:offset-2 py-4">
                   <p className="text-lg font-normal text-center text-zinc-900">
-                    Im passionate about bringing fresh, new ideas to life and turning them into
-                    memorable experiences. Do you require a high-end web presence?
+                    I’m passionate about bringing fresh, new ideas to life and turning them into
+                    memorable experiences.
+                  </p>
+                  <p className="text-lg font-normal text-center text-zinc-900">
+                    Do you require a high-end web presence?
                   </p>
                 </div>
                 <div>
