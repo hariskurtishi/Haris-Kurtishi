@@ -2,7 +2,7 @@ import Image from 'next/dist/client/image'
 import SVG from 'react-inlinesvg'
 export default function About() {
   return (
-    <div id="about" className="relative h-screen lg:h-[780px]">
+    <div id="about" className="relative h-[700px] lg:h-[780px]">
       <div className="container">
         <div
           className="absolute left-96 lg:left-[1300px]  bottom-56  lg:bottom-24"

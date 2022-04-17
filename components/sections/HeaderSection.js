@@ -19,11 +19,11 @@ export default function HeaderSection() {
                 </h1>
               </div>
 
-              <div className="py-4 lg:py-0">
-                <h1 className="text-6xl lg:text-[100px] font-semibold lg:leading-tight ">
+              <div className=" lg:py-0">
+                <h1 className="text-[55px] lg:text-[100px] font-semibold lg:leading-tight ">
                   Frontend
                 </h1>
-                <h1 className="text-6xl lg:text-[100px] font-semibold lg:ml-14 ml-[31px] lg:leading-[70px] ">
+                <h1 className="text-[55px] lg:text-[100px] font-semibold lg:ml-14 ml-[29px] lg:leading-[70px] ">
                   Developer<span className="text-orange-500">.</span>
                 </h1>
               </div>

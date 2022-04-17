@@ -37,11 +37,7 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className="">
-                  <a
-                    rel="noopener noreferrer"
-                    aria-label="email"
-                    href="mailto:bluepuzzlemacedonia@gmail.com"
-                  >
+                  <a rel="noopener noreferrer" aria-label="email" href="mailto:hariskurtishii.com">
                     <SVG
                       src="/svg/instagram.svg"
                       className="w-10 h-10 p-2 transition-all text-white rounded-md cursor-pointer fill-current hover:bg-orange-500 hover:text-sky-900"

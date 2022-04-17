@@ -25,7 +25,7 @@ export default function Contact() {
                 <div>
                   <div className="flex justify-center">
                     <Link
-                      href="#contact"
+                      href="mailto:hariskurtishii.com"
                       passHref
                       className="font-light"
                       aria-label="Contact Button"
