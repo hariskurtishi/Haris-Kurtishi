@@ -57,8 +57,11 @@ export default function HeaderSection() {
             </div>
           </div>
 
-          <div className="col-12 relative lg:col-5 lg:offset-1 lg:flex lg:justify-center">
-            <div className="absolute top-24 lg:top-0 z-0" style={{ zIndex: '-2' }}>
+          <div className="col-12 relative  lg:col-5 lg:offset-1 lg:flex lg:justify-center">
+            <div
+              className="absolute top-24 md:right-28 lg:right-0 lg:top-0 z-0"
+              style={{ zIndex: '-2' }}
+            >
               <SVG
                 src="/svg/headerbgvector.svg"
                 className="w-full lg:w-11/12"
@@ -67,7 +70,7 @@ export default function HeaderSection() {
             </div>
 
             <div
-              className="absolute lg:-bottom-0 lg:right-36 right-7 -top-68 lg:-top-32 grayscale"
+              className="absolute lg:-bottom-0 md:right-56 lg:right-36 right-7 -top-68 lg:-top-32 grayscale"
               style={{ zIndex: '6' }}
             >
               <Image
@@ -83,7 +86,7 @@ export default function HeaderSection() {
               />
             </div>
             <div
-              className="absolute -bottom-[700px] lg:-bottom-28 right-34"
+              className="absolute -bottom-[700px] lg:-bottom-28 right-34 md:right-28 lg:right-0"
               style={{ zIndex: '6' }}
             >
               <Image

@@ -10,7 +10,7 @@ export default function Projects() {
         <SVG src="/svg/rectangle3.svg" className="w-full " alt="facebook icon" />
       </div>
       <div
-        className="lg:text-[55px] text-4xl text-center container leading-tight  lg:pt-0"
+        className="lg:text-[55px] text-4xl text-center container leading-tight pt-24 md:pt-14 lg:pt-0"
         style={{ zIndex: '10' }}
       >
         Some Things I’ve <br />

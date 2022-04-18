@@ -2,10 +2,10 @@ import Image from 'next/dist/client/image'
 import SVG from 'react-inlinesvg'
 export default function About() {
   return (
-    <div id="about" className="relative h-[700px] lg:h-[780px]">
+    <div id="about" className="relative md:h-[550px] h-[700px] lg:h-[780px]">
       <div className="container">
         <div
-          className="absolute left-96 lg:left-[1300px]  bottom-56  lg:bottom-24"
+          className="absolute left-96 md:left-[600px] lg:left-[1300px] bottom-56 lg:bottom-24"
           style={{ zIndex: '20' }}
         >
           <SVG src="/svg/rectangle4.svg" className="w-full " alt="facebook icon" />
