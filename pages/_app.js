@@ -11,9 +11,10 @@ function MyApp({ Component, pageProps }) {
         openGraph={{
           type: 'website',
           locale: 'en_EN',
-          url: '',
-          site_name: 'Next Starter',
-          description: 'Website description here',
+          url: 'https://hariskurtishi.com/',
+          site_name: 'Haris Kurtishi',
+          description:
+            'Frontend Developer specializing in building (and occasionally designing) exceptional digital experiences.',
         }}
       />
       <Component {...pageProps} />
