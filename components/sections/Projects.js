@@ -5,7 +5,7 @@ import SVG from 'react-inlinesvg'
 import Button from '../Button'
 export default function Projects() {
   return (
-    <div id="projects" className=" relative">
+    <div id="projects" className="relative lg:h-[1000px]">
       <div className="absolute bottom-48" style={{ zIndex: '-30' }}>
         <SVG src="/svg/rectangle3.svg" className="w-full " alt="facebook icon" />
       </div>
