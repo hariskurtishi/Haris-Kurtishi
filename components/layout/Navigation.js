@@ -1,9 +1,7 @@
-import Link from 'next/link'
 import { useState } from 'react'
 import SVG from 'react-inlinesvg'
 import { Link as ScrollLink } from 'react-scroll'
 
-import Button from '../Button'
 const NavItem = ({ children, href }) => {
   return (
     <li>
@@ -30,9 +28,7 @@ export default function Navigation() {
         <div className="justify-between py-5 row">
           <div className="flex items-center col-3">
             <div className="">
-              <ScrollLink to="/" spy={true} smooth={true} offset={-70} duration={500}>
-                <p className="text-2xl text-zinc-900">Haris Kurtishi</p>
-              </ScrollLink>
+              <ScrollLink to="/" spy={true} smooth={true} offset={-70} duration={500}></ScrollLink>
             </div>
           </div>
           <div className="flex items-center col-2 lg:hidden ">
@@ -62,15 +58,7 @@ export default function Navigation() {
             className={`lg:col-3 hidden lg:flex justify-center items-center lg:space-x-4 lg:justify-end ${
               menu ? '  ' : ' hidden '
             }`}
-          >
-            <div>
-              <Link href="#contact" passHref aria-label="Contact Button">
-                <Button as="a" variant="secondary">
-                  Portfolio Here
-                </Button>
-              </Link>
-            </div>
-          </div>
+          ></div>
         </div>
       </div>
     </div>

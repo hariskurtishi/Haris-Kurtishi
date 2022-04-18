@@ -15,8 +15,8 @@ export default function Contact() {
                 </h1>
                 <div className="lg:col-8 lg:offset-2 py-4">
                   <p className="text-lg font-normal text-center text-zinc-900">
-                    I’m passionate about bringing fresh, new ideas to life and turning them into
-                    memorable experiences.
+                    I love bringing fresh, new ideas to life and turning them into memorable
+                    experiences.
                   </p>
                   <p className="text-lg font-normal text-center text-zinc-900">
                     Do you require a high-end web presence?

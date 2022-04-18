@@ -7,7 +7,7 @@ export default function HeaderSection() {
   return (
     <div id="home" className="relative h-[1200px] lg:h-[1080px] w-full">
       <div className="container relative">
-        <div className="pt-14 lg:pt-32 lg:flex">
+        <div className="pt-14 lg:pt-24 lg:flex">
           <div className="lg:col-6 ">
             <div className="relative">
               <div>
@@ -19,7 +19,7 @@ export default function HeaderSection() {
                 </h1>
               </div>
 
-              <div className=" lg:py-0">
+              <div className="lg:py-0">
                 <h1 className="text-[55px] lg:text-[100px] font-semibold lg:leading-tight ">
                   Frontend
                 </h1>
@@ -35,47 +35,11 @@ export default function HeaderSection() {
               <div
                 className="flex justify-start items-center  mt-4 space-x-4 md:mb-0  "
                 style={{ zIndex: '24' }}
-              >
-                <div className="">
-                  <a
-                    rel="noopener noreferrer"
-                    aria-label="facebook"
-                    href="https://www.facebook.com/BluePuzzl"
-                  >
-                    <SVG
-                      src="/svg/fb.svg"
-                      className="w-10 h-10 p-2 transition-all text-white rounded-md cursor-pointer fill-current hover:bg-gray-100 hover:text-sky-900"
-                      alt="facebook icon"
-                    />
-                  </a>
-                </div>
-                <div className="">
-                  <a
-                    rel="noopener noreferrer"
-                    aria-label="email"
-                    href="mailto:bluepuzzlemacedonia@gmail.com"
-                  >
-                    <SVG
-                      src="/svg/instagram.svg"
-                      className="w-10 h-10 p-2 transition-all text-white rounded-md cursor-pointer fill-current hover:bg-gray-100 hover:text-sky-900"
-                      alt="email icon"
-                    />
-                  </a>
-                </div>
-                <div className="">
-                  <a rel="noopener noreferrer" aria-label="phone" href="tel:00389 70 585 191">
-                    <SVG
-                      src="/svg/linkedin.svg"
-                      className="w-10 h-10 p-2 transition-all text-white rounded-md cursor-pointer fill-current hover:bg-gray-100 hover:text-sky-900"
-                      alt="call icon"
-                    />
-                  </a>
-                </div>
-              </div>
+              ></div>
 
               <div
                 className="flex lg:inline-flex items-center lg:justify-start z-50"
-                style={{ zIndex: '34' }}
+                style={{ zIndex: '50' }}
               >
                 <Link href="#contact" passHref className="font-light" aria-label="Contact Button">
                   <Button as="a" variant="primary">
@@ -86,7 +50,7 @@ export default function HeaderSection() {
 
               <div
                 className="hidden lg:block absolute -bottom-52 -right-56 "
-                style={{ zIndex: '3' }}
+                style={{ zIndex: '-3' }}
               >
                 <SVG src="/svg/headerbg.svg" className="  " alt="facebook icon" />
               </div>
@@ -119,7 +83,7 @@ export default function HeaderSection() {
               />
             </div>
             <div
-              className="absolute -bottom-[700px] lg:-bottom-20 right-34"
+              className="absolute -bottom-[700px] lg:-bottom-28 right-34"
               style={{ zIndex: '6' }}
             >
               <Image
