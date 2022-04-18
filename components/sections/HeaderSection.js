@@ -11,7 +11,7 @@ export default function HeaderSection() {
           <div className="lg:col-6 ">
             <div className="relative">
               <div>
-                <h1 className="">
+                <h1 className="text-zinc-600">
                   Hello there! I’m <br />
                   <span className="text-orange-500 leading-loose text-xl lg:text-3xl font-bold ">
                     Haris Kurtishi
@@ -19,7 +19,7 @@ export default function HeaderSection() {
                 </h1>
               </div>
 
-              <div className="lg:py-0">
+              <div className="lg:py-0 text-zinc-900">
                 <h1 className="text-[55px] lg:text-[100px] font-semibold lg:leading-tight ">
                   Frontend
                 </h1>
@@ -28,7 +28,7 @@ export default function HeaderSection() {
                 </h1>
               </div>
 
-              <p className="my-2 lg:my-0 lg:text-left lg:mt-14">
+              <p className="my-2 lg:my-0 lg:text-left lg:mt-14 text-zinc-600">
                 I’m a Frontend Developer specializing in building (and occasionally designing)
                 exceptional digital experiences.
               </p>

@@ -12,9 +12,13 @@ export default function About() {
         </div>
         <div
           className="absolute top-56 w-20 hidden lg:block lg:top-24 lg:left-24"
-          style={{ zIndex: '-20' }}
+          style={{ zIndex: '20' }}
         >
-          <SVG src="/svg/verticaldots.svg" className="opacity-30 " alt="facebook icon" />
+          <SVG
+            src="/svg/verticaldots.svg"
+            className="opacity-30 transition-all hover:opacity-100"
+            alt="facebook icon"
+          />
         </div>
         <div className="lg:flex">
           <div className="lg:col-6">
@@ -30,13 +34,13 @@ export default function About() {
                 />
               </div>
               <div
-                className="hidden lg:block absolute -bottom-[1100px] lg:-top-20  "
+                className="hidden lg:block absolute -bottom-[1100px] lg:-top-8  "
                 style={{ zIndex: '6' }}
               >
                 <Image
                   // loader={myLoader}
                   priority
-                  src="/images/haris.png"
+                  src="/images/haris2.png"
                   layout="intrinsic"
                   alt="Header"
                   objectFit="cover"
@@ -49,11 +53,11 @@ export default function About() {
           </div>
           <div className="lg:col-6 lg:px-6">
             <div>
-              <h1 className="text-[64px] text-left mb-4">
+              <h1 className="text-[64px] text-zinc-900 text-left mb-4">
                 About me<span className="text-orange-500">.</span>
               </h1>
               <div className=" text-left">
-                <div className="space-y-2">
+                <div className="space-y-5 text-zinc-600 ">
                   <p>
                     Hello! My name is Haris and I enjoy creating things that live on the internet.
                     My interest in web development started back in 2016 when I decided to build a
@@ -71,7 +75,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="flex justify-start  space-x-[130px] mt-8">
+              <div className="flex justify-start space-x-[130px] mt-8 text-zinc-900 ">
                 <div>
                   <div className=" flex items-center space-x-2">
                     <div className="">
@@ -177,9 +181,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      {/* <div className="absolute -bottom-72" style={{ zIndex: '-20' }}>
-        <SVG src="/svg/bigornament.svg" className="w-full h-screen" alt="facebook icon" />
-      </div> */}
     </div>
   )
 }
