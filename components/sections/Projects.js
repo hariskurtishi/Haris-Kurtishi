@@ -34,23 +34,26 @@ export default function Projects() {
               width={812}
               height={548}
             />
-            <div className="p-6">
-              <p className="text-orange-500 text-sm">Tech</p>
-              <Link href="https://bluepuzzle.mk/en">
-                <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Blue Puzzle Treatmant Center</h1>
-                  </div>
-                </a>
-              </Link>
-              <Link href="https://bluepuzzle.mk/en">
-                <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:underline">Github code</h1>
-                  </div>
-                </a>
-              </Link>
+            <div className="p-6 flex flex-col justify-between">
+              <div>
+                <Link href="https://bluepuzzle.mk/en">
+                  <a>
+                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                      <h1>Blue Puzzle Treatmant Center</h1>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+              <div>
+                <Link href="https://bluepuzzle.mk/en">
+                  <a>
+                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                      <h1 className="hover:underline">Github code</h1>
+                    </div>
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -67,7 +70,6 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <p className="text-orange-500 text-sm">Tech</p>
               <Link href="https://movie-app-mauve.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
@@ -99,7 +101,6 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <p className="text-orange-500 text-sm">Tech</p>
               <Link href="https://hulu-2-0-hariskurtishi.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
@@ -131,7 +132,6 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <p className="text-orange-500 text-sm">Tech</p>
               <Link href="https://feedback-ui-54d2c0.netlify.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
@@ -163,7 +163,6 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <p className="text-orange-500 text-sm">Tech</p>
               <Link href="https://github-finder-three-rust.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
@@ -195,7 +194,6 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <p className="text-orange-500 text-sm">Tech</p>
               <Link href="https://house-marketplace-rent-sell.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
