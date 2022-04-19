@@ -7,13 +7,13 @@ export default function Projects() {
   return (
     <div id="projects" className="relative lg:h-[1000px]">
       <div
-        className="absolute bottom-48 selection:bg-orange-500 selection:text-white"
+        className="absolute bottom-96 selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '-30' }}
       >
         <SVG src="/svg/rectangle3.svg" className="w-full " alt="facebook icon" />
       </div>
       <div
-        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 lg:pb-8 text-zinc-900 hover:text-orange-500 mb-4 group transition-all"
+        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 lg:pb-8 text-zinc-900 hover:text-orange-500 mb-4 group transition-all selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '10' }}
       >
         Some Things I’ve <br />
@@ -22,7 +22,7 @@ export default function Projects() {
         </span>
       </div>
 
-      <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 ">
+      <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 container">
         <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
           <Image
             priority
@@ -269,6 +269,58 @@ export default function Projects() {
                 >
                   <Link
                     href="https://github.com/hariskurtishi/house-marketplace"
+                    passHref
+                    className="font-light"
+                    aria-label="Button"
+                  >
+                    <Button as="a" variant="secondary">
+                      Github code
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </h3>
+          </div>
+        </article>
+        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
+          <Image
+            priority
+            src="/images/movieapp.jpg"
+            layout="fill"
+            alt="Header"
+            objectFit="cover"
+            quality={100}
+            className=""
+          />
+          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
+          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+            <h3 className="text-center space-y-12">
+              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
+                <span className="absolute inset-0"></span>A movie app build with custom Css and
+                Javascript.
+              </a>
+              <div className="invisible group-hover:visible flex justify-center space-x-6">
+                <div
+                  className="flex lg:inline-flex items-center lg:justify-start z-50"
+                  style={{ zIndex: '34' }}
+                >
+                  <Link
+                    href="https://movie-app-mauve.vercel.app/"
+                    passHref
+                    className="font-light"
+                    aria-label="Button"
+                  >
+                    <Button as="a" variant="primary">
+                      View it live
+                    </Button>
+                  </Link>
+                </div>
+                <div
+                  className="flex lg:inline-flex items-center lg:justify-start z-50"
+                  style={{ zIndex: '34' }}
+                >
+                  <Link
+                    href="https://github.com/hariskurtishi/Movie-app"
                     passHref
                     className="font-light"
                     aria-label="Button"

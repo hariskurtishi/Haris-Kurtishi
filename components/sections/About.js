@@ -7,14 +7,15 @@ export default function About() {
       className="relative md:h-[550px] h-[800px] sm:h-[700px] lg:h-[780px] my-28 lg:my-0 md:mt-10"
     >
       <div className="container">
-        <div
-          className="absolute left-96 md:left-[600px] lg:left-[1300px] bottom-56 lg:bottom-24"
+        {/* <div
+          className="absolute left-96 md:left-[600px] lg:-left-[1100px] bottom-56 lg:bottom-24"
           style={{ zIndex: '20' }}
         >
           <SVG src="/svg/rectangle4.svg" className="w-full " alt="facebook icon" />
-        </div>
+        </div> */}
+
         <div
-          className="absolute top-56 w-20 hidden lg:block lg:top-24 lg:left-24"
+          className="absolute top-56 w-20 hidden lg:block lg:top-24 lg:left-20"
           style={{ zIndex: '20' }}
         >
           <SVG
@@ -54,13 +55,19 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="lg:col-6 lg:px-6">
-            <div>
+          <div className="lg:col-6 lg:px-6 ">
+            <div className="">
               <h1 className="text-[64px] text-zinc-900 hover:text-orange-500  text-left mb-4 group transition-all selection:bg-orange-500 selection:text-white">
                 About me<span className="text-orange-500 group-hover:text-zinc-900">.</span>
               </h1>
+              <div
+                className="absolute bottom-72 right-0 selection:bg-orange-500 selection:text-white"
+                style={{ zIndex: '-30' }}
+              >
+                <SVG src="/svg/rectangle4.svg" className="w-full " alt="facebook icon" />
+              </div>
               <div className=" text-left">
-                <div className="space-y-5 text-zinc-600 selection:bg-orange-500 selection:text-white">
+                <div className="space-y-5 text-zinc-600 text-sm selection:bg-orange-500 selection:text-white">
                   <p>
                     Hello! My name is Haris and I enjoy creating things that live on the internet.
                     My interest in web development started back in 2015 when I decided to build a

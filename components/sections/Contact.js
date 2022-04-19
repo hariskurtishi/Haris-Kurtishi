@@ -7,23 +7,23 @@ export default function Contact() {
     <div>
       <div id="contact" className="container py-12 selection:bg-orange-500 selection:text-white">
         <div className=" ">
-          <div className=" bg-gray-200 py-14 flex items-center justify-center">
+          <div className=" bg-gray-200 py-8 flex items-center justify-center">
             <div className=" ">
               <div className="text-white py-16 ">
-                <h1 className="font-bold text-3xl lg:text-5xl text-center text-zinc-900">
+                <h1 className="font-bold text-3xl lg:text-4xl text-center text-zinc-900">
                   Have a specific project in mind?
                 </h1>
-                <div className="lg:col-8 lg:offset-2 py-4">
-                  <p className="text-lg font-normal text-center text-zinc-900">
+                <div className=" py-6 text-sm">
+                  <p className=" font-normal text-center text-zinc-900">
                     I love bringing fresh, new ideas to life and turning them into memorable
                     experiences.
                   </p>
-                  <p className="text-lg font-normal text-center text-zinc-900">
+                  <p className=" font-normal text-center text-zinc-900">
                     Do you require a high-end web presence?
                   </p>
                 </div>
-                <div>
-                  <div className="flex justify-center">
+                <div className="flex justify-center items-center">
+                  <div>
                     <Link
                       href="mailto:hariskurtishii.com"
                       passHref
