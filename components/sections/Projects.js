@@ -31,12 +31,12 @@ export default function Projects() {
             alt="Header"
             objectFit="cover"
             quality={100}
-            className="rounded-lg "
+            className=""
           />
-          <div className="absolute inset-0 bg-black bg-opacity-80 group-hover:opacity-50 transition duration-300 ease-in-out"></div>
+          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
           <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
             <h3 className="text-center space-y-12">
-              <a className="text-white text-xl font-bold text-center">
+              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
                 <span className="absolute inset-0"></span>A Website for a treatment center
               </a>
               <div className="invisible group-hover:visible flex justify-center space-x-6">
@@ -74,59 +74,7 @@ export default function Projects() {
             </h3>
           </div>
         </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out ">
-          <Image
-            priority
-            src="/images/housemarketplace.jpg"
-            layout="fill"
-            alt="Header"
-            objectFit="cover"
-            quality={100}
-            className="rounded-lg"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-80 group-hover:opacity-50 transition duration-300 ease-in-out"></div>
-          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center">
-              <a className="text-white text-xl font-bold text-center">
-                <span className="absolute inset-0"></span>
-                House Marketplace
-              </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-3">
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://house-marketplace-rent-sell.vercel.app/"
-                    passHref
-                    className="font-light"
-                    aria-label="Contact Button"
-                  >
-                    <Button as="a" variant="primary">
-                      View it live
-                    </Button>
-                  </Link>
-                </div>
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github.com/hariskurtishi/house-marketplace"
-                    passHref
-                    className="font-light"
-                    aria-label="Contact Button"
-                  >
-                    <Button as="a" variant="secondary">
-                      Github code
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </h3>
-          </div>
-        </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out ">
+        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
           <Image
             priority
             src="/images/hulu.jpg"
@@ -134,22 +82,21 @@ export default function Projects() {
             alt="Header"
             objectFit="cover"
             quality={100}
-            className="rounded-lg"
+            className=""
           />
-          <div className="absolute inset-0 bg-black bg-opacity-80 group-hover:opacity-50 transition duration-300 ease-in-out"></div>
+          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
           <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center">
-              <a className="text-white text-xl font-bold text-center">
-                <span className="absolute inset-0"></span>
-                Hulu 2.0
+            <h3 className="text-center space-y-12">
+              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
+                <span className="absolute inset-0"></span>A Website for a treatment center
               </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-3">
+              <div className="invisible group-hover:visible flex justify-center space-x-6">
                 <div
                   className="flex lg:inline-flex items-center lg:justify-start z-50"
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://hulu-2-0-hariskurtishi.vercel.app/"
+                    href="https://bluepuzzle.mk/en"
                     passHref
                     className="font-light"
                     aria-label="Contact Button"
@@ -164,7 +111,7 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://github.com/hariskurtishi/Hulu-2.0"
+                    href="https://github.com/lucky-media/bluepuzzle"
                     passHref
                     className="font-light"
                     aria-label="Contact Button"
@@ -178,59 +125,7 @@ export default function Projects() {
             </h3>
           </div>
         </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out ">
-          <Image
-            priority
-            src="/images/github_finder.jpg"
-            layout="fill"
-            alt="Header"
-            objectFit="cover"
-            quality={100}
-            className="rounded-lg"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-80 group-hover:opacity-50 transition duration-300 ease-in-out"></div>
-          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center">
-              <a className="text-white text-xl font-bold text-center">
-                <span className="absolute inset-0"></span>
-                Github Finder App
-              </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-3">
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github-finder-three-rust.vercel.app/"
-                    passHref
-                    className="font-light"
-                    aria-label="Contact Button"
-                  >
-                    <Button as="a" variant="primary">
-                      View it live
-                    </Button>
-                  </Link>
-                </div>
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github.com/hariskurtishi/github-finder-app"
-                    passHref
-                    className="font-light"
-                    aria-label="Contact Button"
-                  >
-                    <Button as="a" variant="secondary">
-                      Github code
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </h3>
-          </div>
-        </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out ">
+        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
           <Image
             priority
             src="/images/feedback.jpg"
@@ -238,22 +133,21 @@ export default function Projects() {
             alt="Header"
             objectFit="cover"
             quality={100}
-            className="rounded-lg"
+            className=""
           />
-          <div className="absolute inset-0 bg-black bg-opacity-80 group-hover:opacity-50 transition duration-300 ease-in-out"></div>
+          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
           <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center">
-              <a className="text-white text-xl font-bold text-center">
-                <span className="absolute inset-0"></span>
-                Feedback App
+            <h3 className="text-center space-y-12">
+              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
+                <span className="absolute inset-0"></span>A Website for a treatment center
               </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-3">
+              <div className="invisible group-hover:visible flex justify-center space-x-6">
                 <div
                   className="flex lg:inline-flex items-center lg:justify-start z-50"
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://feedback-ui-54d2c0.netlify.app"
+                    href="https://bluepuzzle.mk/en"
                     passHref
                     className="font-light"
                     aria-label="Contact Button"
@@ -268,7 +162,109 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://github.com/hariskurtishi/feedback-app"
+                    href="https://github.com/lucky-media/bluepuzzle"
+                    passHref
+                    className="font-light"
+                    aria-label="Contact Button"
+                  >
+                    <Button as="a" variant="secondary">
+                      Github code
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </h3>
+          </div>
+        </article>
+        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
+          <Image
+            priority
+            src="/images/github_finder.jpg"
+            layout="fill"
+            alt="Header"
+            objectFit="cover"
+            quality={100}
+            className=""
+          />
+          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
+          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+            <h3 className="text-center space-y-12">
+              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
+                <span className="absolute inset-0"></span>A Website for a treatment center
+              </a>
+              <div className="invisible group-hover:visible flex justify-center space-x-6">
+                <div
+                  className="flex lg:inline-flex items-center lg:justify-start z-50"
+                  style={{ zIndex: '34' }}
+                >
+                  <Link
+                    href="https://bluepuzzle.mk/en"
+                    passHref
+                    className="font-light"
+                    aria-label="Contact Button"
+                  >
+                    <Button as="a" variant="primary">
+                      View it live
+                    </Button>
+                  </Link>
+                </div>
+                <div
+                  className="flex lg:inline-flex items-center lg:justify-start z-50"
+                  style={{ zIndex: '34' }}
+                >
+                  <Link
+                    href="https://github.com/lucky-media/bluepuzzle"
+                    passHref
+                    className="font-light"
+                    aria-label="Contact Button"
+                  >
+                    <Button as="a" variant="secondary">
+                      Github code
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </h3>
+          </div>
+        </article>
+        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
+          <Image
+            priority
+            src="/images/housemarketplace.jpg"
+            layout="fill"
+            alt="Header"
+            objectFit="cover"
+            quality={100}
+            className=""
+          />
+          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
+          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+            <h3 className="text-center space-y-12">
+              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
+                <span className="absolute inset-0"></span>A Website for a treatment center
+              </a>
+              <div className="invisible group-hover:visible flex justify-center space-x-6">
+                <div
+                  className="flex lg:inline-flex items-center lg:justify-start z-50"
+                  style={{ zIndex: '34' }}
+                >
+                  <Link
+                    href="https://bluepuzzle.mk/en"
+                    passHref
+                    className="font-light"
+                    aria-label="Contact Button"
+                  >
+                    <Button as="a" variant="primary">
+                      View it live
+                    </Button>
+                  </Link>
+                </div>
+                <div
+                  className="flex lg:inline-flex items-center lg:justify-start z-50"
+                  style={{ zIndex: '34' }}
+                >
+                  <Link
+                    href="https://github.com/lucky-media/bluepuzzle"
                     passHref
                     className="font-light"
                     aria-label="Contact Button"
