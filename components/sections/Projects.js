@@ -13,7 +13,7 @@ export default function Projects() {
         <SVG src="/svg/rectangle3.svg" className="w-full " alt="facebook icon" />
       </div>
       <div
-        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 text-zinc-900 hover:text-orange-500  mb-4 group transition-all"
+        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 lg:pb-8 text-zinc-900 hover:text-orange-500 mb-4 group transition-all"
         style={{ zIndex: '10' }}
       >
         Some Things I’ve <br />
