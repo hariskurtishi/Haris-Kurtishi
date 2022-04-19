@@ -37,7 +37,7 @@ const Button = forwardRef(
         {...props}
       >
         <div className={`inline-flex group ${classes.variant[variant]}`}>
-          <div className="px-6 my-4 text-xl font-semibold">{children}</div>
+          <div className="px-6 my-4 text-base font-medium">{children}</div>
         </div>
       </Tag>
     )

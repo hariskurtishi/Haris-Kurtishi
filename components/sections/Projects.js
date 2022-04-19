@@ -39,7 +39,7 @@ export default function Projects() {
                 <Link href="https://bluepuzzle.mk/en">
                   <a>
                     <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                      <h1>Blue Puzzle Treatmant Center</h1>
+                      <h1>Blue Puzzle Treatmant Center built with Next Js and Tailwind Css</h1>
                     </div>
                   </a>
                 </Link>
@@ -73,7 +73,7 @@ export default function Projects() {
               <Link href="https://movie-app-mauve.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>A movie app build with custom Css and Javascript.</h1>
+                    <h1>A movie app built with custom Css and Javascript.</h1>
                   </div>
                 </a>
               </Link>
@@ -104,7 +104,7 @@ export default function Projects() {
               <Link href="https://hulu-2-0-hariskurtishi.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Hulu 2.0 Movie App build with Next Js and Tailwind Css</h1>
+                    <h1>Hulu 2.0 Movie App built with Next Js and Tailwind Css</h1>
                   </div>
                 </a>
               </Link>
@@ -135,7 +135,7 @@ export default function Projects() {
               <Link href="https://feedback-ui-54d2c0.netlify.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Feedback app build with React</h1>
+                    <h1>Feedback app built with React</h1>
                   </div>
                 </a>
               </Link>
@@ -166,7 +166,7 @@ export default function Projects() {
               <Link href="https://github-finder-three-rust.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Github Finder App build with React and Tailwind Css</h1>
+                    <h1>Github Finder App built with React and Tailwind Css</h1>
                   </div>
                 </a>
               </Link>
@@ -197,7 +197,7 @@ export default function Projects() {
               <Link href="https://house-marketplace-rent-sell.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>A House Marketplace App build with React Js and Tailwind Css</h1>
+                    <h1>A House Marketplace App built with React Js and Tailwind Css</h1>
                   </div>
                 </a>
               </Link>
