@@ -37,7 +37,8 @@ export default function Projects() {
           <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
             <h3 className="text-center space-y-12">
               <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A Website for a treatment center
+                <span className="absolute inset-0"></span>A Website for a treatment center build
+                with Next Js and Tailwind Css
               </a>
               <div className="invisible group-hover:visible flex justify-center space-x-6">
                 <div
@@ -48,7 +49,7 @@ export default function Projects() {
                     href="https://bluepuzzle.mk/en"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="primary">
                       View it live
@@ -63,7 +64,7 @@ export default function Projects() {
                     href="https://github.com/lucky-media/bluepuzzle"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="secondary">
                       Github code
@@ -88,7 +89,8 @@ export default function Projects() {
           <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
             <h3 className="text-center space-y-12">
               <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A Website for a treatment center
+                <span className="absolute inset-0"></span>Hulu 2.0 Movie App build with Next Js and
+                Tailwind Css
               </a>
               <div className="invisible group-hover:visible flex justify-center space-x-6">
                 <div
@@ -96,10 +98,10 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://bluepuzzle.mk/en"
+                    href="https://hulu-2-0-hariskurtishi.vercel.app/"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="primary">
                       View it live
@@ -111,10 +113,10 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://github.com/lucky-media/bluepuzzle"
+                    href="https://github.com/hariskurtishi/Hulu-2.0"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="secondary">
                       Github code
@@ -139,7 +141,7 @@ export default function Projects() {
           <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
             <h3 className="text-center space-y-12">
               <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A Website for a treatment center
+                <span className="absolute inset-0"></span>A Feedback App build with React Js.
               </a>
               <div className="invisible group-hover:visible flex justify-center space-x-6">
                 <div
@@ -147,10 +149,10 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://bluepuzzle.mk/en"
+                    href="https://feedback-ui-54d2c0.netlify.app/"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="primary">
                       View it live
@@ -162,10 +164,10 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://github.com/lucky-media/bluepuzzle"
+                    href="https://github.com/hariskurtishi/feedback-app"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="secondary">
                       Github code
@@ -190,7 +192,8 @@ export default function Projects() {
           <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
             <h3 className="text-center space-y-12">
               <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A Website for a treatment center
+                <span className="absolute inset-0"></span>A Github finder App build with React Js
+                and Tailwind Css
               </a>
               <div className="invisible group-hover:visible flex justify-center space-x-6">
                 <div
@@ -198,10 +201,10 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://bluepuzzle.mk/en"
+                    href="https://github-finder-three-rust.vercel.app/"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="primary">
                       View it live
@@ -213,10 +216,10 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://github.com/lucky-media/bluepuzzle"
+                    href="https://github.com/hariskurtishi/github-finder-app"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="secondary">
                       Github code
@@ -241,7 +244,8 @@ export default function Projects() {
           <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
             <h3 className="text-center space-y-12">
               <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A Website for a treatment center
+                <span className="absolute inset-0"></span>A House Marketplace App React Js and
+                Tailwind Css
               </a>
               <div className="invisible group-hover:visible flex justify-center space-x-6">
                 <div
@@ -249,10 +253,10 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://bluepuzzle.mk/en"
+                    href="https://house-marketplace-rent-sell.vercel.app/"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="primary">
                       View it live
@@ -264,10 +268,10 @@ export default function Projects() {
                   style={{ zIndex: '34' }}
                 >
                   <Link
-                    href="https://github.com/lucky-media/bluepuzzle"
+                    href="https://github.com/hariskurtishi/house-marketplace"
                     passHref
                     className="font-light"
-                    aria-label="Contact Button"
+                    aria-label="Button"
                   >
                     <Button as="a" variant="secondary">
                       Github code
