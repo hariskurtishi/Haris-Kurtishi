@@ -22,7 +22,7 @@ export default function Projects() {
         </span>
       </div>
 
-      <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 container">
+      <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 ">
         <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
           <Image
             priority

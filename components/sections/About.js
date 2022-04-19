@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="relative md:h-[550px] h-[800px] sm:h-[700px] lg:h-[780px] my-28 md:mt-10"
+      className="relative md:h-[550px] h-[800px] sm:h-[700px] lg:h-[780px] my-28 lg:my-0 md:mt-10"
     >
       <div className="container">
         <div
