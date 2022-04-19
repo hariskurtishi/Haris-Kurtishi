@@ -5,15 +5,15 @@ import SVG from 'react-inlinesvg'
 import Button from '../Button'
 export default function Projects() {
   return (
-    <div
-      id="projects"
-      className="relative lg:h-[1000px] selection:bg-orange-500 selection:text-white"
-    >
-      <div className="absolute bottom-48" style={{ zIndex: '-30' }}>
+    <div id="projects" className="relative lg:h-[1000px]">
+      <div
+        className="absolute bottom-48 selection:bg-orange-500 selection:text-white"
+        style={{ zIndex: '-30' }}
+      >
         <SVG src="/svg/rectangle3.svg" className="w-full " alt="facebook icon" />
       </div>
       <div
-        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-24 md:pt-14 lg:pt-0 text-zinc-900 hover:text-orange-500  mb-4 group transition-all"
+        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 text-zinc-900 hover:text-orange-500  mb-4 group transition-all"
         style={{ zIndex: '10' }}
       >
         Some Things I’ve <br />

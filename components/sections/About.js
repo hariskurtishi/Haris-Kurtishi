@@ -2,7 +2,10 @@ import Image from 'next/dist/client/image'
 import SVG from 'react-inlinesvg'
 export default function About() {
   return (
-    <div id="about" className="relative md:h-[550px] h-[700px] lg:h-[780px]">
+    <div
+      id="about"
+      className="relative md:h-[550px] h-[800px] sm:h-[700px] lg:h-[780px] my-28 md:mt-10"
+    >
       <div className="container">
         <div
           className="absolute left-96 md:left-[600px] lg:left-[1300px] bottom-56 lg:bottom-24"
@@ -53,7 +56,7 @@ export default function About() {
           </div>
           <div className="lg:col-6 lg:px-6">
             <div>
-              <h1 className="text-[64px] text-zinc-900 hover:text-orange-500 text-left mb-4 group transition-all selection:bg-orange-500 selection:text-white">
+              <h1 className="text-[64px] text-zinc-900 hover:text-orange-500  text-left mb-4 group transition-all selection:bg-orange-500 selection:text-white">
                 About me<span className="text-orange-500 group-hover:text-zinc-900">.</span>
               </h1>
               <div className=" text-left">
@@ -79,7 +82,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="flex justify-start space-x-[180px] mt-8 text-zinc-900 selection:bg-orange-500 selection:text-white">
+              <div className="flex justify-start space-x-16 lg:space-x-[180px] mt-8 text-zinc-900 selection:bg-orange-500 selection:text-white">
                 <div>
                   <div className=" flex items-center space-x-2">
                     <div className="">
