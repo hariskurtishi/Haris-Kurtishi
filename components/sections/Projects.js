@@ -2,10 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import SVG from 'react-inlinesvg'
 
-import Button from '../Button'
 export default function Projects() {
   return (
-    <div id="projects" className="relative lg:h-[1000px]">
+    <div id="projects" className="relative lg:h-full">
       <div
         className="absolute bottom-96 selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '-30' }}
@@ -13,7 +12,7 @@ export default function Projects() {
         <SVG src="/svg/rectangle3.svg" className="w-full " alt="facebook icon" />
       </div>
       <div
-        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 lg:pb-8 text-zinc-900 hover:text-orange-500 mb-4 group transition-all selection:bg-orange-500 selection:text-white"
+        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 lg:pb-8 text-zinc-900 hover:text-orange-500 mb-4 group transition-all duration-500 selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '10' }}
       >
         Some Things I’ve <br />
@@ -23,317 +22,198 @@ export default function Projects() {
       </div>
 
       <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 container">
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
-          <Image
-            priority
-            src="/images/bluepuzzle.jpg"
-            layout="fill"
-            alt="Header"
-            objectFit="cover"
-            quality={100}
-            className=""
-          />
-          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
-          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center space-y-12">
-              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A Website for a treatment center build
-                with Next Js and Tailwind Css
-              </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-6">
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://bluepuzzle.mk/en"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="primary">
-                      View it live
-                    </Button>
-                  </Link>
-                </div>
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github.com/lucky-media/bluepuzzle"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="secondary">
-                      Github code
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </h3>
+        <div className="shadow-md hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/bluepuzzle.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="cover"
+              quality={100}
+              width={812}
+              height={548}
+            />
+            <div className="p-6">
+              <p className="text-orange-500 text-sm">Tech</p>
+              <Link href="https://bluepuzzle.mk/en">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>Blue Puzzle Treatmant Center</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://bluepuzzle.mk/en">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:underline">Github code</h1>
+                  </div>
+                </a>
+              </Link>
+            </div>
           </div>
-        </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
-          <Image
-            priority
-            src="/images/hulu.jpg"
-            layout="fill"
-            alt="Header"
-            objectFit="cover"
-            quality={100}
-            className=""
-          />
-          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
-          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center space-y-12">
-              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>Hulu 2.0 Movie App build with Next Js and
-                Tailwind Css
-              </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-6">
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://hulu-2-0-hariskurtishi.vercel.app/"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="primary">
-                      View it live
-                    </Button>
-                  </Link>
-                </div>
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github.com/hariskurtishi/Hulu-2.0"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="secondary">
-                      Github code
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </h3>
+        </div>
+        <div className="shadow-md hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/movieapp.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="cover"
+              quality={100}
+              width={812}
+              height={548}
+            />
+            <div className="p-6">
+              <p className="text-orange-500 text-sm">Tech</p>
+              <Link href="https://movie-app-mauve.vercel.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>A movie app build with custom Css and Javascript.</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://github.com/hariskurtishi/Movie-app">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:underline">Github code</h1>
+                  </div>
+                </a>
+              </Link>
+            </div>
           </div>
-        </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
-          <Image
-            priority
-            src="/images/feedback.jpg"
-            layout="fill"
-            alt="Header"
-            objectFit="cover"
-            quality={100}
-            className=""
-          />
-          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
-          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center space-y-12">
-              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A Feedback App build with React Js.
-              </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-6">
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://feedback-ui-54d2c0.netlify.app/"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="primary">
-                      View it live
-                    </Button>
-                  </Link>
-                </div>
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github.com/hariskurtishi/feedback-app"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="secondary">
-                      Github code
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </h3>
+        </div>
+        <div className="shadow-md hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/hulu.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="cover"
+              quality={100}
+              width={812}
+              height={548}
+            />
+            <div className="p-6">
+              <p className="text-orange-500 text-sm">Tech</p>
+              <Link href="https://hulu-2-0-hariskurtishi.vercel.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>Hulu 2.0 Movie App build with Next Js and Tailwind Css</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://github.com/hariskurtishi/Hulu-2.0">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:underline">Github code</h1>
+                  </div>
+                </a>
+              </Link>
+            </div>
           </div>
-        </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
-          <Image
-            priority
-            src="/images/github_finder.jpg"
-            layout="fill"
-            alt="Header"
-            objectFit="cover"
-            quality={100}
-            className=""
-          />
-          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
-          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center space-y-12">
-              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A Github finder App build with React Js
-                and Tailwind Css
-              </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-6">
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github-finder-three-rust.vercel.app/"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="primary">
-                      View it live
-                    </Button>
-                  </Link>
-                </div>
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github.com/hariskurtishi/github-finder-app"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="secondary">
-                      Github code
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </h3>
+        </div>
+        <div className="shadow-md hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/feedback.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="cover"
+              quality={100}
+              width={812}
+              height={548}
+            />
+            <div className="p-6">
+              <p className="text-orange-500 text-sm">Tech</p>
+              <Link href="https://feedback-ui-54d2c0.netlify.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>Feedback app build with React</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://github.com/hariskurtishi/feedback-app">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:underline">Github code</h1>
+                  </div>
+                </a>
+              </Link>
+            </div>
           </div>
-        </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
-          <Image
-            priority
-            src="/images/housemarketplace.jpg"
-            layout="fill"
-            alt="Header"
-            objectFit="cover"
-            quality={100}
-            className=""
-          />
-          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
-          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center space-y-12">
-              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A House Marketplace App React Js and
-                Tailwind Css
-              </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-6">
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://house-marketplace-rent-sell.vercel.app/"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="primary">
-                      View it live
-                    </Button>
-                  </Link>
-                </div>
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github.com/hariskurtishi/house-marketplace"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="secondary">
-                      Github code
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </h3>
+        </div>
+        <div className="shadow-md hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/github_finder.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="cover"
+              quality={100}
+              width={812}
+              height={548}
+            />
+            <div className="p-6">
+              <p className="text-orange-500 text-sm">Tech</p>
+              <Link href="https://github-finder-three-rust.vercel.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>Github Finder App build with React and Tailwind Css</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://github.com/hariskurtishi/github-finder-app">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:underline">Github code</h1>
+                  </div>
+                </a>
+              </Link>
+            </div>
           </div>
-        </article>
-        <article className="relative w-full h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out ">
-          <Image
-            priority
-            src="/images/movieapp.jpg"
-            layout="fill"
-            alt="Header"
-            objectFit="cover"
-            quality={100}
-            className=""
-          />
-          <div className="absolute inset-0 group-hover:bg-zinc-900 bg-opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out"></div>
-          <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-            <h3 className="text-center space-y-12">
-              <a className="text-white text-xl font-bold text-center invisible group-hover:visible">
-                <span className="absolute inset-0"></span>A movie app build with custom Css and
-                Javascript.
-              </a>
-              <div className="invisible group-hover:visible flex justify-center space-x-6">
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://movie-app-mauve.vercel.app/"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="primary">
-                      View it live
-                    </Button>
-                  </Link>
-                </div>
-                <div
-                  className="flex lg:inline-flex items-center lg:justify-start z-50"
-                  style={{ zIndex: '34' }}
-                >
-                  <Link
-                    href="https://github.com/hariskurtishi/Movie-app"
-                    passHref
-                    className="font-light"
-                    aria-label="Button"
-                  >
-                    <Button as="a" variant="secondary">
-                      Github code
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </h3>
+        </div>
+        <div className="shadow-md hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/housemarketplace.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="cover"
+              quality={100}
+              width={812}
+              height={548}
+            />
+            <div className="p-6">
+              <p className="text-orange-500 text-sm">Tech</p>
+              <Link href="https://house-marketplace-rent-sell.vercel.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>A House Marketplace App build with React Js and Tailwind Css</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://github.com/hariskurtishi/house-marketplace">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:underline">Github code</h1>
+                  </div>
+                </a>
+              </Link>
+            </div>
           </div>
-        </article>
+        </div>
       </section>
       <div className="flex justify-center py-14" style={{ zIndex: '-20' }}>
         <SVG src="/svg/ornament.svg" className="w-96 " alt="ornament" />
