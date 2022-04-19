@@ -9,7 +9,7 @@ const classes = {
 
   variant: {
     primary:
-      'group-hover:bg-orange-500 shadow-xl shadow-orange-300/40 bg-orange-500 text-white group-hover:text-white ',
+      'group-hover:bg-orange-700 shadow-xl shadow-orange-500/30 bg-orange-500 transition-all text-white group-hover:text-white ',
     secondary: 'text-white group-hover:text-white group-hover:bg-zinc-700 bg-zinc-900',
     tertiary: 'text-white border',
   },

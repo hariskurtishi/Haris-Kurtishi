@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <div className=" bg-opacity-90">
-        <div className="bg-white ">
+        <div className="bg-white selection:bg-orange-500 selection:text-white">
           <div className="h-[450px] md:h-[130px] flex items-center justify-between">
             <div className="container items-center justify-between md:flex">
               <div className="flex justify-center py-6 md:justify-start">

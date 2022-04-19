@@ -23,7 +23,7 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className="sticky top-0 z-50 flex items-center bg-white">
+    <div className="sticky top-0 z-50 flex items-center bg-white selection:bg-orange-500 selection:text-white">
       <div className="container">
         <div className="justify-between py-5 row">
           <div className="flex items-center col-3">

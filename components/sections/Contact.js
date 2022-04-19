@@ -5,7 +5,7 @@ import Button from '../Button'
 export default function Contact() {
   return (
     <div>
-      <div id="contact" className="container py-12  ">
+      <div id="contact" className="container py-12 selection:bg-orange-500 selection:text-white">
         <div className=" ">
           <div className=" bg-gray-200 py-14 flex items-center justify-center">
             <div className=" ">

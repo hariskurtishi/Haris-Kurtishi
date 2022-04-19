@@ -6,7 +6,7 @@ import Button from '../Button'
 export default function HeaderSection() {
   return (
     <div id="home" className="relative h-[1200px] lg:h-[1080px] w-full">
-      <div className="container relative">
+      <div className="container relative selection:bg-orange-500 selection:text-white">
         <div className="pt-14 lg:pt-24 lg:flex">
           <div className="lg:col-6 ">
             <div className="relative">
@@ -28,10 +28,16 @@ export default function HeaderSection() {
                 </h1>
               </div>
 
-              <p className="my-2 lg:my-0 lg:text-left lg:mt-14 text-zinc-600">
-                I’m a Frontend Developer specializing in building (and occasionally designing)
-                exceptional digital experiences.
-              </p>
+              <div className="space-y-4 my-2 lg:my-0 lg:text-left lg:mt-14 text-zinc-600 ">
+                <p className="">
+                  I’m a Frontend Developer specializing in building (and occasionally designing)
+                  exceptional digital experiences.
+                </p>
+                <p>
+                  You don’t believe me ? These design elements are wating for you to hover over
+                  them, you may discover something interesting!
+                </p>
+              </div>
               <div
                 className="flex justify-start items-center  mt-4 space-x-4 md:mb-0  "
                 style={{ zIndex: '24' }}
@@ -41,7 +47,7 @@ export default function HeaderSection() {
                 className="flex lg:inline-flex items-center lg:justify-start z-50"
                 style={{ zIndex: '50' }}
               >
-                <Link href="#contact" passHref className="font-light" aria-label="Contact Button">
+                <Link href="#contact" passHref className="" aria-label="Contact Button">
                   <Button as="a" variant="primary">
                     Contact me
                   </Button>
@@ -70,7 +76,7 @@ export default function HeaderSection() {
             </div>
 
             <div
-              className="absolute lg:-bottom-0 md:right-56 lg:right-36 right-7 -top-68 lg:-top-32 grayscale"
+              className="absolute lg:-bottom-0 md:right-56 lg:right-36 right-7 -top-68 lg:-top-32 grayscale hover:grayscale-0 transition-all duration-300"
               style={{ zIndex: '6' }}
             >
               <Image
