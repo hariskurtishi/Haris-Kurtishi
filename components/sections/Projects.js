@@ -22,7 +22,7 @@ export default function Projects() {
       </div>
 
       <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 container">
-        <div className="shadow-md hover:shadow-xl transition-all">
+        <div className="shadow-lg hover:shadow-xl transition-all">
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority
@@ -57,7 +57,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="shadow-md hover:shadow-xl transition-all">
+        <div className="shadow-lg hover:shadow-xl transition-all">
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority
@@ -88,7 +88,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="shadow-md hover:shadow-xl transition-all">
+        <div className="shadow-lg hover:shadow-xl transition-all">
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority
@@ -119,7 +119,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="shadow-md hover:shadow-xl transition-all">
+        <div className="shadow-lg hover:shadow-xl transition-all">
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority
@@ -150,7 +150,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="shadow-md hover:shadow-xl transition-all">
+        <div className="shadow-lg hover:shadow-xl transition-all">
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority
@@ -181,7 +181,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="shadow-md hover:shadow-xl transition-all">
+        <div className="shadow-lg hover:shadow-xl transition-all">
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority

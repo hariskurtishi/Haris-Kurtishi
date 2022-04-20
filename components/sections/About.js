@@ -89,7 +89,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="flex justify-start space-x-16 lg:space-x-[180px] mt-8 text-zinc-900 selection:bg-orange-500 selection:text-white">
+              <div className="flex justify-start space-x-16 lg:space-x-[180px] mt-8 text-zinc-600 text-sm selection:bg-orange-500 selection:text-white">
                 <div>
                   <div className=" flex items-center space-x-2">
                     <div className="">
