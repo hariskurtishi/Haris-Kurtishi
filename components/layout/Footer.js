@@ -31,7 +31,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/fb.svg"
-                      className="w-10 h-10 p-2 transition-all text-white rounded-md cursor-pointer fill-current hover:bg-gray-100 hover:text-sky-900"
+                      className="w-10 h-10 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
                       alt="facebook icon"
                     />
                   </a>
@@ -44,7 +44,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/email.svg"
-                      className="w-11 h-11 p-2 transition-all text-black rounded-md cursor-pointer fill-current hover:bg-gray-100 "
+                      className="w-11 h-11 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
                       alt="email icon"
                     />
                   </a>
@@ -57,7 +57,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/instagram.svg"
-                      className="w-10 h-10 p-2 transition-all text-white rounded-md cursor-pointer fill-current hover:bg-gray-100 "
+                      className="w-10 h-10 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
                       alt="email icon"
                     />
                   </a>
@@ -71,7 +71,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/linkedin.svg"
-                      className="w-10 h-10 p-2 transition-all text-white rounded-md cursor-pointer fill-current hover:bg-gray-100 "
+                      className="w-10 h-10 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
                       alt="call icon"
                     />
                   </a>

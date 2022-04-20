@@ -38,18 +38,16 @@ export default function Projects() {
               <div>
                 <Link href="https://bluepuzzle.mk/en">
                   <a>
-                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                      <h1>Blue Puzzle Treatmant Center built with Next Js and Tailwind Css</h1>
+                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                      <h1 className="hover:text-orange-500">Github Repo</h1>
                     </div>
                   </a>
                 </Link>
-              </div>
-              <div>
                 <Link href="https://bluepuzzle.mk/en">
                   <a>
-                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:underline">Github code</h1>
+                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                      <h1>Blue Puzzle Treatmant Center built with Next Js and Tailwind Css</h1>
                     </div>
                   </a>
                 </Link>
@@ -70,18 +68,18 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <Link href="https://movie-app-mauve.vercel.app/">
-                <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>A movie app built with custom Css and Javascript.</h1>
-                  </div>
-                </a>
-              </Link>
               <Link href="https://github.com/hariskurtishi/Movie-app">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:underline">Github code</h1>
+                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://movie-app-mauve.vercel.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>A movie app built with custom Css and Javascript.</h1>
                   </div>
                 </a>
               </Link>
@@ -101,18 +99,18 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <Link href="https://hulu-2-0-hariskurtishi.vercel.app/">
-                <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Hulu 2.0 Movie App built with Next Js and Tailwind Css</h1>
-                  </div>
-                </a>
-              </Link>
               <Link href="https://github.com/hariskurtishi/Hulu-2.0">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:underline">Github code</h1>
+                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://hulu-2-0-hariskurtishi.vercel.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>Hulu 2.0 Movie App built with Next Js and Tailwind Css</h1>
                   </div>
                 </a>
               </Link>
@@ -132,18 +130,18 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <Link href="https://feedback-ui-54d2c0.netlify.app/">
-                <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Feedback app built with React</h1>
-                  </div>
-                </a>
-              </Link>
               <Link href="https://github.com/hariskurtishi/feedback-app">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:underline">Github code</h1>
+                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://feedback-ui-54d2c0.netlify.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>Feedback app built with React</h1>
                   </div>
                 </a>
               </Link>
@@ -163,18 +161,18 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <Link href="https://github-finder-three-rust.vercel.app/">
-                <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Github Finder App built with React and Tailwind Css</h1>
-                  </div>
-                </a>
-              </Link>
               <Link href="https://github.com/hariskurtishi/github-finder-app">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:underline">Github code</h1>
+                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://github-finder-three-rust.vercel.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>Github Finder App built with React and Tailwind Css</h1>
                   </div>
                 </a>
               </Link>
@@ -194,18 +192,18 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <Link href="https://house-marketplace-rent-sell.vercel.app/">
-                <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>A House Marketplace App built with React Js and Tailwind Css</h1>
-                  </div>
-                </a>
-              </Link>
               <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:underline">Github code</h1>
+                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://house-marketplace-rent-sell.vercel.app/">
+                <a>
+                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <h1>A House Marketplace App built with React Js and Tailwind Css</h1>
                   </div>
                 </a>
               </Link>
