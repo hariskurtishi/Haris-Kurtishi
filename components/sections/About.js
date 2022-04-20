@@ -7,13 +7,6 @@ export default function About() {
       className="relative md:h-[550px] h-[800px] sm:h-[700px] lg:h-[780px] my-28 lg:my-0 md:mt-10"
     >
       <div className="container">
-        {/* <div
-          className="absolute left-96 md:left-[600px] lg:-left-[1100px] bottom-56 lg:bottom-24"
-          style={{ zIndex: '20' }}
-        >
-          <SVG src="/svg/rectangle4.svg" className="w-full " alt="facebook icon" />
-        </div> */}
-
         <div
           className="absolute top-56 w-20 hidden lg:block lg:top-24 lg:left-20"
           style={{ zIndex: '20' }}

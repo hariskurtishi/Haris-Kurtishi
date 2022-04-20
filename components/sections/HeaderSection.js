@@ -20,15 +20,15 @@ export default function HeaderSection() {
               </div>
 
               <div className="lg:py-0 text-zinc-900">
-                <h1 className="text-[55px] lg:text-[100px] font-semibold lg:leading-tight ">
+                <h1 className="text-[55px] lg:text-[100px] lg:-ml-[5px] -ml-[3px] font-semibold lg:leading-tight leading-snug">
                   Frontend
                 </h1>
-                <h1 className="text-[55px] lg:text-[100px] font-semibold lg:ml-14 ml-[29px] lg:leading-[70px] ">
-                  Developer<span className="text-orange-500">.</span>
+                <h1 className="text-[55px] lg:text-[100px] font-semibold lg:ml-[49px] ml-[27px] lg:leading-[70px] leading-snug">
+                  Developer<span className="text-orange-500  -ml-1">.</span>
                 </h1>
               </div>
 
-              <div className="space-y-4 my-2 lg:my-0 lg:text-left lg:mt-14 text-zinc-600 ">
+              <div className="space-y-4 my-6 lg:my-0 lg:text-left text-sm lg:mt-14 text-zinc-600">
                 <p className="">
                   I’m a Frontend Developer specializing in building (and occasionally designing)
                   exceptional digital experiences.
@@ -76,7 +76,7 @@ export default function HeaderSection() {
             </div>
 
             <div
-              className="absolute lg:-bottom-0 md:right-56 lg:right-36 right-7 -top-68 lg:-top-32 grayscale hover:grayscale-0 transition-all duration-300"
+              className="absolute lg:-bottom-0 sm:right-48 md:right-56 lg:right-36 right-7 -top-68 lg:-top-32 grayscale hover:grayscale-0 transition-all duration-300"
               style={{ zIndex: '6' }}
             >
               <Image
