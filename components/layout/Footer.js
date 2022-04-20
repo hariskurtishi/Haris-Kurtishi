@@ -15,7 +15,7 @@ export default function Footer() {
                 </Link>
               </div>
 
-              <div className="my-12 text-lg font-medium text-center text-zinc-900 md:text-xl">
+              <div className="my-12 text-lg font-medium text-center text-zinc-900 md:text-base">
                 © All Rights Reserved. 2022 Made by {}
                 <a className="transition-all" rel="noopener noreferrer">
                   <span className="text-orange-500">Haris Kurtishi</span>
