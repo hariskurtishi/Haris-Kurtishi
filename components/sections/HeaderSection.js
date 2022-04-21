@@ -76,7 +76,7 @@ export default function HeaderSection() {
             </div>
 
             <div
-              className="absolute lg:-bottom-0 sm:right-48  lg:right-32 right-7 -top-68 lg:-top-40 grayscale hover:grayscale-0 transition-all duration-300"
+              className="absolute lg:-bottom-0 sm:right-48  lg:-right-14 right-7 rotate-6 -top-68 lg:-top-72 grayscale hover:grayscale-0 transition-all duration-300"
               style={{ zIndex: '6' }}
             >
               <Image
@@ -87,24 +87,8 @@ export default function HeaderSection() {
                 alt="Header"
                 objectFit="cover"
                 quality={100}
-                width={300}
-                height={680}
-              />
-            </div>
-            <div
-              className="absolute -bottom-[700px] lg:-bottom-28 right-34 md:right-28 lg:right-0"
-              style={{ zIndex: '6' }}
-            >
-              <Image
-                // loader={myLoader}
-                priority
-                src="/images/overlay.png"
-                layout="intrinsic"
-                alt="Header"
-                objectFit="cover"
-                quality={100}
-                width={550}
-                height={500}
+                width={850}
+                height={1480}
               />
             </div>
           </div>
