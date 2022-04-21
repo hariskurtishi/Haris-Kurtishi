@@ -59,16 +59,16 @@ export default function Projects() {
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority
-              src="/images/movieapp.jpg"
+              src="/images/housemarketplace.jpg"
               layout="intrinsic"
               alt="blog"
-              objectFit="inherit  "
+              objectFit="inherit"
               quality={100}
               width={812}
               height={548}
             />
             <div className="p-6">
-              <Link href="https://github.com/hariskurtishi/Movie-app">
+              <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
@@ -76,16 +76,17 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <Link href="https://movie-app-mauve.vercel.app/">
+              <Link href="https://house-marketplace-rent-sell.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>A movie app built with custom Css and Javascript.</h1>
+                    <h1>A House Marketplace App built with React Js and Tailwind Css</h1>
                   </div>
                 </a>
               </Link>
             </div>
           </div>
         </div>
+
         <div className="shadow-lg hover:shadow-xl transition-all">
           <div className="h-full bg-white overflow-hidden">
             <Image
@@ -183,16 +184,16 @@ export default function Projects() {
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority
-              src="/images/housemarketplace.jpg"
+              src="/images/movieapp.jpg"
               layout="intrinsic"
               alt="blog"
-              objectFit="inherit"
+              objectFit="inherit  "
               quality={100}
               width={812}
               height={548}
             />
             <div className="p-6">
-              <Link href="https://github.com/hariskurtishi/house-marketplace">
+              <Link href="https://github.com/hariskurtishi/Movie-app">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
@@ -200,10 +201,10 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <Link href="https://house-marketplace-rent-sell.vercel.app/">
+              <Link href="https://movie-app-mauve.vercel.app/">
                 <a>
                   <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>A House Marketplace App built with React Js and Tailwind Css</h1>
+                    <h1>A movie app built with custom Css and Javascript.</h1>
                   </div>
                 </a>
               </Link>
