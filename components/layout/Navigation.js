@@ -49,6 +49,7 @@ export default function Navigation() {
             <ul className="flex-col w-full font-bold divide-y-2 lg:flex text-orange-500 md:text-zinc-700 md:font-medium pt-14 lg:space-x-12 lg:w-auto md:p-0 md:flex-row lg:justify-center md:items-center lg:text-left md:divide-y-2 lg:divide-y-0 divide-zinc-700 ">
               <NavItem href="home">Home</NavItem>
               <NavItem href="about">About me</NavItem>
+              <NavItem href="skills">Skills</NavItem>
               <NavItem href="projects">Projects</NavItem>
               <NavItem href="contact">Contact</NavItem>
             </ul>
