@@ -76,7 +76,7 @@ export default function HeaderSection() {
             </div>
 
             <div
-              className="absolute lg:-bottom-0 sm:right-48  lg:right-36 right-7 -top-68 lg:-top-32 grayscale hover:grayscale-0 transition-all duration-300"
+              className="absolute lg:-bottom-0 sm:right-48  lg:right-32 right-7 -top-68 lg:-top-40 grayscale hover:grayscale-0 transition-all duration-300"
               style={{ zIndex: '6' }}
             >
               <Image
