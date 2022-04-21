@@ -15,6 +15,12 @@ function MyApp({ Component, pageProps }) {
           site_name: 'Haris Kurtishi',
           description:
             'Frontend Developer specializing in building (and occasionally designing) exceptional digital experiences.',
+          images: [
+            {
+              url: 'https://website.com/images/og_image.jpg',
+              alt: 'OG Image',
+            },
+          ],
         }}
       />
       <Component {...pageProps} />

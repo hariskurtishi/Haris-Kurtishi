@@ -9,19 +9,19 @@ export default function Contact() {
         id="contact"
         className="container my-14 py-12 selection:bg-orange-500 selection:text-white"
       >
-        <div className=" ">
-          <div className=" py-8 flex items-center justify-center">
+        <div>
+          <div className="py-8 flex items-center justify-center">
             <div className=" ">
               <div className="text-white py-16 ">
                 <h1 className="font-bold text-3xl lg:text-4xl text-center text-zinc-900">
                   Have a specific project in mind?
                 </h1>
-                <div className=" py-6 text-sm">
-                  <p className=" font-normal text-center text-zinc-900">
+                <div className="py-8 text-sm">
+                  <p className="font-normal text-center text-zinc-900">
                     I love bringing fresh, new ideas to life and turning them into memorable
                     experiences.
                   </p>
-                  <p className=" font-normal text-center text-zinc-900">
+                  <p className="font-normal text-center text-zinc-900">
                     Do you require a high-end web presence?
                   </p>
                 </div>
@@ -34,7 +34,7 @@ export default function Contact() {
                       aria-label="Contact Button"
                     >
                       <Button as="a" variant="primary">
-                        Lets build something special!
+                        Let’s build something special!
                       </Button>
                     </Link>
                   </div>

@@ -8,7 +8,7 @@ export default function HeaderSection() {
     <div id="home" className="relative h-[1200px] lg:h-[1080px] w-full">
       <div className="container relative selection:bg-orange-500 selection:text-white">
         <div className="pt-14 lg:pt-24 lg:flex">
-          <div className="lg:col-6 ">
+          <div className="md:col-6 ">
             <div className="relative">
               <div>
                 <h1 className="text-zinc-600">
@@ -28,7 +28,7 @@ export default function HeaderSection() {
                 </h1>
               </div>
 
-              <div className="space-y-4 my-6 lg:my-0 lg:text-left text-sm lg:mt-14 text-zinc-600">
+              <div className="space-y-4 md:col-12 my-6 md:my-0 md:text-left text-sm md:mt-14 text-zinc-600">
                 <p className="">
                   I’m a Frontend Developer specializing in building (and occasionally designing)
                   exceptional digital experiences.
@@ -63,20 +63,20 @@ export default function HeaderSection() {
             </div>
           </div>
 
-          <div className="col-12 relative  lg:col-5 lg:offset-1 lg:flex lg:justify-center">
+          <div className="col-12 relative   lg:col-5 lg:offset-1 lg:flex lg:justify-center">
             <div
               className="absolute top-24 md:right-28 lg:right-0 lg:top-0 z-0"
               style={{ zIndex: '-2' }}
             >
               <SVG
                 src="/svg/headerbgvector.svg"
-                className="w-full lg:w-11/12"
+                className="w-full md:w-11/12"
                 alt="facebook icon"
               />
             </div>
 
             <div
-              className="absolute lg:-bottom-0 sm:right-48 md:right-56 lg:right-36 right-7 -top-68 lg:-top-32 grayscale hover:grayscale-0 transition-all duration-300"
+              className="absolute lg:-bottom-0 sm:right-48  lg:right-36 right-7 -top-68 lg:-top-32 grayscale hover:grayscale-0 transition-all duration-300"
               style={{ zIndex: '6' }}
             >
               <Image
