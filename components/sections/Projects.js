@@ -40,7 +40,7 @@ export default function Projects() {
                   <a>
                     <div className="text-zinc-900 text-sm flex items-center space-x-3">
                       <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:text-orange-500">Github Repo</h1>
+                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
                     </div>
                   </a>
                 </Link>
@@ -72,7 +72,7 @@ export default function Projects() {
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -103,7 +103,7 @@ export default function Projects() {
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -134,7 +134,7 @@ export default function Projects() {
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -165,7 +165,7 @@ export default function Projects() {
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -196,7 +196,7 @@ export default function Projects() {
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-orange-500">Github Repo</h1>
+                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -211,7 +211,7 @@ export default function Projects() {
           </div>
         </div>
       </section>
-      <div className="flex justify-center  pt-28" style={{ zIndex: '-20' }}>
+      <div className="flex justify-center pt-44" style={{ zIndex: '-20' }}>
         <SVG src="/svg/ornament.svg" className="w-96 " alt="ornament" />
       </div>
     </div>

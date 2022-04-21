@@ -10,7 +10,7 @@ export default function Contact() {
         className="container my-14 py-12 selection:bg-orange-500 selection:text-white"
       >
         <div className=" ">
-          <div className=" bg-gray-200 py-8 flex items-center justify-center">
+          <div className=" py-8 flex items-center justify-center">
             <div className=" ">
               <div className="text-white py-16 ">
                 <h1 className="font-bold text-3xl lg:text-4xl text-center text-zinc-900">
