@@ -59,6 +59,39 @@ export default function Projects() {
           <div className="h-full bg-white overflow-hidden">
             <Image
               priority
+              src="/images/yep.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="inherit"
+              quality={100}
+              width={812}
+              height={548}
+            />
+            <div className="p-6 flex flex-col justify-between">
+              <div>
+                <Link href="https://bluepuzzle.mk/en">
+                  <a>
+                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
+                    </div>
+                  </a>
+                </Link>
+                <Link href="https://www.yep.mk/">
+                  <a>
+                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                      <h1>YEP built with Next Js and Tailwind Css</h1>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="shadow-lg hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
               src="/images/housemarketplace.jpg"
               layout="intrinsic"
               alt="blog"
@@ -68,7 +101,7 @@ export default function Projects() {
               height={548}
             />
             <div className="p-6">
-              <Link href="https://github.com/hariskurtishi/house-marketplace">
+              <Link href="https://github.com/lucky-media/yep">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
