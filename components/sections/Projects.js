@@ -62,7 +62,7 @@ export default function Projects() {
               src="/images/movieapp.jpg"
               layout="intrinsic"
               alt="blog"
-              objectFit="cover"
+              objectFit="inherit  "
               quality={100}
               width={812}
               height={548}
@@ -93,7 +93,7 @@ export default function Projects() {
               src="/images/hulu.jpg"
               layout="intrinsic"
               alt="blog"
-              objectFit="cover"
+              objectFit="inherit"
               quality={100}
               width={812}
               height={548}
@@ -124,7 +124,7 @@ export default function Projects() {
               src="/images/feedback.jpg"
               layout="intrinsic"
               alt="blog"
-              objectFit="cover"
+              objectFit="inherit"
               quality={100}
               width={812}
               height={548}
@@ -155,7 +155,7 @@ export default function Projects() {
               src="/images/github_finder.jpg"
               layout="intrinsic"
               alt="blog"
-              objectFit="cover"
+              objectFit="inherit"
               quality={100}
               width={812}
               height={548}
@@ -186,7 +186,7 @@ export default function Projects() {
               src="/images/housemarketplace.jpg"
               layout="intrinsic"
               alt="blog"
-              objectFit="cover"
+              objectFit="inherit"
               quality={100}
               width={812}
               height={548}
