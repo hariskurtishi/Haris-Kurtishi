@@ -31,7 +31,7 @@ export default function About() {
                 />
               </div>
               <div
-                className="hidden lg:block absolute -bottom-[1100px] lg:-top-8 grayscale hover:grayscale-0 transition-all duration-300"
+                className="hidden lg:block absolute -bottom-[500px] lg:-top-8 grayscale hover:grayscale-0 transition-all duration-300"
                 style={{ zIndex: '6' }}
               >
                 <Image
