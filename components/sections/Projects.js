@@ -277,6 +277,142 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <div className="shadow-lg hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/Fylo.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="inherit"
+              quality={100}
+              width={812}
+              height={548}
+              className=" blur"
+            />
+            <div className="p-6 flex flex-col justify-between">
+              <div>
+                <Link href="/">
+                  <a>
+                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
+                    </div>
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a>
+                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                      <h1>Cooming Soon...</h1>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="shadow-lg hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/huddle.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="inherit"
+              quality={100}
+              width={812}
+              height={548}
+              className=" blur"
+            />
+            <div className="p-6 flex flex-col justify-between">
+              <div>
+                <Link href="/">
+                  <a>
+                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
+                    </div>
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a>
+                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                      <h1>Cooming Soon...</h1>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="shadow-lg hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/bloggr.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="inherit"
+              quality={100}
+              width={812}
+              height={548}
+              className=" blur"
+            />
+            <div className="p-6 flex flex-col justify-between">
+              <div>
+                <Link href="/">
+                  <a>
+                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
+                    </div>
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a>
+                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                      <h1>Cooming Soon...</h1>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="shadow-lg hover:shadow-xl transition-all">
+          <div className="h-full bg-white overflow-hidden">
+            <Image
+              priority
+              src="/images/sunny.jpg"
+              layout="intrinsic"
+              alt="blog"
+              objectFit="inherit"
+              quality={100}
+              width={812}
+              height={548}
+              className=" blur"
+            />
+            <div className="p-6 flex flex-col justify-between">
+              <div>
+                <Link href="/">
+                  <a>
+                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
+                    </div>
+                  </a>
+                </Link>
+                <Link href="/">
+                  <a>
+                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                      <h1>Cooming Soon...</h1>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <div className="flex justify-center pt-44" style={{ zIndex: '-20' }}>
         <SVG src="/svg/ornament.svg" className="w-96 " alt="ornament" />
