@@ -302,7 +302,7 @@ export default function Projects() {
                 </Link>
                 <Link href="/">
                   <a>
-                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <div className="text-2xl transition-all text-zinc-500 hover:text-orange-500 font-bold py-3">
                       <h1>Cooming Soon...</h1>
                     </div>
                   </a>
@@ -336,7 +336,7 @@ export default function Projects() {
                 </Link>
                 <Link href="/">
                   <a>
-                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <div className="text-2xl transition-all text-zinc-500 hover:text-orange-500 font-bold py-3">
                       <h1>Cooming Soon...</h1>
                     </div>
                   </a>
@@ -370,7 +370,7 @@ export default function Projects() {
                 </Link>
                 <Link href="/">
                   <a>
-                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <div className="text-2xl transition-all text-zinc-500 hover:text-orange-500 font-bold py-3">
                       <h1>Cooming Soon...</h1>
                     </div>
                   </a>
@@ -404,7 +404,7 @@ export default function Projects() {
                 </Link>
                 <Link href="/">
                   <a>
-                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
+                    <div className="text-2xl transition-all text-zinc-500 hover:text-orange-500 font-bold py-3">
                       <h1>Cooming Soon...</h1>
                     </div>
                   </a>
