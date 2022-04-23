@@ -4,7 +4,7 @@ import SVG from 'react-inlinesvg'
 
 export default function Projects() {
   return (
-    <div id="projects" className="relative lg:h-full">
+    <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full">
       <div
         className="absolute bottom-96 selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '-30' }}

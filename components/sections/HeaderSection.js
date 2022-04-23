@@ -5,9 +5,9 @@ import SVG from 'react-inlinesvg'
 import Button from '../Button'
 export default function HeaderSection() {
   return (
-    <div id="home" className="relative h-[1200px] lg:h-[1080px] w-full">
+    <div id="home" className="relative h-[1200px] md:h-[750px] lg:h-[1080px] w-full">
       <div className="container relative selection:bg-orange-500 selection:text-white">
-        <div className="pt-14 lg:pt-24 lg:flex">
+        <div className="pt-14 lg:pt-24 md:flex">
           <div className="md:col-6 ">
             <div className="relative">
               <div>
@@ -63,9 +63,9 @@ export default function HeaderSection() {
             </div>
           </div>
 
-          <div className="col-12 relative   lg:col-5 lg:offset-1 lg:flex lg:justify-center">
+          <div className="col-12 relative md:col-5 md:offset-1 md:flex md:justify-center">
             <div
-              className="absolute top-24 md:right-28 lg:right-0 lg:top-0 z-0"
+              className="absolute top-14 md:-top-6 md:right-18 lg:right-0 lg:top-0 "
               style={{ zIndex: '-2' }}
             >
               <SVG
@@ -76,7 +76,7 @@ export default function HeaderSection() {
             </div>
 
             <div
-              className="absolute lg:-bottom-0 left-10 md:-top-48 sm:right-24  lg:-right-14 right-0 rotate-6 top-16 lg:-top-72 grayscale hover:grayscale-0 transition-all duration-300"
+              className="absolute md:left-10 left-10 lg:left-8 lg:-top-56 grayscale hover:grayscale-0 transition-all duration-300"
               style={{ zIndex: '6' }}
             >
               <Image
@@ -88,14 +88,14 @@ export default function HeaderSection() {
                 objectFit="cover"
                 quality={100}
                 width={850}
-                height={1480}
+                height={1580}
               />
             </div>
           </div>
         </div>
       </div>
       <div className="absolute top-0 z-0" style={{ zIndex: '-20' }}>
-        <SVG src="/svg/acaro.svg" className="w-full h-screen rounded-md    " alt="facebook icon" />
+        <SVG src="/svg/acaro.svg" className="w-full h-screen rounded-md " alt="facebook icon" />
       </div>
     </div>
   )
