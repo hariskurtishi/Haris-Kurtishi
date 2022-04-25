@@ -16,9 +16,9 @@ header:before {
 .menu-item:before {
   @apply absolute transition duration-200 ease-in bg-transparent;
   content: '';
-  width: 25px;
+  width: 35px;
   height: 2px;
-  margin-top: 42px;
+  margin-top: 44px;
   border-radius: 25px;
 }
 

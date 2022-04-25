@@ -4,7 +4,7 @@ import SVG from 'react-inlinesvg'
 
 export default function Projects() {
   return (
-    <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full">
+    <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full ">
       <div
         className="absolute bottom-96 selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '-30' }}
@@ -20,121 +20,26 @@ export default function Projects() {
           Built.
         </span>
       </div>
-
-      <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8 container">
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/portfolio.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-            />
-            <div className="p-6 flex flex-col justify-between">
-              <div>
-                <Link href="https://github.com/hariskurtishi/Haris-Kurtishi">
-                  <a>
-                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
-                    </div>
-                  </a>
-                </Link>
-                <Link href="https://hariskurtishi.com/">
-                  <a>
-                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                      <h1>My portfolio built with Next Js, React Js and Tailwind Css</h1>
-                    </div>
-                  </a>
-                </Link>
-              </div>
+      <div className="container space-y-14 md:space-y-32">
+        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+          <div className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
+                src="/images/portfolio.jpg"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
             </div>
           </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/bluepuzzle.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="cover"
-              quality={100}
-              width={812}
-              height={548}
-            />
-            <div className="p-6 flex flex-col justify-between">
-              <div>
-                <Link href="https://github.com/lucky-media/bluepuzzle">
-                  <a>
-                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
-                    </div>
-                  </a>
-                </Link>
-                <Link href="https://bluepuzzle.mk/en">
-                  <a>
-                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                      <h1>Blue Puzzle Treatmant Center built with Next Js and Tailwind Css</h1>
-                    </div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/yep.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-            />
-            <div className="p-6 flex flex-col justify-between">
-              <div>
-                <Link href="https://github.com/lucky-media/yep">
-                  <a>
-                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
-                    </div>
-                  </a>
-                </Link>
-                <Link href="https://www.yep.mk/">
-                  <a>
-                    <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                      <h1>YEP built with Next Js and Tailwind Css</h1>
-                    </div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/housemarketplace.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-            />
-            <div className="p-6">
-              <Link href="https://github.com/lucky-media/yep">
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+            <div>
+              <Link href="https://github.com/hariskurtishi/Haris-Kurtishi">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
@@ -142,30 +47,109 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <Link href="https://house-marketplace-rent-sell.vercel.app/">
+              <Link href="https://hariskurtishi.com/">
                 <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>A House Marketplace App built with React Js and Tailwind Css</h1>
+                  <div className="text-4xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-4">
+                    <h1>My portfolio</h1>
                   </div>
                 </a>
               </Link>
+              <p className="text-gray-500">Built with Next Js, React Js and Tailwind Css</p>
             </div>
           </div>
-        </div>
-
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/hulu.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-            />
-            <div className="p-6">
+        </main>
+        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+          <div className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
+                src="/images/pastrimpro.jpg"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
+            </div>
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+            <div>
+              <Link href="https://github.com/hariskurtishi/pastrimpro">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://hariskurtishi.com/">
+                <a>
+                  <div className="text-4xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-4">
+                    <h1>Cleaning Service Landing Page</h1>
+                  </div>
+                </a>
+              </Link>
+              <p className="text-gray-500">Built with Next Js, React Js and Tailwind Css</p>
+            </div>
+          </div>
+        </main>
+        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+          <div className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
+                src="/images/bluepuzzle.jpg"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
+            </div>
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+            <div>
+              <Link href="/">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://bluepuzzle.mk/">
+                <a>
+                  <div className="text-4xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-4">
+                    <h1>Blue Puzzle</h1>
+                  </div>
+                </a>
+              </Link>
+              <p className="text-gray-500">Built with Next Js, React Js and Tailwind Css</p>
+            </div>
+          </div>
+        </main>
+        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+          <div className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
+                src="/images/hulu.jpg"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
+            </div>
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+            <div>
               <Link href="https://github.com/hariskurtishi/Hulu-2.0">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
@@ -176,28 +160,37 @@ export default function Projects() {
               </Link>
               <Link href="https://hulu-2-0-hariskurtishi.vercel.app/">
                 <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Hulu 2.0 Movie App built with Next Js and Tailwind Css</h1>
+                  <div className="text-4xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-4">
+                    <h1>Hulu 2.0</h1>
                   </div>
                 </a>
               </Link>
+              <p className="text-gray-500">
+                Clone App built with Next Js, React Js and Tailwind Css
+              </p>
             </div>
           </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/feedback.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-            />
-            <div className="p-6">
-              <Link href="https://github.com/hariskurtishi/feedback-app">
+        </main>
+
+        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+          <div className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
+                src="/images/housemarketplace.jpg"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
+            </div>
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+            <div>
+              <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
@@ -205,61 +198,36 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <Link href="https://feedback-ui-54d2c0.netlify.app/">
+              <Link href="https://house-marketplace-rent-sell.vercel.app/">
                 <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Feedback app built with React</h1>
+                  <div className="text-4xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-4">
+                    <h1>House Marketplace App</h1>
                   </div>
                 </a>
               </Link>
+              <p className="text-gray-500">Built with React Js and Tailwind Css</p>
             </div>
           </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/github_finder.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-            />
-            <div className="p-6">
-              <Link href="https://github.com/hariskurtishi/github-finder-app">
-                <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
-                  </div>
-                </a>
-              </Link>
-              <Link href="https://github-finder-three-rust.vercel.app/">
-                <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>Github Finder App built with React and Tailwind Css</h1>
-                  </div>
-                </a>
-              </Link>
+        </main>
+        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+          <div className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
+                src="/images/yep.jpg"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
             </div>
           </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/movieapp.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit  "
-              quality={100}
-              width={812}
-              height={548}
-            />
-            <div className="p-6">
-              <Link href="https://github.com/hariskurtishi/Movie-app">
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+            <div>
+              <Link href="/">
                 <a>
                   <div className="text-zinc-900 text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
@@ -267,153 +235,20 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <Link href="https://movie-app-mauve.vercel.app/">
+              <Link href="https://www.yep.mk/">
                 <a>
-                  <div className="text-2xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-3">
-                    <h1>A movie app built with custom Css and Javascript.</h1>
+                  <div className="text-4xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-4">
+                    <h1>YEP</h1>
                   </div>
                 </a>
               </Link>
+              <p className="text-gray-500">
+                A website for a youth organization built with Next Js, React Js and Tailwind Css
+              </p>
             </div>
           </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/Fylo.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-              className=" blur"
-            />
-            <div className="p-6 flex flex-col justify-between">
-              <div>
-                <Link href="/">
-                  <a>
-                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
-                    </div>
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a>
-                    <div className="text-2xl transition-all text-zinc-500 hover:text-orange-500 font-bold py-3">
-                      <h1>Cooming Soon...</h1>
-                    </div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/huddle.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-              className=" blur"
-            />
-            <div className="p-6 flex flex-col justify-between">
-              <div>
-                <Link href="/">
-                  <a>
-                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
-                    </div>
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a>
-                    <div className="text-2xl transition-all text-zinc-500 hover:text-orange-500 font-bold py-3">
-                      <h1>Cooming Soon...</h1>
-                    </div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/bloggr.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-              className=" blur"
-            />
-            <div className="p-6 flex flex-col justify-between">
-              <div>
-                <Link href="/">
-                  <a>
-                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
-                    </div>
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a>
-                    <div className="text-2xl transition-all text-zinc-500 hover:text-orange-500 font-bold py-3">
-                      <h1>Cooming Soon...</h1>
-                    </div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="shadow-lg hover:shadow-xl transition-all">
-          <div className="h-full bg-white overflow-hidden">
-            <Image
-              priority
-              src="/images/sunny.jpg"
-              layout="intrinsic"
-              alt="blog"
-              objectFit="inherit"
-              quality={100}
-              width={812}
-              height={548}
-              className=" blur"
-            />
-            <div className="p-6 flex flex-col justify-between">
-              <div>
-                <Link href="/">
-                  <a>
-                    <div className="text-zinc-900 text-sm flex items-center space-x-3">
-                      <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                      <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
-                    </div>
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a>
-                    <div className="text-2xl transition-all text-zinc-500 hover:text-orange-500 font-bold py-3">
-                      <h1>Cooming Soon...</h1>
-                    </div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </main>
+      </div>
       <div className="flex justify-center pt-44" style={{ zIndex: '-20' }}>
         <SVG src="/svg/ornament.svg" className="w-96 " alt="ornament" />
       </div>
