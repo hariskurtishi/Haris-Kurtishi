@@ -4,7 +4,7 @@ import SVG from 'react-inlinesvg'
 
 export default function Projects() {
   return (
-    <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full ">
+    <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full  ">
       <div
         className="absolute bottom-96 selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '-30' }}
@@ -21,7 +21,7 @@ export default function Projects() {
         </span>
       </div>
       <div className="container space-y-14 md:space-y-32">
-        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -58,7 +58,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -95,7 +95,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -132,7 +132,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -169,7 +169,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -206,7 +206,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -246,7 +246,7 @@ export default function Projects() {
           </div>
         </main>
 
-        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -283,7 +283,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
