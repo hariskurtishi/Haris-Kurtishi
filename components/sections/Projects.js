@@ -323,7 +323,7 @@ export default function Projects() {
           </div>
         </main>
       </div>
-      <div className="flex justify-center pt-44" style={{ zIndex: '-20' }}>
+      <div className="flex justify-center md:pb-4 pt-24" style={{ zIndex: '-20' }}>
         <SVG src="/svg/ornament.svg" className="w-96 " alt="ornament" />
       </div>
     </div>

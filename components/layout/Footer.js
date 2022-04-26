@@ -5,7 +5,7 @@ export default function Footer() {
     <div>
       <div className=" bg-opacity-90">
         <div className="bg-white selection:bg-orange-500 selection:text-white">
-          <div className=" flex items-center justify-between">
+          <div className="flex items-center justify-between">
             <div className="container items-center justify-between md:flex">
               <div className="flex justify-center md:justify-start">
                 <Link href="/" passHref aria-label="Logo">
@@ -22,20 +22,7 @@ export default function Footer() {
                 </a>
               </div>
 
-              <div className="flex items-center justify-center mb-10 space-x-4 md:mb-0 md:justify-end ">
-                <div className="">
-                  <a
-                    rel="noopener noreferrer"
-                    aria-label="facebook"
-                    href="https://www.facebook.com/100061961360103"
-                  >
-                    <SVG
-                      src="/svg/fb.svg"
-                      className="w-10 h-10 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
-                      alt="facebook icon"
-                    />
-                  </a>
-                </div>
+              <div className="flex items-center justify-center mb-10 space-x-6 md:mb-0 md:justify-end ">
                 <div className="">
                   <a
                     rel="noopener noreferrer"
@@ -44,8 +31,34 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/email.svg"
-                      className="w-11 h-11 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      className="w-8 h-8  transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
                       alt="email icon"
+                    />
+                  </a>
+                </div>
+                <div className="">
+                  <a
+                    rel="noopener noreferrer"
+                    aria-label="phone"
+                    href="https://www.linkedin.com/in/haris-kurtishi-webdev/"
+                  >
+                    <SVG
+                      src="/svg/linkedin.svg"
+                      className="w-8 h-8 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      alt="call icon"
+                    />
+                  </a>
+                </div>
+                <div className="">
+                  <a
+                    rel="noopener noreferrer"
+                    aria-label="facebook"
+                    href="https://www.facebook.com/100061961360103"
+                  >
+                    <SVG
+                      src="/svg/fb.svg"
+                      className="w-8 h-8  transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      alt="facebook icon"
                     />
                   </a>
                 </div>
@@ -57,22 +70,8 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/instagram.svg"
-                      className="w-10 h-10 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      className="w-8 h-8  transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
                       alt="email icon"
-                    />
-                  </a>
-                </div>
-
-                <div className="">
-                  <a
-                    rel="noopener noreferrer"
-                    aria-label="phone"
-                    href="https://www.linkedin.com/in/haris-kurtishi-webdev/"
-                  >
-                    <SVG
-                      src="/svg/linkedin.svg"
-                      className="w-10 h-10 p-2 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
-                      alt="call icon"
                     />
                   </a>
                 </div>
