@@ -11,16 +11,16 @@ export default function HeaderSection() {
           <div className="md:col-6 ">
             <div className="relative">
               <div>
-                <h1 className="text-zinc-600">
+                <h1 className="text-zinc-600 mb-4 md:mb-0">
                   Hello there! I’m <br />
-                  <span className="text-orange-500 leading-loose text-xl lg:text-3xl font-bold ">
+                  <span className="text-orange-500 leading-normal text-xl lg:text-3xl font-bold ">
                     Haris Kurtishi
                   </span>
                 </h1>
               </div>
 
               <div className="lg:py-0 text-zinc-900">
-                <h1 className="text-[55px] lg:text-[100px] lg:-ml-[5px] -ml-[3px] font-semibold lg:leading-tight leading-snug">
+                <h1 className="text-[55px] lg:text-[100px] lg:-ml-[5px] -ml-[3px] font-semibold lg:leading-tight leading-8 md:leading-tight">
                   Frontend
                 </h1>
                 <h1 className="text-[55px] lg:text-[100px] font-semibold lg:ml-[49px] ml-[27px] lg:leading-[70px] leading-snug">

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import SVG from 'react-inlinesvg'
 import { Link as ScrollLink } from 'react-scroll'
 
+// import DarkMode from '../DarkMode'
 const NavItem = ({ children, href }) => {
   return (
     <li>
@@ -31,11 +32,11 @@ export default function Navigation() {
               <ScrollLink to="/" spy={true} smooth={true} offset={-70} duration={500}></ScrollLink>
             </div>
           </div>
-          <div className="flex items-center col-2 lg:hidden ">
-            <label htmlFor="menu-toggle" className="cursor-pointer">
+          <div className="flex items-center col-2 md:col-1 lg:hidden">
+            <label htmlFor="menu-toggle" className="cursor-pointer ">
               <SVG
                 src={`../svg/${menu ? 'menu-closed.svg' : 'menu.svg'}`}
-                className="w-6 h-6 fill-current text-orange-500"
+                className="w-6 h-6 fill-current  text-orange-500"
                 onClick={() => setMenu(!menu)}
               />
             </label>
@@ -52,14 +53,15 @@ export default function Navigation() {
               <NavItem href="skills">Skills</NavItem>
               <NavItem href="projects">Projects</NavItem>
               <NavItem href="contact">Contact</NavItem>
+              {/* <li className="py-2"><DarkMode /></li> */}
             </ul>
           </div>
 
-          <div
+          <didv
             className={`lg:col-3 hidden lg:flex justify-center items-center lg:space-x-4 lg:justify-end ${
               menu ? '  ' : ' hidden '
             }`}
-          ></div>
+          ></didv>
         </div>
       </div>
     </div>
