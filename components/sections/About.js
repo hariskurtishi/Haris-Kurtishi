@@ -48,7 +48,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="lg:col-6 lg:px-6 ">
+          <div className="lg:col-6 lg:px-6 grid content-center md:pt-16">
             <div className="">
               <h1 className="md:text-[64px] text-4xl pb-8 text-zinc-900 hover:text-orange-500 text-left group transition-all selection:bg-orange-500 selection:text-white">
                 About me<span className="text-orange-500 group-hover:text-zinc-900">.</span>

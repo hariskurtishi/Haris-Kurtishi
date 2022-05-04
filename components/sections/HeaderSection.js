@@ -5,7 +5,7 @@ import SVG from 'react-inlinesvg'
 import Button from '../Button'
 export default function HeaderSection() {
   return (
-    <div id="home" className="relative h-[1200px] md:h-[750px] lg:h-[1080px] w-full">
+    <div id="home" className="relative h-[900px] md:h-[750px] lg:h-[1080px] w-full">
       <div className="container relative selection:bg-orange-500 selection:text-white">
         <div className="pt-14 lg:pt-24 md:flex">
           <div className="md:col-6 ">
@@ -65,7 +65,7 @@ export default function HeaderSection() {
 
           <div className="col-12 relative md:col-5 md:offset-1 md:flex md:justify-center">
             <div
-              className="absolute top-14 md:-top-6 md:right-18 lg:right-0 lg:top-0 "
+              className="absolute top-2 md:-top-6 md:right-18 lg:right-0 lg:top-0 "
               style={{ zIndex: '-2' }}
             >
               <SVG
@@ -76,7 +76,7 @@ export default function HeaderSection() {
             </div>
 
             <div
-              className="absolute md:left-10 left-10 lg:left-8 lg:-top-56 grayscale hover:grayscale-0 transition-all duration-300"
+              className="absolute md:left-10 left-14 lg:left-8 lg:-top-56 grayscale hover:grayscale-0 transition-all duration-300"
               style={{ zIndex: '6' }}
             >
               <Image
