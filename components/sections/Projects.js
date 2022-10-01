@@ -253,7 +253,7 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <Link href="https://hariskurtishi.com/">
+              <Link href="https://pastrim.pro/">
                 <a>
                   <div className="text-4xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-4">
                     <h1>Cleaning Service Landing Page</h1>
@@ -338,7 +338,7 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">Built with React Js and Tailwind Css</p>
+              <p className="text-gray-500">Built with React Js</p>
             </div>
           </div>
         </main>
