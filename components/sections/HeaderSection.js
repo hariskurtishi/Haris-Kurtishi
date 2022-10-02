@@ -61,7 +61,7 @@ export default function HeaderSection() {
           </div>
 
           <div className="col-12 relative md:col-5 md:offset-1 md:flex md:justify-center">
-            <div
+            {/* <div
               className="absolute top-2 md:-top-6 md:right-18 lg:right-0 lg:top-0 "
               style={{ zIndex: '-2' }}
             >
@@ -70,6 +70,46 @@ export default function HeaderSection() {
                 className="w-full md:w-11/12"
                 alt="facebook icon"
               />
+            </div> */}
+            <div className="absolute flex justify-center shadow-lg top-56 left-6 md:-left-2 hover:shadow-xl  rounded-full p-4 ">
+              <div className="" style={{ zIndex: '42' }}>
+                <div className="">
+                  <SVG
+                    src="/svg/mui.svg"
+                    className="w-10 h-10 text-orange-500 fill-current"
+                    alt="reddot"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex justify-center shadow-lg top-96 left-6  hover:shadow-xl  rounded-full p-4  ">
+              <div className="" style={{ zIndex: '42' }}>
+                <div className="">
+                  <SVG src="/svg/nextjs.svg" className="w-10 h-10  fill-current" alt="reddot" />
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex justify-center shadow-lg right-2 md:right-2 top-72 md:top-48 hover:shadow-xl  rounded-full p-4  ">
+              <div className="" style={{ zIndex: '42' }}>
+                <div className="">
+                  <SVG
+                    src="/svg/react.svg"
+                    className="w-16 md:w-20 h-16 md:h-20 text-orange-500 fill-current"
+                    alt="reddot"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex justify-center shadow-lg right-8 top-36 md:top-0 md:right-20 hover:shadow-xl  rounded-full p-4  ">
+              <div className="" style={{ zIndex: '42' }}>
+                <div className="">
+                  <SVG
+                    src="/svg/tailwindcss-icon-svgrepo-com.svg"
+                    className="w-10 h-10 md:w-14 md:h-14 text-orange-500 fill-current"
+                    alt="reddot"
+                  />
+                </div>
+              </div>
             </div>
 
             <div

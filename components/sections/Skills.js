@@ -11,42 +11,6 @@ export default function Skills() {
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
-                src="/svg/html-svgrepo-com (1).svg"
-                className="w-12 h-12 text-orange-500 fill-current"
-                alt="reddot"
-              />
-            </div>
-            <p className="text-xl">Html</p>
-          </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/css-svgrepo-com.svg"
-                className="w-12 h-12 text-orange-500 fill-current"
-                alt="reddot"
-              />
-            </div>
-            <p className="text-xl">Css</p>
-          </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/javascript-svgrepo-com.svg"
-                className="w-12 h-12 text-orange-500 fill-current"
-                alt="reddot"
-              />
-            </div>
-            <p className="text-xl">Javascript</p>
-          </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
                 src="/svg/tailwindcss-icon-svgrepo-com.svg"
                 className="w-12 h-12 text-orange-500 fill-current"
                 alt="reddot"
@@ -59,7 +23,19 @@ export default function Skills() {
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
-                src="/svg/react-svgrepo-com.svg"
+                src="/svg/mui.svg"
+                className="w-12 h-12 text-orange-500 fill-current"
+                alt="reddot"
+              />
+            </div>
+            <p className="text-xl">Material UI</p>
+          </div>
+        </div>
+        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+          <div className="space-y-4">
+            <div className="flex justify-center">
+              <SVG
+                src="/svg/react.svg"
                 className="w-12 h-12 text-orange-500 fill-current"
                 alt="reddot"
               />
@@ -70,11 +46,7 @@ export default function Skills() {
         <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
-              <SVG
-                src="/svg/next-js-svgrepo-com.svg"
-                className="w-12 h-12 fill-current"
-                alt="reddot"
-              />
+              <SVG src="/svg/nextjs.svg" className="w-12 h-12 fill-current" alt="reddot" />
             </div>
             <p className="text-xl">Next Js</p>
           </div>
@@ -149,6 +121,18 @@ export default function Skills() {
               />
             </div>
             <p className="text-xl">Alpine Js</p>
+          </div>
+        </div>
+        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+          <div className="space-y-4">
+            <div className="flex justify-center">
+              <SVG
+                src="/svg/sanity.svg"
+                className="w-12 h-12 text-orange-500 fill-current"
+                alt="reddot"
+              />
+            </div>
+            <p className="text-xl">Sanity CMS</p>
           </div>
         </div>
       </div>
