@@ -71,42 +71,34 @@ export default function HeaderSection() {
                 alt="facebook icon"
               />
             </div> */}
-            <div className="absolute flex justify-center shadow-lg top-56 left-6 md:-left-2 hover:shadow-xl  rounded-full p-4 ">
+            <div className="absolute flex justify-center shadow-lg top-56 left-6 md:-left-2 hover:shadow-xl  rounded-full p-2 ">
               <div className="" style={{ zIndex: '42' }}>
                 <div className="">
-                  <SVG
-                    src="/svg/mui.svg"
-                    className="w-10 h-10 text-orange-500 fill-current"
-                    alt="reddot"
-                  />
+                  <SVG src="/svg/mui.svg" className="w-10 h-10 " alt="icons" />
                 </div>
               </div>
             </div>
-            <div className="absolute flex justify-center shadow-lg top-96 left-6  hover:shadow-xl  rounded-full p-4  ">
+            <div className="absolute flex justify-center shadow-lg top-96 left-6  hover:shadow-xl  rounded-full p-2  ">
               <div className="" style={{ zIndex: '42' }}>
                 <div className="">
-                  <SVG src="/svg/nextjs.svg" className="w-10 h-10  fill-current" alt="reddot" />
+                  <SVG src="/svg/nextjs.svg" className="w-10 h-10  " alt="icons" />
                 </div>
               </div>
             </div>
-            <div className="absolute flex justify-center shadow-lg right-2 md:right-2 top-72 md:top-48 hover:shadow-xl  rounded-full p-4  ">
+            <div className="absolute flex justify-center shadow-lg right-2 md:right-2 top-72 md:top-56 lg:top-48 hover:shadow-xl  rounded-full p-2  ">
               <div className="" style={{ zIndex: '42' }}>
                 <div className="">
-                  <SVG
-                    src="/svg/react.svg"
-                    className="w-16 md:w-20 h-16 md:h-20 text-orange-500 fill-current"
-                    alt="reddot"
-                  />
+                  <SVG src="/svg/react.svg" className="w-16 lg:w-20 h-16 lg:h-20 " alt="icons" />
                 </div>
               </div>
             </div>
-            <div className="absolute flex justify-center shadow-lg right-8 top-36 md:top-0 md:right-20 hover:shadow-xl  rounded-full p-4  ">
+            <div className="absolute flex justify-center shadow-lg right-4 top-36 md:top-24 lg:top-0 md:right-8 lg:right-20 hover:shadow-xl  rounded-full p-2  ">
               <div className="" style={{ zIndex: '42' }}>
                 <div className="">
                   <SVG
                     src="/svg/tailwindcss-icon-svgrepo-com.svg"
-                    className="w-10 h-10 md:w-14 md:h-14 text-orange-500 fill-current"
-                    alt="reddot"
+                    className=" w-10 h-10 lg:w-14 lg:h-14 "
+                    alt="icons"
                   />
                 </div>
               </div>
