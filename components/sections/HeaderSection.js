@@ -7,7 +7,7 @@ export default function HeaderSection() {
   return (
     <div id="home" className="relative h-[900px] md:h-[750px] lg:h-[1080px] w-full">
       <div className="container relative selection:bg-orange-500 selection:text-white">
-        <div className="pt-14 lg:pt-24 md:flex">
+        <div className="pt-14 lg:pt-28 md:flex">
           <div className="md:col-6 ">
             <div className="relative">
               <div>
