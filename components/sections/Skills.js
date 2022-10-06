@@ -3,7 +3,7 @@ export default function Skills() {
   return (
     <div id="skills" className=" h-[1150px] lg:h-[650px] md:h-[770px]">
       <h1 className="text-center text-4xl  text-zinc-900 hover:text-orange-500  mb-4 group transition-all selection:bg-orange-500 selection:text-white">
-        My toolbox and things i can do
+        Technologies I use to build your next great idea
         <span className="text-orange-500 group-hover:text-zinc-900">.</span>
       </h1>
       <div className="py-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-4 gap-y-12 container">
@@ -16,7 +16,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Tailwind</p>
+            <p className="text-xl">Tailwind Css</p>
           </div>
         </div>
         <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
@@ -41,6 +41,18 @@ export default function Skills() {
               />
             </div>
             <p className="text-xl">React Js</p>
+          </div>
+        </div>
+        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+          <div className="space-y-4">
+            <div className="flex justify-center">
+              <SVG
+                src="/svg/typescript2.svg"
+                className="w-12 h-12 text-orange-500 fill-current"
+                alt="reddot"
+              />
+            </div>
+            <p className="text-xl">Typescript</p>
           </div>
         </div>
         <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
@@ -91,7 +103,7 @@ export default function Skills() {
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
-                src="/svg/figma-svgrepo-com.svg"
+                src="/svg/figma.svg"
                 className="w-12 h-12 text-orange-500 fill-current"
                 alt="reddot"
               />
