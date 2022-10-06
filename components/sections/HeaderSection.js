@@ -13,7 +13,7 @@ export default function HeaderSection() {
               <div>
                 <h1 className="text-zinc-600  text-center md:text-left mb-4 md:mb-0">
                   Hello there! I’m <br />
-                  <span className="text-orange-500 leading-normal text-xl  text-center md:text-left lg:text-3xl font-bold ">
+                  <span className="text-orange-500 leading-normal text-xl text-center md:text-left lg:text-3xl font-bold ">
                     Haris Kurtishi
                   </span>
                 </h1>
@@ -36,12 +36,12 @@ export default function HeaderSection() {
                 <p>I&apos;ve also built a couple of full stack apps just for fun.</p>
               </div>
               <div
-                className="flex justify-start items-center  mt-4 space-x-4 md:mb-0  "
+                className="flex justify-start items-center mt-4 space-x-4 md:mb-0  "
                 style={{ zIndex: '24' }}
               ></div>
 
               <div
-                className="flex lg:inline-flex items-center justify-center lg:justify-start z-50"
+                className="flex lg:inline-flex items-center justify-center md:justify-start z-50"
                 style={{ zIndex: '50' }}
               >
                 <Link href="#contact" passHref className="" aria-label="Contact Button">
@@ -60,20 +60,9 @@ export default function HeaderSection() {
             </div>
           </div>
 
-          <div className="col-12 relative md:col-5 md:offset-1 md:flex md:justify-center">
+          <div className="col-12 relative md:col-5 md:offset-1 md:flex md:justify-center pt-24 md:pt-14 lg:mt-24">
             {/* <div
-              className="absolute top-2 md:-top-6 md:right-18 lg:right-0 lg:top-0 "
-              style={{ zIndex: '-2' }}
-            >
-              <SVG
-                src="/svg/headerbgvector.svg"
-                className="w-full md:w-11/12"
-                alt="facebook icon"
-              />
-            </div> */}
-
-            <div
-              className="flex absolute justify-center shadow-md  hover:shadow-xl transition-all left-0 rounded-md p-2 bg-orange-500"
+              className="flex absolute justify-center shadow-xl   top-48 md:-top-0 transition-all left-0  p-2 bg-zinc-100"
               style={{ zIndex: '45' }}
             >
               <div className="flex gap-2">
@@ -84,35 +73,35 @@ export default function HeaderSection() {
                     alt="reddot"
                   />
                 </div>
-                <p className=" text-white flex items-center">Typescript</p>
+                <p className="text-sm md:text-base text-zinc-800 flex items-center">Typescript</p>
               </div>
-            </div>
+            </div> */}
             <div
-              className="flex absolute justify-center shadow-md  hover:shadow-xl transition-all top-96 lg:top-[230px] left-6 lg:left-14 rounded-md p-2 bg-orange-500"
+              className="flex absolute justify-center shadow-xl transition-all md:top-64  top-96 lg:top-[155px] left-6 lg:left-14  p-2 bg-zinc-100"
               style={{ zIndex: '45' }}
             >
               <div className="flex gap-2">
                 <div className="flex justify-center">
-                  <SVG src="/svg/nextjs.svg" className="w-6 h-6  fill-current" alt="reddot" />
+                  <SVG src="/svg/nextjs.svg" className="w-6 h-6 fill-current" alt="reddot" />
                 </div>
-                <p className=" text-white flex items-center">Next Js</p>
+                <p className="text-sm md:text-base text-zinc-800 flex items-center">Next Js</p>
               </div>
             </div>
 
             <div
-              className="flex absolute justify-center shadow-md  hover:shadow-xl transition-all  right-2 md:right-32 top-72 md:top-56 lg:top-48  rounded-md p-2 bg-orange-500"
+              className="flex absolute justify-center shadow-xl transition-all right-2 md:right-18 lg:right-10 top-[480px] md:top-[440px] lg:top-72 p-2 bg-zinc-100"
               style={{ zIndex: '999' }}
             >
               <div className="flex gap-2">
                 <div className="flex justify-center">
                   <SVG src="/svg/react.svg" className="w-6 h-6  fill-current" alt="reddot" />
                 </div>
-                <p className=" text-white flex items-center">React Js</p>
+                <p className="text-sm md:text-base text-zinc-800 flex items-center">React Js</p>
               </div>
             </div>
 
             <div
-              className="flex absolute justify-center shadow-md  hover:shadow-xl transition-all  right-4 top-36 md:top-24 lg:top-0 md:right-8 lg:right-8   rounded-md p-2 bg-orange-500"
+              className="flex absolute justify-center shadow-xl transition-all right-4 top-64 md:top-0 lg:top-0 md:right-18 lg:right-8  p-2 bg-zinc-100"
               style={{ zIndex: '45' }}
             >
               <div className="flex gap-2">
@@ -123,12 +112,12 @@ export default function HeaderSection() {
                     alt="reddot"
                   />
                 </div>
-                <p className=" text-white flex items-center">Tailwind Css</p>
+                <p className="text-sm md:text-base text-zinc-800 flex items-center">Tailwind Css</p>
               </div>
             </div>
 
             <div
-              className="absolute md:left-10 left-14 lg:left-28 lg:bottom-36 grayscale hover:grayscale-0 transition-all duration-300 bg-slate-700"
+              className="absolute md:left-10 left-14 lg:left-28 lg:bottom-20 transition-all duration-300 "
               style={{ zIndex: '6' }}
             >
               <Image
@@ -139,7 +128,7 @@ export default function HeaderSection() {
                 alt="Header"
                 objectFit="cover"
                 quality={100}
-                width={260}
+                width={280}
                 height={380}
               />
             </div>
