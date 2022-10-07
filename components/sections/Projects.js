@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import Link from 'next/link'
 import SVG from 'react-inlinesvg'
@@ -110,6 +111,50 @@ export default function Projects() {
         >
           Personal Projects
         </div>
+
+        <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+          <div className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
+                src="/images/smartgym.jpg"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
+            </div>
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+            <div>
+              <Link href="https://github.com/hariskurtishi/gym_app">
+                <a>
+                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:text-orange-500 transitiyyyy">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://smart-gym.vercel.app/">
+                <a>
+                  <div className="text-4xl transition-all text-zinc-900 hover:text-orange-500 font-bold py-4">
+                    <h1>
+                      Smart Gym App <br />{' '}
+                    </h1>
+                  </div>
+                </a>
+              </Link>
+              <p className="text-gray-500">
+                Fully functional Fitness App where you can find 1000's of workouts. Built with
+                Material UI, React Js and Rapid API.
+              </p>
+            </div>
+          </div>
+        </main>
+
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
@@ -152,6 +197,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
+
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
