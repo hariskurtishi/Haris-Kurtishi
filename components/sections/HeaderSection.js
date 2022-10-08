@@ -117,7 +117,7 @@ export default function HeaderSection() {
               </div>
             </Fade>
 
-            <div
+            <Fade
               className="absolute md:left-10 left-14 lg:left-28 lg:bottom-20 transition-all duration-300 "
               style={{ zIndex: '6' }}
             >
@@ -132,7 +132,7 @@ export default function HeaderSection() {
                 width={280}
                 height={380}
               />
-            </div>
+            </Fade>
           </div>
         </div>
       </div>
