@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { Fade } from 'react-awesome-reveal'
 import SVG from 'react-inlinesvg'
 
 import Button from '../Button'
@@ -76,7 +77,7 @@ export default function HeaderSection() {
                 <p className="text-sm md:text-base text-zinc-800 flex items-center">Typescript</p>
               </div>
             </div> */}
-            <div
+            <Fade
               className="flex absolute justify-center shadow-xl transition-all md:top-64  top-96 lg:top-[155px] left-6 lg:left-14  p-2 bg-zinc-100"
               style={{ zIndex: '45' }}
             >
@@ -86,9 +87,9 @@ export default function HeaderSection() {
                 </div>
                 <p className="text-sm md:text-base text-zinc-800 flex items-center">Next Js</p>
               </div>
-            </div>
+            </Fade>
 
-            <div
+            <Fade
               className="flex absolute justify-center shadow-xl transition-all right-2 md:right-18 lg:right-10 top-[480px] md:top-[440px] lg:top-72 p-2 bg-zinc-100"
               style={{ zIndex: '999' }}
             >
@@ -98,9 +99,9 @@ export default function HeaderSection() {
                 </div>
                 <p className="text-sm md:text-base text-zinc-800 flex items-center">React Js</p>
               </div>
-            </div>
+            </Fade>
 
-            <div
+            <Fade
               className="flex absolute justify-center shadow-xl transition-all right-4 top-64 md:top-0 lg:top-0 md:right-18 lg:right-8  p-2 bg-zinc-100"
               style={{ zIndex: '45' }}
             >
@@ -114,7 +115,7 @@ export default function HeaderSection() {
                 </div>
                 <p className="text-sm md:text-base text-zinc-800 flex items-center">Tailwind Css</p>
               </div>
-            </div>
+            </Fade>
 
             <div
               className="absolute md:left-10 left-14 lg:left-28 lg:bottom-20 transition-all duration-300 "

@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import Link from 'next/link'
+import { Fade } from 'react-awesome-reveal'
 import SVG from 'react-inlinesvg'
-
 export default function Projects() {
   return (
-    <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full  ">
+    <Fade id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full  ">
       <div
         className="absolute bottom-96 selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '-30' }}
@@ -429,6 +429,6 @@ export default function Projects() {
       <div className="flex justify-center md:pb-4 pt-24" style={{ zIndex: '-20' }}>
         <SVG src="/svg/ornament.svg" className="w-96 " alt="ornament" />
       </div>
-    </div>
+    </Fade>
   )
 }

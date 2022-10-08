@@ -1,4 +1,6 @@
+import { Fade } from 'react-awesome-reveal'
 import SVG from 'react-inlinesvg'
+
 export default function Skills() {
   return (
     <div id="skills" className=" h-[1150px] lg:h-[650px] md:h-[770px]">
@@ -7,7 +9,7 @@ export default function Skills() {
         <span className="text-orange-500 group-hover:text-zinc-900">.</span>
       </h1>
       <div className="py-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-4 gap-y-12 container">
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -18,8 +20,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">Tailwind Css</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -30,8 +32,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">Material UI</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -42,8 +44,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">React Js</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -54,16 +56,16 @@ export default function Skills() {
             </div>
             <p className="text-xl">Typescript</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG src="/svg/nextjs.svg" className="w-12 h-12 fill-current" alt="reddot" />
             </div>
             <p className="text-xl">Next Js</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -74,8 +76,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">Bootstrap</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -86,8 +88,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">Github</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -98,8 +100,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">Prismic</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -110,8 +112,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">Figma</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -122,8 +124,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">Firebase</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -134,8 +136,8 @@ export default function Skills() {
             </div>
             <p className="text-xl">Alpine Js</p>
           </div>
-        </div>
-        <div className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        </Fade>
+        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -146,7 +148,7 @@ export default function Skills() {
             </div>
             <p className="text-xl">Sanity CMS</p>
           </div>
-        </div>
+        </Fade>
       </div>
     </div>
   )

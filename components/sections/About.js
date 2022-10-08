@@ -1,8 +1,10 @@
 import Image from 'next/dist/client/image'
+import { Fade } from 'react-awesome-reveal'
 import SVG from 'react-inlinesvg'
+
 export default function About() {
   return (
-    <div
+    <Fade
       id="about"
       className="relative md:h-[450px] h-[450px] pb-24 sm:h-[500px] lg:h-[780px] my-28 lg:my-0 md:mt-10"
     >
@@ -84,6 +86,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </Fade>
   )
 }
