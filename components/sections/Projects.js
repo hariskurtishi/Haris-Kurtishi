@@ -5,7 +5,7 @@ import { Fade } from 'react-awesome-reveal'
 import SVG from 'react-inlinesvg'
 export default function Projects() {
   return (
-    <Fade id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full  ">
+    <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full  ">
       <div
         className="absolute bottom-96 selection:bg-orange-500 selection:text-white"
         style={{ zIndex: '-30' }}
@@ -30,7 +30,7 @@ export default function Projects() {
           Work Related Projects
         </div>
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -44,8 +44,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="/">
                 <a>
@@ -64,10 +64,10 @@ export default function Projects() {
               </Link>
               <p className="text-gray-500">Built with Next Js, React Js and Tailwind Css</p>
             </div>
-          </div>
+          </Fade>
         </main>
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -81,8 +81,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="/">
                 <a>
@@ -103,7 +103,7 @@ export default function Projects() {
                 A website for a youth organization built with Next Js, React Js and Tailwind Css
               </p>
             </div>
-          </div>
+          </Fade>
         </main>
         <div
           className="lg:text-2xl text-4xl group text-center container leading-tight pt-6 md:pt-14 lg:pt-0 text-zinc-900 hover:text-orange-500 mb-8 group transition-all duration-500 selection:bg-orange-500 selection:text-white"
@@ -113,7 +113,7 @@ export default function Projects() {
         </div>
 
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -127,8 +127,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="https://github.com/hariskurtishi/gym_app">
                 <a>
@@ -152,11 +152,11 @@ export default function Projects() {
                 Material UI, React Js and Rapid API.
               </p>
             </div>
-          </div>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -170,8 +170,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="https://github.com/hariskurtishi/ecomerce">
                 <a>
@@ -195,11 +195,11 @@ export default function Projects() {
                 Full Stack ECommerce Application built with Next Js, React Js Sanity and Stripe
               </p>
             </div>
-          </div>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -213,8 +213,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="https://github.com/hariskurtishi/bank">
                 <a>
@@ -233,11 +233,11 @@ export default function Projects() {
               </Link>
               <p className="text-gray-500">Built with Vite Js, React Js and Tailwind Css</p>
             </div>
-          </div>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -251,8 +251,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="https://github.com/hariskurtishi/pastrimpro">
                 <a>
@@ -271,11 +271,11 @@ export default function Projects() {
               </Link>
               <p className="text-gray-500">Built with Next Js, React Js and Tailwind Css</p>
             </div>
-          </div>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -289,8 +289,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="https://github.com/hariskurtishi/Hulu-2.0">
                 <a>
@@ -311,11 +311,11 @@ export default function Projects() {
                 Clone App built with Next Js, React Js and Tailwind Css
               </p>
             </div>
-          </div>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -329,8 +329,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
@@ -349,10 +349,10 @@ export default function Projects() {
               </Link>
               <p className="text-gray-500">Built with React Js</p>
             </div>
-          </div>
+          </Fade>
         </main>
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -366,8 +366,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="https://github.com/hariskurtishi/github-finder-app">
                 <a>
@@ -386,10 +386,10 @@ export default function Projects() {
               </Link>
               <p className="text-gray-500">Built with React Js and Tailwind Css</p>
             </div>
-          </div>
+          </Fade>
         </main>
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <div className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -403,8 +403,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
             <div>
               <Link href="https://github.com/hariskurtishi/feedback-app">
                 <a>
@@ -423,12 +423,12 @@ export default function Projects() {
               </Link>
               <p className="text-gray-500">Built with React Js and Tailwind Css</p>
             </div>
-          </div>
+          </Fade>
         </main>
       </div>
       <div className="flex justify-center md:pb-4 pt-24" style={{ zIndex: '-20' }}>
         <SVG src="/svg/ornament.svg" className="w-96 " alt="ornament" />
       </div>
-    </Fade>
+    </div>
   )
 }
