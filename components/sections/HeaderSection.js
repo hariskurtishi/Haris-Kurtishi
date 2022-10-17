@@ -43,10 +43,10 @@ export default function HeaderSection() {
 
               <div
                 className="flex lg:inline-flex items-center justify-center md:justify-start z-50"
-                style={{ zIndex: '50' }}
+                style={{ zIndex: '99' }}
               >
                 <Link href="#contact" passHref className="" aria-label="Contact Button">
-                  <Button as="a" variant="primary">
+                  <Button as="a" variant="primary" style={{ zIndex: '50' }}>
                     Contact me
                   </Button>
                 </Link>
