@@ -23,12 +23,6 @@ export default function Projects() {
       </div>
 
       <div className="container space-y-14 md:space-y-32">
-        <div
-          className="lg:text-2xl text-4xl group text-center container leading-tight pt-6 md:pt-14 lg:pt-0 text-zinc-900 hover:text-orange-500 mb-8 group transition-all duration-500 selection:bg-orange-500 selection:text-white"
-          style={{ zIndex: '10' }}
-        >
-          Work Related Projects
-        </div>
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
@@ -105,12 +99,12 @@ export default function Projects() {
             </div>
           </Fade>
         </main>
-        <div
+        {/* <div
           className="lg:text-2xl text-4xl group text-center container leading-tight pt-6 md:pt-14 lg:pt-0 text-zinc-900 hover:text-orange-500 mb-8 group transition-all duration-500 selection:bg-orange-500 selection:text-white"
           style={{ zIndex: '10' }}
         >
           Personal Projects
-        </div>
+        </div> */}
 
         <main className="items-center w-full h-full border bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
