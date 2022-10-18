@@ -8,8 +8,8 @@ export default function Skills() {
         Technologies I use to build your next great idea
         <span className="text-orange-500 group-hover:text-zinc-900">.</span>
       </h1>
-      <div className="py-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-4 gap-y-12 container">
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+      <div className="py-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 container">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -21,7 +21,7 @@ export default function Skills() {
             <p className="text-xl">Tailwind Css</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -33,7 +33,7 @@ export default function Skills() {
             <p className="text-xl">Material UI</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -45,7 +45,7 @@ export default function Skills() {
             <p className="text-xl">React Js</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -57,7 +57,7 @@ export default function Skills() {
             <p className="text-xl">Typescript</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG src="/svg/nextjs.svg" className="w-12 h-12 fill-current" alt="reddot" />
@@ -65,7 +65,7 @@ export default function Skills() {
             <p className="text-xl">Next Js</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -77,7 +77,7 @@ export default function Skills() {
             <p className="text-xl">Bootstrap</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -89,7 +89,7 @@ export default function Skills() {
             <p className="text-xl">Github</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -101,7 +101,7 @@ export default function Skills() {
             <p className="text-xl">Prismic</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -113,7 +113,7 @@ export default function Skills() {
             <p className="text-xl">Figma</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -125,7 +125,7 @@ export default function Skills() {
             <p className="text-xl">Firebase</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
@@ -137,7 +137,7 @@ export default function Skills() {
             <p className="text-xl">Alpine Js</p>
           </div>
         </Fade>
-        <Fade className="flex justify-center shadow-md border hover:shadow-xl transition-all rounded-md py-4">
+        <Fade className="flex justify-center shadow-md border hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
           <div className="space-y-4">
             <div className="flex justify-center">
               <SVG
