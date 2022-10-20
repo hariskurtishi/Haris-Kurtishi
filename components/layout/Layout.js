@@ -22,7 +22,11 @@ export default function Layout({ children, title = null }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <div className={`font-sans antialiased flex flex-col ${dev ? 'debug-screens' : ''}`}>
+      <div
+        className={`font-sans antialiased flex bg-bluenight-700 text-mirage-60 flex-col ${
+          dev ? 'debug-screens' : ''
+        }`}
+      >
         {/* Navigation here */}
         <Navigation />
         {children}

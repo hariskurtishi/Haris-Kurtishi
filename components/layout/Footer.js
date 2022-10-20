@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <div className=" bg-opacity-90">
-        <div className="bg-white selection:bg-orange-500 selection:text-white">
+        <div className="bg-bluenight selection:bg-bluenight-500 selection:text-mirage-60">
           <div className="flex items-center justify-between">
             <div className="container items-center justify-between md:flex">
               <div className="flex justify-center md:justify-start">
@@ -15,10 +15,10 @@ export default function Footer() {
                 </Link>
               </div>
 
-              <div className="my-12 text-lg font-medium text-center text-zinc-900 md:text-base">
+              <div className="my-12 text-lg font-medium text-center text-mirage-60 md:text-base">
                 © All Rights Reserved. 2022 Made by {}
                 <a className="transition-all" rel="noopener noreferrer">
-                  <span className="text-orange-500">Haris Kurtishi</span>
+                  <span className="text-bluenight-500">Haris Kurtishi</span>
                 </a>
               </div>
 
@@ -31,7 +31,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/email.svg"
-                      className="w-8 h-8  transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      className="w-8 h-8  transition-all text-mirage-60 hover:text-bluenight-500 rounded-md cursor-pointer fill-current "
                       alt="email icon"
                     />
                   </a>
@@ -44,7 +44,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/linkedin.svg"
-                      className="w-8 h-8 transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      className="w-8 h-8 transition-all text-mirage-60 hover:text-bluenight-500 rounded-md cursor-pointer fill-current "
                       alt="call icon"
                     />
                   </a>
@@ -57,7 +57,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/fb.svg"
-                      className="w-8 h-8  transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      className="w-8 h-8  transition-all text-mirage-60 hover:text-bluenight-500 rounded-md cursor-pointer fill-current "
                       alt="facebook icon"
                     />
                   </a>
@@ -70,7 +70,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/instagram.svg"
-                      className="w-8 h-8  transition-all text-zinc-900 hover:text-orange-500 rounded-md cursor-pointer fill-current "
+                      className="w-8 h-8  transition-all text-mirage-60 hover:text-bluenight-500 rounded-md cursor-pointer fill-current "
                       alt="email icon"
                     />
                   </a>

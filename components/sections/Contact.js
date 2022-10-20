@@ -7,21 +7,21 @@ export default function Contact() {
     <div>
       <div
         id="contact"
-        className="container my-14 py-12 selection:bg-orange-500 selection:text-white "
+        className="container my-14 py-12 selection:bg-bluenight-500 selection:text-mirage-60 "
       >
         <div>
           <div className="py-8 flex items-center justify-center">
             <div className=" ">
-              <div className="text-white py-16 ">
-                <h1 className="font-bold text-3xl lg:text-4xl text-center text-zinc-900">
+              <div className=" py-16 ">
+                <h1 className="font-bold text-3xl lg:text-4xl text-center text-mirage-60">
                   Have a specific project in mind?
                 </h1>
-                <div className="py-8 text-sm">
-                  <p className="font-normal text-center text-zinc-900">
+                <div className="py-12 text-sm">
+                  <p className="font-normal text-center text-mirage-60">
                     I love bringing fresh, new ideas to life and turning them into memorable
                     experiences.
                   </p>
-                  <p className="font-normal text-center text-zinc-900">
+                  <p className="font-normal text-center text-mirage-60">
                     Do you require a high-end web presence?
                   </p>
                 </div>

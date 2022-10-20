@@ -9,10 +9,10 @@ const classes = {
 
   variant: {
     primary:
-      'group-hover:bg-orange-700 shadow-xl shadow-orange-500/30 bg-orange-500 transition-all text-white group-hover:text-white ',
+      'group-hover:bg-bluenight-500 shadow-xl bg-bluenight-500 transition-all text-white group-hover:text-mirage-60 ',
     secondary:
-      'text-white group-hover:text-white transition-all group-hover:bg-zinc-700 bg-zinc-900',
-    tertiary: 'text-white border',
+      'text-mirage-60 group-hover:text-mirage-60 transition-all group-hover:bg-zinc-700 bg-zinc-900',
+    tertiary: 'text-mirage-60 border',
   },
 }
 

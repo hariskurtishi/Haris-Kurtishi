@@ -7,29 +7,29 @@ import Button from '../Button'
 export default function HeaderSection() {
   return (
     <div id="home" className="relative h-[900px] md:h-[750px] lg:h-[900px] w-full ">
-      <div className="container relative selection:bg-orange-500 selection:text-white">
+      <div className="container relative selection:bg-bluenight-500 selection:text-mirage-60">
         <div className="pt-14 lg:pt-28 md:flex">
           <div className="md:col-6 ">
             <div className="relative">
               <div>
-                <h1 className="text-zinc-600  text-center md:text-left mb-4 md:mb-0">
+                <h1 className="text-mirage-60   text-center md:text-left mb-4 md:mb-0">
                   Hello there! I’m <br />
-                  <span className="text-orange-500 leading-normal text-xl text-center md:text-left lg:text-3xl font-bold ">
+                  <span className="text-mirage-60  leading-normal text-xl text-center md:text-left lg:text-3xl font-bold ">
                     Haris Kurtishi
                   </span>
                 </h1>
               </div>
 
-              <div className="lg:py-0 text-zinc-900">
+              <div className="lg:py-0 text-mirage-60 ">
                 <h1 className="text-[55px] lg:text-[100px] lg:-ml-[5px] text-center md:text-left font-semibold lg:leading-tight leading-8 md:leading-tight">
                   Frontend
                 </h1>
                 <h1 className="text-[55px] lg:text-[100px] font-semibold lg:ml-[49px] md:text-left text-center lg:leading-[70px] leading-snug">
-                  Developer<span className="text-orange-500  -ml-1">.</span>
+                  Developer<span className="text-bluenight-500  -ml-1 animate-pulse">.</span>
                 </h1>
               </div>
 
-              <div className="md:col-12 text-center md:text-left my-6 md:my-0 text-sm md:mt-14 px-4 md:px-0 text-zinc-600">
+              <div className="md:col-12 text-center md:text-left my-6 md:my-0 text-sm md:mt-14 px-4 md:px-0 text-mirage-60 ">
                 <p className="">
                   I’m a Frontend Developer specializing in building (and occasionally designing)
                   eye-catching digital experiences.
@@ -70,7 +70,7 @@ export default function HeaderSection() {
                 <div className="flex justify-center">
                   <SVG
                     src="/svg/typescript2.svg"
-                    className="w-6 h-6 text-orange-500 fill-current"
+                    className="w-6 h-6 text-bluenight-500 fill-current"
                     alt="reddot"
                   />
                 </div>
@@ -83,7 +83,7 @@ export default function HeaderSection() {
             >
               <div className="flex gap-2">
                 <div className="flex justify-center">
-                  <SVG src="/svg/nextjs.svg" className="w-6 h-6 fill-current" alt="reddot" />
+                  <SVG src="/svg/nextjs.svg" className="w-6 h-6" alt="reddot" />
                 </div>
                 <p className="text-sm md:text-base text-zinc-800 flex items-center">Next Js</p>
               </div>

@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .menu-item:hover:before {
-  @apply bg-orange-500;
+  @apply bg-bluenight-500;
 }
 
 header:before {
-  @apply absolute inset-0 border-b-2 border-transparent dark:border-orange-500;
+  @apply absolute inset-0 border-b-2 border-transparent dark:border-bluenight-500;
   content: '';
   transform: translateY(-100%);
   transition: all 0.4s cubic-bezier(0.73, 0.14, 0.14, 0.78);
@@ -23,7 +23,7 @@ header:before {
 }
 
 .menu-item:hover:before {
-  @apply bg-orange-500;
+  @apply bg-bluenight-500;
 }
 
 #header.isTop:before {

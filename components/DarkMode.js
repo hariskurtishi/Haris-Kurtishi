@@ -9,7 +9,7 @@
 
 //   const styling = `fill-current ${
 //     isLarge ? 'w-8 h-8' : 'w-5 h-5'
-//   } text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-500 transition-all duration-500 ease-in-out transform hover:rotate-90`
+//   } text-black dark:text-mirage-60 hover:text-blue-500 dark:hover:text-blue-500 transition-all duration-500 ease-in-out transform hover:rotate-90`
 
 //   return (
 //     <div style={style} className={className}>
