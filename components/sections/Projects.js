@@ -23,7 +23,7 @@ export default function Projects() {
       </div>
 
       <div className="container space-y-14 md:space-y-32">
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -39,11 +39,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="/">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -51,16 +51,16 @@ export default function Projects() {
               </Link>
               <Link href="https://bluepuzzle.mk/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>Blue Puzzle</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">Built with Next Js, React Js and Tailwind Css</p>
+              <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
             </div>
           </Fade>
         </main>
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -76,11 +76,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="/">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -88,25 +88,19 @@ export default function Projects() {
               </Link>
               <Link href="https://www.yep.mk/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>YEP</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">
+              <p className="text-mirage-60">
                 A website for a youth organization built with Next Js, React Js and Tailwind Css
               </p>
             </div>
           </Fade>
         </main>
-        {/* <div
-          className="lg:text-2xl text-4xl group text-center container leading-tight pt-6 md:pt-14 lg:pt-0 text-zinc-900 hover:text-bluenight-500 mb-8 group transition-all duration-500 selection:bg-bluenight-500 selection:text-mirage-60"
-          style={{ zIndex: '10' }}
-        >
-          Personal Projects
-        </div> */}
 
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -122,11 +116,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/gym_app">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -134,14 +128,14 @@ export default function Projects() {
               </Link>
               <Link href="https://smart-gym.vercel.app/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>
                       Smart Gym App <br />{' '}
                     </h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">
+              <p className="text-mirage-60">
                 Fully functional Fitness App where you can find 1000's of workouts. Built with
                 Material UI, React Js and Rapid API.
               </p>
@@ -149,7 +143,7 @@ export default function Projects() {
           </Fade>
         </main>
 
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -165,11 +159,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/ecomerce">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -177,7 +171,7 @@ export default function Projects() {
               </Link>
               <Link href="https://beautinece-fragrances.vercel.app/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>
                       Ecommerce <br />{' '}
                       <span className="text-zinc-500 text-xl">(Project in progress...)</span>
@@ -185,14 +179,14 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">
+              <p className="text-mirage-60">
                 Full Stack ECommerce Application built with Next Js, React Js Sanity and Stripe
               </p>
             </div>
           </Fade>
         </main>
 
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -208,11 +202,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/bank">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -220,17 +214,17 @@ export default function Projects() {
               </Link>
               <Link href="https://newpayment-processor.vercel.app/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>HooBank</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">Built with Vite Js, React Js and Tailwind Css</p>
+              <p className="text-mirage-60">Built with Vite Js, React Js and Tailwind Css</p>
             </div>
           </Fade>
         </main>
 
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -246,11 +240,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/pastrimpro">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -258,17 +252,17 @@ export default function Projects() {
               </Link>
               <Link href="https://pastrim.pro/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>Cleaning Service Landing Page</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">Built with Next Js, React Js and Tailwind Css</p>
+              <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
             </div>
           </Fade>
         </main>
 
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -284,11 +278,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/Hulu-2.0">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -296,19 +290,19 @@ export default function Projects() {
               </Link>
               <Link href="https://hulu-2-0-hariskurtishi.vercel.app/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>Hulu 2.0</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">
+              <p className="text-mirage-60">
                 Clone App built with Next Js, React Js and Tailwind Css
               </p>
             </div>
           </Fade>
         </main>
 
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -324,11 +318,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -336,16 +330,16 @@ export default function Projects() {
               </Link>
               <Link href="https://house-marketplace-rent-sell.vercel.app/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>House Marketplace App</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">Built with React Js</p>
+              <p className="text-mirage-60">Built with React Js</p>
             </div>
           </Fade>
         </main>
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -361,11 +355,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/github-finder-app">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -373,16 +367,16 @@ export default function Projects() {
               </Link>
               <Link href="https://github-finder-three-rust.vercel.app/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>Github Finder</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">Built with React Js and Tailwind Css</p>
+              <p className="text-mirage-60">Built with React Js and Tailwind Css</p>
             </div>
           </Fade>
         </main>
-        <main className="items-center w-full h-full  bg-white rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
           <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -398,11 +392,11 @@ export default function Projects() {
               />
             </div>
           </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between">
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/feedback-app">
                 <a>
-                  <div className="text-zinc-900 text-sm flex items-center space-x-3">
+                  <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
                     <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
                   </div>
@@ -410,19 +404,16 @@ export default function Projects() {
               </Link>
               <Link href="https://feedback-ui-54d2c0.netlify.app/">
                 <a>
-                  <div className="text-4xl transition-all text-zinc-900 hover:text-bluenight-500 font-bold py-4">
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>Feedback App</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-gray-500">Built with React Js and Tailwind Css</p>
+              <p className="text-mirage-60">Built with React Js and Tailwind Css</p>
             </div>
           </Fade>
         </main>
       </div>
-      {/* <div className="flex justify-center md:pb-4 pt-24" style={{ zIndex: '-20' }}>
-        <SVG src="/svg/ornament.svg" className="w-96 " alt="ornament" />
-      </div> */}
     </div>
   )
 }
