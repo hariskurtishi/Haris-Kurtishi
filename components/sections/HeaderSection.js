@@ -29,7 +29,7 @@ export default function HeaderSection() {
                 </h1>
               </div>
 
-              <div className="md:col-12 text-center md:text-left my-6 md:my-0 text-sm md:mt-14 px-4 md:px-0 text-mirage-60 ">
+              <div className="md:col-12 text-center md:text-left my-6 md:my-0 md:mt-14 px-4 md:px-0 text-mirage-60 ">
                 <p className="">
                   I’m a Frontend Developer specializing in building (and occasionally designing)
                   eye-catching digital experiences.

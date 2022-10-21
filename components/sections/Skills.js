@@ -18,7 +18,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Tailwind Css</p>
+            <p className="">Tailwind Css</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -30,7 +30,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Material UI</p>
+            <p className="">Material UI</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -42,7 +42,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">React Js</p>
+            <p className="">React Js</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -54,7 +54,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Typescript</p>
+            <p className="">Typescript</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -62,7 +62,7 @@ export default function Skills() {
             <div className="flex justify-center">
               <SVG src="/svg/nextjs.svg" className="w-12 h-12 fill-current" alt="reddot" />
             </div>
-            <p className="text-xl">Next Js</p>
+            <p className="">Next Js</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -74,7 +74,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Bootstrap</p>
+            <p className="">Bootstrap</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -86,7 +86,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Github</p>
+            <p className="">Github</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -98,7 +98,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Prismic</p>
+            <p className="">Prismic</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -110,7 +110,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Figma</p>
+            <p className="">Figma</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -122,7 +122,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Firebase</p>
+            <p className="">Firebase</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -134,7 +134,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Alpine Js</p>
+            <p className="">Alpine Js</p>
           </div>
         </Fade>
         <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
@@ -146,7 +146,7 @@ export default function Skills() {
                 alt="reddot"
               />
             </div>
-            <p className="text-xl">Sanity CMS</p>
+            <p className="">Sanity CMS</p>
           </div>
         </Fade>
       </div>

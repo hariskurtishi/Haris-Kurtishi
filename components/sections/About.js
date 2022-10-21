@@ -31,7 +31,7 @@ export default function About() {
               <SVG src="/svg/rectangle4.svg" className="w-full " alt="facebook icon" />
             </div>
             <div className=" text-center">
-              <div className="space-y-5 text-mirage-60 text-sm selection:bg-bluenight-500 selection:text-mirage-60">
+              <div className="space-y-5 text-mirage-60  selection:bg-bluenight-500 selection:text-mirage-60">
                 <p>
                   I enjoy creating things that live on the internet. My interest in web development
                   started back in 2015 when I decided to build a website for my first online store.{' '}

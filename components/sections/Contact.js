@@ -16,7 +16,7 @@ export default function Contact() {
                 <h1 className="font-bold text-3xl lg:text-4xl text-center text-mirage-40">
                   Have a specific project in mind?
                 </h1>
-                <div className="py-12 text-sm">
+                <div className="py-12 ">
                   <p className="font-normal text-center text-mirage-60">
                     I love bringing fresh, new ideas to life and turning them into memorable
                     experiences.
