@@ -4,8 +4,8 @@ import SVG from 'react-inlinesvg'
 export default function Skills() {
   return (
     <div id="skills" className=" h-[1150px] lg:h-[650px] md:h-[770px]">
-      <h1 className="text-center text-4xl  text-mirage-60 hover:text-bluenight-500  mb-4 group transition-all selection:bg-bluenight-500 selection:text-mirage-60">
-        Technologies I use to build your next great idea
+      <h1 className="md:text-[64px] text-4xl pb-12 text-mirage-60 hover:text-bluenight-500 text-center group transition-all selection:bg-bluenight-500 selection:text-mirage-60">
+        Tech Stack
         <span className="text-bluenight-500 group-hover:text-zinc-900">.</span>
       </h1>
       <div className="py-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 container">

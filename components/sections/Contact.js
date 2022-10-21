@@ -13,7 +13,7 @@ export default function Contact() {
           <div className="py-8 flex items-center justify-center">
             <div className=" ">
               <div className=" py-16 ">
-                <h1 className="font-bold text-3xl lg:text-4xl text-center text-mirage-60">
+                <h1 className="font-bold text-3xl lg:text-4xl text-center text-mirage-40">
                   Have a specific project in mind?
                 </h1>
                 <div className="py-12 text-sm">

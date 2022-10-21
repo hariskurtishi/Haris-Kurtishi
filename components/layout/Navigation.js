@@ -12,7 +12,7 @@ const NavItem = ({ children, href }) => {
         activeClass="md:text-bluenight-500 lg:before:bg-bluenight-500 menu-item"
         spy={true}
         smooth={true}
-        offset={-200}
+        offset={-400}
       >
         <div className="py-4">{children}</div>
       </ScrollLink>
