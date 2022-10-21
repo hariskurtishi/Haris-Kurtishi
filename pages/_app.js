@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
             'Frontend Developer specializing in building (and occasionally designing) exceptional digital experiences.',
           images: [
             {
-              url: 'https://website.com/images/og_image.jpg',
+              url: 'https://github.com/hariskurtishi/Haris-Kurtishi/blob/main/public/images/ogharis.png',
               alt: 'OG Image',
             },
           ],
