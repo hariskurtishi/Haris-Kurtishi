@@ -29,12 +29,12 @@ export default function HeaderSection() {
                 </h1>
               </div>
 
-              <div className="md:col-12 text-center md:text-left my-6 md:my-0 md:mt-14 px-4 md:px-0 text-mirage-60 ">
+              <div className="md:col-12 text-center md:text-left my-6 md:my-0 md:mt-14 px-4 md:px-0 text-mirage-60">
                 <p className="">
-                  I’m a Frontend Developer specializing in building (and occasionally designing)
-                  eye-catching digital experiences.
+                  Specializing in building (and occasionally designing) eye-catching digital
+                  experiences. I&apos;ve also worked on full stack proejcts.
                 </p>
-                <p>I&apos;ve also built a couple of full stack apps just for fun.</p>
+                <p></p>
               </div>
               <div
                 className="flex justify-start items-center mt-4 space-x-4 md:mb-0  "
