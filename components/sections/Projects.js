@@ -68,7 +68,7 @@ export default function Projects() {
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
-                src="/images/Musict.png"
+                src="/images/musict2.png"
                 layout="intrinsic"
                 alt="blog"
                 objectFit="inherit"
