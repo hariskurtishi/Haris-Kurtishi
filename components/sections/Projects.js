@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import Link from 'next/link'
-import { Fade } from 'react-awesome-reveal'
+import { AttentionSeeker, Slide } from 'react-awesome-reveal'
 import SVG from 'react-inlinesvg'
 export default function Projects() {
   return (
@@ -23,8 +23,8 @@ export default function Projects() {
       </div>
 
       <div className="container space-y-14 md:space-y-32">
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -38,14 +38,16 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="/">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">
+                      Github Repo not available due to the companies policy.
+                    </h1>
                   </div>
                 </a>
               </Link>
@@ -58,14 +60,15 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
             </div>
-          </Fade>
+          </Slide>
         </main>
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
-                src="/images/yep.jpg"
+                src="/images/Musict.png"
                 layout="intrinsic"
                 alt="blog"
                 objectFit="inherit"
@@ -75,33 +78,31 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
-              <Link href="/">
+              <Link href="https://github.com/hariskurtishi/musict">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
-              <Link href="https://www.yep.mk/">
+              <Link href="https://musict.vercel.app/">
                 <a>
                   <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
-                    <h1>YEP</h1>
+                    <h1>Musict</h1>
                   </div>
                 </a>
               </Link>
-              <p className="text-mirage-60">
-                A website for a youth organization built with Next Js, React Js and Tailwind Css
-              </p>
+              <p className="text-mirage-60">Built with React Js, Tailwind Css & Rapid Api. </p>
             </div>
-          </Fade>
+          </Slide>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -115,14 +116,14 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/gym_app">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -140,11 +141,11 @@ export default function Projects() {
                 Material UI, React Js and Rapid API.
               </p>
             </div>
-          </Fade>
+          </Slide>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -158,18 +159,18 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/ecomerce">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
-              <Link href="https://beautinece-fragrances.vercel.app/">
+              <Link href="https://www.beautenece.ch/">
                 <a>
                   <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>
@@ -183,11 +184,11 @@ export default function Projects() {
                 Full Stack ECommerce Application built with Next Js, React Js Sanity and Stripe
               </p>
             </div>
-          </Fade>
+          </Slide>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -201,14 +202,14 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/bank">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -221,11 +222,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Vite Js, React Js and Tailwind Css</p>
             </div>
-          </Fade>
+          </Slide>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -239,14 +240,14 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/pastrimpro">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -259,11 +260,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
             </div>
-          </Fade>
+          </Slide>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -277,14 +278,14 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/Hulu-2.0">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -299,11 +300,11 @@ export default function Projects() {
                 Clone App built with Next Js, React Js and Tailwind Css
               </p>
             </div>
-          </Fade>
+          </Slide>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -317,14 +318,14 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -337,10 +338,10 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with React Js</p>
             </div>
-          </Fade>
+          </Slide>
         </main>
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -354,14 +355,14 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/github-finder-app">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -374,10 +375,10 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with React Js and Tailwind Css</p>
             </div>
-          </Fade>
+          </Slide>
         </main>
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8">
-          <Fade className="flex flex-col justify-start ">
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -391,14 +392,14 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </AttentionSeeker>
+          <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/feedback-app">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
                     <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 transitiyyyy">Github Repo</h1>
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
                   </div>
                 </a>
               </Link>
@@ -411,7 +412,7 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with React Js and Tailwind Css</p>
             </div>
-          </Fade>
+          </Slide>
         </main>
       </div>
     </div>
