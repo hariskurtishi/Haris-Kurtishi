@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import Link from 'next/link'
-import { AttentionSeeker, Slide } from 'react-awesome-reveal'
+import { Slide } from 'react-awesome-reveal'
 import SVG from 'react-inlinesvg'
 export default function Projects() {
   return (
@@ -24,7 +24,7 @@ export default function Projects() {
 
       <div className="container space-y-14 md:space-y-32">
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -38,7 +38,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="/">
@@ -64,7 +64,7 @@ export default function Projects() {
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -78,7 +78,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/musict">
@@ -102,7 +102,7 @@ export default function Projects() {
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -116,7 +116,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/gym_app">
@@ -145,7 +145,7 @@ export default function Projects() {
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -159,7 +159,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/ecomerce">
@@ -188,7 +188,7 @@ export default function Projects() {
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -202,7 +202,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/bank">
@@ -226,7 +226,7 @@ export default function Projects() {
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -240,7 +240,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/pastrimpro">
@@ -264,7 +264,7 @@ export default function Projects() {
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -278,7 +278,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/Hulu-2.0">
@@ -304,7 +304,7 @@ export default function Projects() {
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -318,7 +318,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/house-marketplace">
@@ -341,7 +341,7 @@ export default function Projects() {
           </Slide>
         </main>
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -355,7 +355,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/github-finder-app">
@@ -378,7 +378,7 @@ export default function Projects() {
           </Slide>
         </main>
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <AttentionSeeker triggerOnce className="flex flex-col justify-start ">
+          <Slide className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -392,7 +392,7 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </AttentionSeeker>
+          </Slide>
           <Slide className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/feedback-app">
