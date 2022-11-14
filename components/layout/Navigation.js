@@ -1,6 +1,9 @@
+import Link from 'next/link'
 import { useState } from 'react'
 import SVG from 'react-inlinesvg'
 import { Link as ScrollLink } from 'react-scroll'
+
+import Button from '../Button'
 
 // import DarkMode from '../DarkMode'
 const NavItem = ({ children, href }) => {
@@ -43,7 +46,7 @@ export default function Navigation() {
           </div>
 
           <div
-            className={`lg:col-6 lg:flex justify-center text-center ${
+            className={`lg:col-12 lg:flex justify-center text-center ${
               menu ? ' flex ' : ' hidden '
             }`}
           >
@@ -53,6 +56,14 @@ export default function Navigation() {
               <NavItem href="skills">Skills</NavItem>
               <NavItem href="projects">Projects</NavItem>
               <NavItem href="contact">Contact</NavItem>
+              <div className="" style={{ zIndex: '99' }}>
+                <Link href="resume.pdf" passHref className="" aria-label="Contact Button">
+                  <Button as="a" variant="secondary" style={{ zIndex: '50' }}>
+                    Resume
+                  </Button>
+                </Link>
+              </div>
+
               {/* <li className="py-2"><DarkMode /></li> */}
             </ul>
           </div>
