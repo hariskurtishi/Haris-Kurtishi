@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="flex justify-center md:justify-start">
                 <Link href="/" passHref aria-label="Logo">
                   <a>
-                    <SVG src="/svg/logo.svg" alt="logo" width={107} height={107} className="" />
+                    <SVG src="/svg/logo.svg" alt="logo" width={117} height={117} className="" />
                   </a>
                 </Link>
               </div>
