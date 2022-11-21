@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import Link from 'next/link'
-import { Zoom } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal'
 import SVG from 'react-inlinesvg'
 export default function Projects() {
   return (
@@ -24,7 +24,7 @@ export default function Projects() {
 
       <div className="container space-y-14 md:space-y-64">
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -38,8 +38,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/dashboard">
                 <a>
@@ -58,10 +58,10 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with React Js, Syncfusion and Tailwind Css </p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -75,8 +75,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="/">
                 <a>
@@ -97,11 +97,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -115,8 +115,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/musict">
                 <a>
@@ -135,11 +135,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with React Js, Tailwind Css & Rapid Api. </p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -153,8 +153,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/gym_app">
                 <a>
@@ -178,11 +178,11 @@ export default function Projects() {
                 Material UI, React Js and Rapid API.
               </p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -196,8 +196,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/ecomerce">
                 <a>
@@ -221,11 +221,11 @@ export default function Projects() {
                 Full Stack ECommerce Application built with Next Js, React Js Sanity and Stripe
               </p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -239,8 +239,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/bank">
                 <a>
@@ -259,11 +259,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Vite Js, React Js and Tailwind Css</p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -277,8 +277,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/pastrimpro">
                 <a>
@@ -297,11 +297,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -315,8 +315,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/Hulu-2.0">
                 <a>
@@ -337,11 +337,11 @@ export default function Projects() {
                 Clone App built with Next Js, React Js and Tailwind Css
               </p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Zoom className="flex flex-col justify-start ">
+          <Fade className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -355,8 +355,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Zoom>
-          <Zoom className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
@@ -375,7 +375,7 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with React Js</p>
             </div>
-          </Zoom>
+          </Fade>
         </main>
       </div>
     </div>
