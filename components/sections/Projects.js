@@ -52,7 +52,7 @@ export default function Projects() {
               <Link href="https://dashboard-hariskurtishi-jaewrkqlv-hariskurtishi.vercel.app/">
                 <a>
                   <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
-                    <h1>Dashboar Pro</h1>
+                    <h1>Dashboard Pro</h1>
                   </div>
                 </a>
               </Link>
