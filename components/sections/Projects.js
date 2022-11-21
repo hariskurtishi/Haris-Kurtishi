@@ -56,7 +56,16 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <p className="text-mirage-60">Built with React Js, Syncfusion and Tailwind Css </p>
+              <p className="text-mirage-60">
+                React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and More.
+                This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully
+                functional charts!
+                <p className="my-4">
+                  Responsive Website Using React JS, Syncfusion, and Tailwind CSS.
+                </p>
+                Developed first with the Mobile First methodology, then for desktop. Compatible with
+                all mobile devices and with a beautiful and pleasant user interface.
+              </p>
             </div>
           </Fade>
         </main>
@@ -94,8 +103,14 @@ export default function Projects() {
                 </a>
               </Link>
               <p className="text-mirage-60">
-                A Movie app where you can discover the newest movies available. Built with React Js
-                and Material UI{' '}
+                This application includes user authentication, dark mode, sort movies by categories
+                or genres, viewing movies and actors details, adding a movie to favorites or
+                watchlist and many more functionalities.
+                <p className="my-4">
+                  Alan works as in-app voice assistant which creates conversational experiences for
+                  Cinemax.
+                </p>
+                Buil with React.js, Redux, Material UI, Alan AI, and more.
               </p>
             </div>
           </Fade>
