@@ -65,6 +65,46 @@ export default function Projects() {
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
+                src="/images/cinemax.png"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
+            </div>
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+            <div>
+              <Link href="https://github.com/hariskurtishi/better_netflix">
+                <a>
+                  <div className=" text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://better-netflix-haris.vercel.app/">
+                <a>
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
+                    <h1>Cinemax</h1>
+                  </div>
+                </a>
+              </Link>
+              <p className="text-mirage-60">
+                A Movie app where you can discover the newest movies available. Built with React Js
+                and Material UI{' '}
+              </p>
+            </div>
+          </Fade>
+        </main>
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <Fade className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
                 src="/images/bluepuzzle.jpg"
                 layout="intrinsic"
                 alt="blog"
@@ -186,6 +226,47 @@ export default function Projects() {
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
+                src="/images/housemarketplace.jpg"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
+            </div>
+          </Fade>
+          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+            <div>
+              <Link href="https://github.com/hariskurtishi/house-marketplace">
+                <a>
+                  <div className=" text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://house-marketplace-rent-sell.vercel.app/">
+                <a>
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
+                    <h1>House Marketplace</h1>
+                  </div>
+                </a>
+              </Link>
+              <p className="text-mirage-60">
+                Housemarketplace where you can list your house for sale or rent. <br /> Built with
+                React Js
+              </p>
+            </div>
+          </Fade>
+        </main>
+
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <Fade className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
                 src="/images/ecommerce.jpg"
                 layout="intrinsic"
                 alt="blog"
@@ -210,15 +291,16 @@ export default function Projects() {
               <Link href="https://www.beautenece.ch/">
                 <a>
                   <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
-                    <h1>
-                      Ecommerce <br />{' '}
-                      <span className="text-zinc-500 text-xl">(Project in progress...)</span>
-                    </h1>
+                    <h1>Beautenece</h1>
                   </div>
+                  <p className="text-mirage-60 text-sm mb-4">
+                    The store is not polished yet, but you can see what it looks at the moment.
+                  </p>
                 </a>
               </Link>
               <p className="text-mirage-60">
-                Full Stack ECommerce Application built with Next Js, React Js Sanity and Stripe
+                Full Stack ECommerce Application for a Swiss fragrance company built with Next Js,
+                React Js and Sanity CMS.
               </p>
             </div>
           </Fade>
@@ -296,84 +378,6 @@ export default function Projects() {
                 </a>
               </Link>
               <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
-            </div>
-          </Fade>
-        </main>
-
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
-            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
-              <Image
-                priority
-                src="/images/hulu.jpg"
-                layout="intrinsic"
-                alt="blog"
-                objectFit="inherit"
-                quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
-                width={812}
-                height={548}
-              />
-            </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
-            <div>
-              <Link href="https://github.com/hariskurtishi/Hulu-2.0">
-                <a>
-                  <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
-                  </div>
-                </a>
-              </Link>
-              <Link href="https://hulu-2-0-hariskurtishi.vercel.app/">
-                <a>
-                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
-                    <h1>Hulu 2.0</h1>
-                  </div>
-                </a>
-              </Link>
-              <p className="text-mirage-60">
-                Clone App built with Next Js, React Js and Tailwind Css
-              </p>
-            </div>
-          </Fade>
-        </main>
-
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
-            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
-              <Image
-                priority
-                src="/images/housemarketplace.jpg"
-                layout="intrinsic"
-                alt="blog"
-                objectFit="inherit"
-                quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
-                width={812}
-                height={548}
-              />
-            </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
-            <div>
-              <Link href="https://github.com/hariskurtishi/house-marketplace">
-                <a>
-                  <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
-                  </div>
-                </a>
-              </Link>
-              <Link href="https://house-marketplace-rent-sell.vercel.app/">
-                <a>
-                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
-                    <h1>House Marketplace App</h1>
-                  </div>
-                </a>
-              </Link>
-              <p className="text-mirage-60">Built with React Js</p>
             </div>
           </Fade>
         </main>
