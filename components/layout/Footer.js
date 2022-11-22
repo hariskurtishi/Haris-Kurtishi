@@ -49,32 +49,6 @@ export default function Footer() {
                     />
                   </a>
                 </div>
-                <div className="">
-                  <a
-                    rel="noopener noreferrer"
-                    aria-label="facebook"
-                    href="https://www.facebook.com/100061961360103"
-                  >
-                    <SVG
-                      src="/svg/fb.svg"
-                      className="w-8 h-8  transition-all text-mirage-60 hover:text-bluenight-500 rounded-md cursor-pointer fill-current "
-                      alt="facebook icon"
-                    />
-                  </a>
-                </div>
-                <div className="">
-                  <a
-                    rel="noopener noreferrer"
-                    aria-label="instagram"
-                    href="https://www.instagram.com/haris.kurtishii/"
-                  >
-                    <SVG
-                      src="/svg/instagram.svg"
-                      className="w-8 h-8  transition-all text-mirage-60 hover:text-bluenight-500 rounded-md cursor-pointer fill-current "
-                      alt="email icon"
-                    />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
