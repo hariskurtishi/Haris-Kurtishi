@@ -23,7 +23,7 @@ export default function Layout({ children, title = null }) {
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <div
-        className={`font-sans antialiased flex bg-bluenight-700 text-mirage-60 flex-col ${
+        className={`font-sans antialiased flex bg-mirage-500 text-mirage-60 flex-col ${
           dev ? 'debug-screens' : ''
         }`}
       >

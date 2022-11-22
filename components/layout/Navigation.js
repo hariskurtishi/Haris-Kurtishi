@@ -30,7 +30,7 @@ export default function Navigation() {
     <div className=" flex items-center bg-bluenight-700 selection:bg-bluenight-500 selection:text-mirage-60 text-mirage-60">
       <div className="container">
         <div className="justify-between row">
-          <div className="flex items-center col-3">
+          <div className="flex items-center col-1">
             <Link href="/" passHref aria-label="Logo" className="">
               <a>
                 <SVG
@@ -57,7 +57,7 @@ export default function Navigation() {
           </div>
 
           <div
-            className={`lg:col-8 lg:flex justify-between text-center ${
+            className={`lg:col-9 lg:flex justify-center text-center ${
               menu ? ' flex ' : ' hidden '
             }`}
           >
@@ -68,13 +68,13 @@ export default function Navigation() {
               <NavItem href="projects">Projects</NavItem>
               <NavItem href="contact">Contact</NavItem>
             </ul>
-            <div className="lg:flex lg:-mt-1 lg:col-2">
-              <Link href="resume.pdf" passHref className="" aria-label="Resume">
-                <Button as="a" variant="secondary">
-                  Resume
-                </Button>
-              </Link>
-            </div>
+          </div>
+          <div className="flex justify-center col-12 lg:-mt-2 lg:col-1 lg:mr-2">
+            <Link href="resume.pdf" passHref className="" aria-label="Resume">
+              <Button as="a" variant="secondary">
+                Resume
+              </Button>
+            </Link>
           </div>
 
           <didv
