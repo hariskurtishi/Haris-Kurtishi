@@ -69,7 +69,7 @@ export default function Navigation() {
               <NavItem href="contact">Contact</NavItem>
             </ul>
           </div>
-          <div className="flex justify-center col-12 lg:-mt-2 lg:col-1 lg:mr-2">
+          <div className="md:flex justify-center col-12 lg:-mt-2 lg:col-1 lg:mr-2 hidden">
             <Link href="resume.pdf" passHref className="" aria-label="Resume">
               <Button as="a" variant="secondary">
                 Resume
