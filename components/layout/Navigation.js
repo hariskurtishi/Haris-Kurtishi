@@ -27,10 +27,21 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className="sticky top-0 z-50 flex items-center bg-bluenight-700 selection:bg-bluenight-500 selection:text-mirage-60 text-mirage-60">
+    <div className=" flex items-center bg-bluenight-700 selection:bg-bluenight-500 selection:text-mirage-60 text-mirage-60">
       <div className="container">
-        <div className="justify-between py-5 row">
+        <div className="justify-between row">
           <div className="flex items-center col-3">
+            <Link href="/" passHref aria-label="Logo" className="">
+              <a>
+                <SVG
+                  src="/svg/logo.svg"
+                  alt="logo"
+                  width={100}
+                  height={100}
+                  className="lg:-ml-5 lg:-mb-3"
+                />
+              </a>
+            </Link>
             <div className="">
               <ScrollLink to="/" spy={true} smooth={true} offset={-70} duration={500}></ScrollLink>
             </div>
@@ -46,7 +57,7 @@ export default function Navigation() {
           </div>
 
           <div
-            className={`lg:col-12 lg:flex justify-center text-center ${
+            className={`lg:col-8 lg:flex justify-between text-center ${
               menu ? ' flex ' : ' hidden '
             }`}
           >
@@ -56,16 +67,14 @@ export default function Navigation() {
               <NavItem href="skills">Skills</NavItem>
               <NavItem href="projects">Projects</NavItem>
               <NavItem href="contact">Contact</NavItem>
-              <div className="" style={{ zIndex: '99' }}>
-                <Link href="resume.pdf" passHref className="" aria-label="Contact Button">
-                  <Button as="a" variant="secondary" style={{ zIndex: '50' }}>
-                    Resume
-                  </Button>
-                </Link>
-              </div>
-
-              {/* <li className="py-2"><DarkMode /></li> */}
             </ul>
+            <div className="lg:flex lg:-mt-1 lg:col-2">
+              <Link href="resume.pdf" passHref className="" aria-label="Resume">
+                <Button as="a" variant="secondary">
+                  Resume
+                </Button>
+              </Link>
+            </div>
           </div>
 
           <didv

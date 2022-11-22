@@ -4,7 +4,7 @@ import SVG from 'react-inlinesvg'
 export default function Skills() {
   return (
     <div id="skills" className=" h-[1150px] lg:h-[650px] md:h-[770px]">
-      <h1 className="md:text-[64px] text-4xl pb-12 text-mirage-60 hover:text-bluenight-500 text-center group transition-all selection:bg-bluenight-500 selection:text-mirage-60">
+      <h1 className="md:text-[64px] text-4xl pb-12 md:pt-40 text-mirage-60 hover:text-bluenight-500 text-center group transition-all selection:bg-bluenight-500 selection:text-mirage-60">
         Tech Stack
         <span className="text-bluenight-500 group-hover:text-zinc-900">.</span>
       </h1>

@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <Layout title="Home">
       <HeaderSection />
-      <About />
-      <Skills />
       <Projects />
+      <Skills />
+      <About />
       <Contact />
     </Layout>
   )

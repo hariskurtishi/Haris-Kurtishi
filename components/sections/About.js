@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="relative md:h-[450px]  pb-24 lg:h-full mt-40 lg:mt-0 my-20 lg:my-40 md:mt-10"
+      className="relative md:h-[450px]  pb-24 lg:h-full mt-40 lg:mt-40 my-20 lg:my-10 md:mt-10"
     >
       <div className="container">
         <div
