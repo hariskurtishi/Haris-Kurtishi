@@ -95,7 +95,7 @@ export default function Projects() {
                   </div>
                 </a>
               </Link>
-              <Link href="https://better-netflix-haris.vercel.app/">
+              <Link href="https://cinemate-hariskurtishi.vercel.app/">
                 <a>
                   <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
                     <h1>Cinemate</h1>
