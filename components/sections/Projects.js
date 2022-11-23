@@ -74,7 +74,7 @@ export default function Projects() {
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
-                src="/images/cinemax.png"
+                src="/images/cinemate.png"
                 layout="intrinsic"
                 alt="blog"
                 objectFit="inherit"
@@ -98,7 +98,7 @@ export default function Projects() {
               <Link href="https://better-netflix-haris.vercel.app/">
                 <a>
                   <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
-                    <h1>Cinemax</h1>
+                    <h1>Cinemate</h1>
                   </div>
                 </a>
               </Link>
@@ -108,7 +108,7 @@ export default function Projects() {
                 watchlist and many more functionalities.
                 <p className="my-4">
                   Alan works as in-app voice assistant which creates conversational experiences for
-                  Cinemax.
+                  Cinemate.
                 </p>
                 Buil with React.js, Redux, Material UI, Alan AI, and more.
               </p>
