@@ -110,7 +110,7 @@ export default function Projects() {
                   Alan works as in-app voice assistant which creates conversational experiences for
                   Cinemate.
                 </p>
-                Buil with React.js, Redux, Material UI, Alan AI, and more.
+                Built with React.js, Redux, Material UI, Alan AI, and more.
               </p>
             </div>
           </Fade>
