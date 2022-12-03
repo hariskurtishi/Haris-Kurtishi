@@ -8,8 +8,7 @@ const classes = {
   disabled: 'opacity-50 cursor-not-allowed',
 
   variant: {
-    primary:
-      'group-hover:bg-bluenight-500 shadow-xl bg-bluenight-500 transition-all text-white group-hover:text-mirage-60 ',
+    primary: 'group-hover:bg-bluenight-500 shadow-xl bg-bluenight-500 transition-all text-white  ',
     secondary: 'text-mirage-60 group-hover:text-bluenight-500 transition-all  ',
     tertiary: 'text-mirage-60 border',
   },

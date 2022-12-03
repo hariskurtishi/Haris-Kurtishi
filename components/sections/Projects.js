@@ -22,9 +22,9 @@ export default function Projects() {
         </span>
       </div>
 
-      <div className="container space-y-14 md:space-y-64">
+      <Fade cascade damping={0.1} className="container py-14 md:py-24">
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -38,8 +38,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/dashboard">
                 <a>
@@ -67,10 +67,10 @@ export default function Projects() {
                 all mobile devices and with a beautiful and pleasant user interface.
               </p>
             </div>
-          </Fade>
+          </div>
         </main>
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -84,8 +84,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/better_netflix">
                 <a>
@@ -113,11 +113,11 @@ export default function Projects() {
                 Built with React.js, Redux, Material UI, Alan AI, and more.
               </p>
             </div>
-          </Fade>
+          </div>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -131,8 +131,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/musict">
                 <a>
@@ -151,11 +151,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with React Js, Tailwind Css & Rapid Api. </p>
             </div>
-          </Fade>
+          </div>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -169,8 +169,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/gym_app">
                 <a>
@@ -194,11 +194,11 @@ export default function Projects() {
                 Material UI, React Js and Rapid API.
               </p>
             </div>
-          </Fade>
+          </div>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -212,8 +212,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="/">
                 <a>
@@ -234,11 +234,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
             </div>
-          </Fade>
+          </div>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -252,8 +252,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
@@ -275,11 +275,11 @@ export default function Projects() {
                 React Js
               </p>
             </div>
-          </Fade>
+          </div>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -293,8 +293,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/ecomerce">
                 <a>
@@ -319,11 +319,11 @@ export default function Projects() {
                 React Js and Sanity CMS.
               </p>
             </div>
-          </Fade>
+          </div>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -337,8 +337,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/bank">
                 <a>
@@ -357,11 +357,11 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Vite Js, React Js and Tailwind Css</p>
             </div>
-          </Fade>
+          </div>
         </main>
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <Fade className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
                 priority
@@ -375,8 +375,8 @@ export default function Projects() {
                 height={548}
               />
             </div>
-          </Fade>
-          <Fade className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/pastrimpro">
                 <a>
@@ -395,9 +395,9 @@ export default function Projects() {
               </Link>
               <p className="text-mirage-60">Built with Next Js, React Js and Tailwind Css</p>
             </div>
-          </Fade>
+          </div>
         </main>
-      </div>
+      </Fade>
     </div>
   )
 }
