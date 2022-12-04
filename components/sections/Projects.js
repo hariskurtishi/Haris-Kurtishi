@@ -7,12 +7,6 @@ export default function Projects() {
   return (
     <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full  ">
       <div
-        className="absolute bottom-96 selection:bg-bluenight-500 selection:text-mirage-60"
-        style={{ zIndex: '-30' }}
-      >
-        <SVG src="/svg/rectangle3.svg" className="w-full " alt="facebook icon" />
-      </div>
-      <div
         className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 lg:pb-8 text-mirage-60 hover:text-bluenight-500 mb-8 group transition-all duration-500 selection:bg-bluenight-500 selection:text-mirage-60"
         style={{ zIndex: '10' }}
       >

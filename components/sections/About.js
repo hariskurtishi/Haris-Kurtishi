@@ -24,12 +24,7 @@ export default function About() {
             <h1 className="md:text-[64px] text-4xl pb-12 text-mirage-60 hover:text-bluenight-500 text-center group transition-all selection:bg-bluenight-500 selection:text-mirage-60">
               About me<span className="text-bluenight-500 group-hover:text-zinc-900">.</span>
             </h1>
-            <div
-              className="absolute bottom-72 right-0 selection:bg-bluenight-500 selection:text-mirage-60"
-              style={{ zIndex: '-30' }}
-            >
-              <SVG src="/svg/rectangle4.svg" className="w-full " alt="facebook icon" />
-            </div>
+
             <div className=" text-center">
               <div className="space-y-5 text-mirage-60  selection:bg-bluenight-500 selection:text-mirage-60">
                 <p>

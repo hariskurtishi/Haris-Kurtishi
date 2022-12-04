@@ -6,9 +6,9 @@ import SVG from 'react-inlinesvg'
 import Button from '../Button'
 export default function HeaderSection() {
   return (
-    <div id="home" className="relative h-[900px] md:h-[750px] lg:h-[900px] w-full ">
+    <div id="home" className="relative h-[900px] md:h-[750px] lg:h-[800px] w-full ">
       <div className="container relative selection:bg-bluenight-500 selection:text-mirage-60">
-        <div className="pt-14 lg:pt-28 md:flex">
+        <div className="pt-14 lg:pt-48 md:flex">
           <Fade className="md:col-6 ">
             <div className="relative">
               <div>
@@ -62,25 +62,25 @@ export default function HeaderSection() {
             <div>
               <div
                 className="flex absolute justify-center shadow-xl transition-all md:top-64  top-96 lg:top-[155px] z-50 left-6 lg:left-2  p-2 bg-mirage-60"
-                style={{ zIndex: '99' }}
+                style={{ zIndex: '45' }}
               >
                 <div className="flex gap-2">
                   <div className="flex justify-center">
                     <SVG src="/svg/nextjs.svg" className="w-6 h-6" alt="reddot" />
                   </div>
-                  <p className="text-sm md:text-base text-zinc-900 flex items-center">Next Js</p>
+                  <p className="text-sm md:text-base text-mirage-700 flex items-center">Next Js</p>
                 </div>
               </div>
 
               <div
                 className="flex absolute justify-center shadow-xl transition-all right-2 md:right-18 lg:right-10 top-[480px] md:top-[440px] lg:top-72 p-2 bg-mirage-60"
-                style={{ zIndex: '999' }}
+                style={{ zIndex: '45' }}
               >
                 <div className="flex gap-2">
                   <div className="flex justify-center">
                     <SVG src="/svg/react.svg" className="w-6 h-6  fill-current" alt="reddot" />
                   </div>
-                  <p className="text-sm md:text-base text-zinc-900 flex items-center">React Js</p>
+                  <p className="text-sm md:text-base text-mirage-700 flex items-center">React Js</p>
                 </div>
               </div>
 
@@ -96,7 +96,7 @@ export default function HeaderSection() {
                       alt="reddot"
                     />
                   </div>
-                  <p className="text-sm md:text-base text-zinc-900 flex items-center">
+                  <p className="text-sm md:text-base text-mirage-700 flex items-center">
                     Tailwind Css
                   </p>
                 </div>

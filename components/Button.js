@@ -8,8 +8,9 @@ const classes = {
   disabled: 'opacity-50 cursor-not-allowed',
 
   variant: {
-    primary: 'group-hover:bg-bluenight-500 shadow-xl bg-bluenight-500 transition-all text-white  ',
-    secondary: 'text-mirage-60 group-hover:text-bluenight-500 transition-all  ',
+    primary:
+      'group-hover:bg-bluenight-500 shadow-xl bg-mirage-60 transition-all group-hover:text-white text-mirage-700 rounded-md ',
+    secondary: 'text-mirage-60 group-hover:text-bluenight-500 transition-all  rounded-md',
     tertiary: 'text-mirage-60 border',
   },
 }
@@ -36,7 +37,7 @@ const Button = forwardRef(
         {...props}
       >
         <div className={`inline-flex group ${classes.variant[variant]}`}>
-          <div className="px-6 my-4 text-base font-medium">{children}</div>
+          <div className="px-4 my-3 text-base font-medium">{children}</div>
         </div>
       </Tag>
     )

@@ -27,7 +27,7 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className=" flex items-center bg-bluenight-700 selection:bg-bluenight-500 selection:text-mirage-60 text-mirage-60">
+    <div className="sticky top-0 z-50 flex items-center bg-mirage-700 selection:bg-bluenight-500 selection:text-mirage-60 text-mirage-60">
       <div className="container">
         <div className="justify-between row">
           <div className="flex items-center col-1">
@@ -63,15 +63,15 @@ export default function Navigation() {
           >
             <ul className="flex-col w-full font-bold divide-y lg:flex text-bluenight-500 md:text-mirage-60 md:font-medium pt-14 lg:space-x-12 lg:w-auto md:p-0 md:flex-row lg:justify-center md:items-center lg:text-left md:divide-y-2 lg:divide-y-0 divide-bluenight-500 ">
               <NavItem href="home">Home</NavItem>
-              <NavItem href="about">About me</NavItem>
               <NavItem href="skills">Skills</NavItem>
               <NavItem href="projects">Projects</NavItem>
+              <NavItem href="about">About me</NavItem>
               <NavItem href="contact">Contact</NavItem>
             </ul>
           </div>
-          <div className="md:flex justify-center col-12 lg:-mt-2 lg:col-1 lg:mr-2 hidden">
+          <div className="md:flex justify-center col-12 lg:-mt-1 lg:col-1 lg:mr-3 hidden">
             <Link href="resume.pdf" passHref className="" aria-label="Resume">
-              <Button as="a" variant="secondary">
+              <Button as="a" variant="primary">
                 Resume
               </Button>
             </Link>

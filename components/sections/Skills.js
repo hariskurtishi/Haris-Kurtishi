@@ -4,149 +4,151 @@ import SVG from 'react-inlinesvg'
 export default function Skills() {
   return (
     <div id="skills" className=" h-[1150px] lg:h-[650px] md:h-[770px]">
-      <h1 className="md:text-[64px] text-4xl pb-12 md:pt-40 text-mirage-60 hover:text-bluenight-500 text-center group transition-all selection:bg-bluenight-500 selection:text-mirage-60">
+      <h1 className="md:text-[64px] text-4xl pt-32 md:pt-0  text-mirage-60 hover:text-bluenight-500 text-center group transition-all selection:bg-bluenight-500 selection:text-mirage-60">
         Tech Stack
         <span className="text-bluenight-500 group-hover:text-zinc-900">.</span>
       </h1>
-      <div className="py-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 container">
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/tailwindcss-icon-svgrepo-com.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+      <div className="py-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-16 container">
+        <Fade cascade duration={300}>
+          <div className=" flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/tailwindcss-icon-svgrepo-com.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Tailwind Css</p>
             </div>
-            <p className="">Tailwind Css</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/mui.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/mui.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Material UI</p>
             </div>
-            <p className="">Material UI</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/react.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/react.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">React Js</p>
             </div>
-            <p className="">React Js</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/typescript2.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/typescript2.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Typescript</p>
             </div>
-            <p className="">Typescript</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG src="/svg/nextjs.svg" className="w-12 h-12 fill-current" alt="reddot" />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG src="/svg/nextjs.svg" className="w-12 h-12" alt="reddot" />
+              </div>
+              <p className="">Next Js</p>
             </div>
-            <p className="">Next Js</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/bootstrap-svgrepo-com.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/bootstrap-svgrepo-com.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Bootstrap</p>
             </div>
-            <p className="">Bootstrap</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/github-svgrepo-com (1).svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/github-svgrepo-com (1).svg"
+                  className="w-12 h-12 text-bluenight-500"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Github</p>
             </div>
-            <p className="">Github</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/prismic-icon-svgrepo-com.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/prismic-icon-svgrepo-com.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Prismic</p>
             </div>
-            <p className="">Prismic</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/figma.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/figma.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Figma</p>
             </div>
-            <p className="">Figma</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/firebase-svgrepo-com.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/firebase-svgrepo-com.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Firebase</p>
             </div>
-            <p className="">Firebase</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/alpine.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/alpine.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Alpine Js</p>
             </div>
-            <p className="">Alpine Js</p>
           </div>
-        </Fade>
-        <Fade className="flex justify-center shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
-          <div className="space-y-4">
-            <div className="flex justify-center">
-              <SVG
-                src="/svg/sanity.svg"
-                className="w-12 h-12 text-bluenight-500 fill-current"
-                alt="reddot"
-              />
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <SVG
+                  src="/svg/sanity.svg"
+                  className="w-12 h-12 text-bluenight-500 fill-current"
+                  alt="reddot"
+                />
+              </div>
+              <p className="">Sanity CMS</p>
             </div>
-            <p className="">Sanity CMS</p>
           </div>
         </Fade>
       </div>
