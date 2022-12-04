@@ -63,7 +63,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        {/* <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -108,7 +108,7 @@ export default function Projects() {
               </p>
             </div>
           </div>
-        </main>
+        </main> */}
 
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
