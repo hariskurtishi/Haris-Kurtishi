@@ -10,7 +10,7 @@ export default function Skills() {
       </h1>
       <div className="py-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-16 container">
         <Fade cascade duration={300}>
-          <div className=" flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className=" flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -22,7 +22,7 @@ export default function Skills() {
               <p className="">Tailwind Css</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -34,7 +34,7 @@ export default function Skills() {
               <p className="">Material UI</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -46,7 +46,7 @@ export default function Skills() {
               <p className="">React Js</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -58,7 +58,7 @@ export default function Skills() {
               <p className="">Typescript</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG src="/svg/nextjs.svg" className="w-12 h-12" alt="reddot" />
@@ -66,7 +66,7 @@ export default function Skills() {
               <p className="">Next Js</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -78,7 +78,7 @@ export default function Skills() {
               <p className="">Bootstrap</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -90,7 +90,7 @@ export default function Skills() {
               <p className="">Github</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -102,7 +102,7 @@ export default function Skills() {
               <p className="">Prismic</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -114,7 +114,7 @@ export default function Skills() {
               <p className="">Figma</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -126,7 +126,7 @@ export default function Skills() {
               <p className="">Firebase</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
@@ -138,7 +138,7 @@ export default function Skills() {
               <p className="">Alpine Js</p>
             </div>
           </div>
-          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2 transition-all duration-300  rounded-md py-4">
+          <div className="flex justify-center card shadow-2xl bg-mirage-700 hover:-translate-y-2   rounded-md py-4">
             <div className="space-y-4">
               <div className="flex justify-center">
                 <SVG
