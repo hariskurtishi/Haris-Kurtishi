@@ -27,7 +27,7 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className="sticky top-0 z-50 flex items-center bg-mirage-700 selection:bg-bluenight-500 selection:text-mirage-60 text-mirage-60">
+    <div className="sticky top-0 z-50 flex items-center bg-mirage-700 selection:bg-bluenight-500 selection:text-mirage-600 text-mirage-60">
       <div className="container">
         <div className="justify-between row">
           <div className="flex items-center col-1">

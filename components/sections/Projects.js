@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div id="projects" className="relative md:mt-20 lg:mt-0 lg:h-full  ">
       <div
-        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 lg:pb-8 text-mirage-60 hover:text-bluenight-500 mb-8 group transition-all duration-500 selection:bg-bluenight-500 selection:text-mirage-60"
+        className="lg:text-[55px] text-4xl group text-center container leading-tight pt-28 md:pt-14 lg:pt-0 lg:pb-8 text-mirage-60 hover:text-bluenight-500 mb-8 group transition-all duration-500 selection:bg-bluenight-500 selection:text-mirage-600"
         style={{ zIndex: '10' }}
       >
         Some Things I’ve <br />
@@ -16,7 +16,7 @@ export default function Projects() {
         </span>
       </div>
 
-      <Fade cascade damping={0.1} className="container py-14 md:py-24">
+      <Fade cascade damping={0.1} className=" container py-14 md:py-24">
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
@@ -33,7 +33,7 @@ export default function Projects() {
               />
             </div>
           </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          <div className="px-4 py-6  md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/dashboard">
                 <a>

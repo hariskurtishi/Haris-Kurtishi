@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <div className=" bg-opacity-90">
-        <div className="bg-bluenight selection:bg-bluenight-500 selection:text-mirage-60">
+        <div className="bg-bluenight selection:bg-bluenight-500 selection:text-mirage-600">
           <div className="flex items-center justify-between">
             <div className="container items-center justify-between md:flex">
               <div className="flex justify-center md:justify-start">
@@ -31,7 +31,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/email.svg"
-                      className="w-10 h-10  transition-all bg-mirage-600 p-2 hover:bg-mirage-60 rounded-md  hover:text-mirage-500 cursor-pointer fill-current "
+                      className="w-10 h-10  transition-all bg-mirage-600 p-2 hover:bg-bluenight-500 rounded-md  hover:text-mirage-500 cursor-pointer fill-current "
                       alt="email icon"
                     />
                   </a>
@@ -44,7 +44,7 @@ export default function Footer() {
                   >
                     <SVG
                       src="/svg/linkedin.svg"
-                      className="w-10 h-10 transition-all bg-mirage-600 p-2 hover:bg-mirage-60 rounded-md  hover:text-mirage-500 cursor-pointer fill-current "
+                      className="w-10 h-10 transition-all bg-mirage-600 p-2 hover:bg-bluenight-500 rounded-md  hover:text-mirage-500 cursor-pointer fill-current "
                       alt="linkedin icon"
                     />
                   </a>

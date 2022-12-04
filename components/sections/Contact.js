@@ -7,7 +7,7 @@ export default function Contact() {
     <div>
       <div
         id="contact"
-        className="container my-14 py-12 selection:bg-bluenight-500 selection:text-mirage-60 "
+        className="container my-14 py-12 selection:bg-bluenight-500 selection:text-mirage-600 "
       >
         <div>
           <div className="py-8 flex items-center justify-center">

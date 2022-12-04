@@ -7,7 +7,7 @@ import Button from '../Button'
 export default function HeaderSection() {
   return (
     <div id="home" className="relative h-[900px] md:h-[750px] lg:h-[800px] w-full ">
-      <div className="container relative selection:bg-bluenight-500 selection:text-mirage-60">
+      <div className="container relative selection:bg-bluenight-500 selection:text-mirage-600">
         <div className="pt-14 lg:pt-48 md:flex">
           <Fade className="md:col-6 ">
             <div className="relative">

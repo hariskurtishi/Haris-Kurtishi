@@ -54,12 +54,9 @@ header:before {
 .card {
   width: var(--card-width);
   height: var(--card-height);
-  padding: 7px;
+  padding: 14px;
   position: relative;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  border-radius: 7px;
   display: flex;
   cursor: pointer;
 }
@@ -82,7 +79,7 @@ header:before {
   background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
   position: absolute;
   z-index: -1;
-  top: -2%;
+  top: -2.45%;
   animation: spin 2.5s linear infinite;
 }
 

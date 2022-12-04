@@ -21,12 +21,12 @@ export default function About() {
 
         <Fade className="lg:px-44 grid content-center md:pt-16">
           <div className="">
-            <h1 className="md:text-[64px] text-4xl pb-12 text-mirage-60 hover:text-bluenight-500 text-center group transition-all selection:bg-bluenight-500 selection:text-mirage-60">
+            <h1 className="md:text-[64px] text-4xl pb-12 text-mirage-60 hover:text-bluenight-500 text-center group transition-all selection:bg-bluenight-500 selection:text-mirage-600">
               About me<span className="text-bluenight-500 group-hover:text-zinc-900">.</span>
             </h1>
 
             <div className=" text-center">
-              <div className="space-y-5 text-mirage-60  selection:bg-bluenight-500 selection:text-mirage-60">
+              <div className="space-y-5 text-mirage-60  selection:bg-bluenight-500 selection:text-mirage-600">
                 <p>
                   I enjoy creating things that live on the internet. My interest in web development
                   started back in 2015 when I decided to build a website for my first online store.{' '}
