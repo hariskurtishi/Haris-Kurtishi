@@ -6,15 +6,15 @@ import SVG from 'react-inlinesvg'
 import Button from '../Button'
 export default function HeaderSection() {
   return (
-    <div id="home" className="relative h-[900px] md:h-[750px] lg:h-[800px] w-full ">
+    <div id="home" className="relative h-[900px] md:h-[850px] lg:h-[800px] w-full ">
       <div className="container relative selection:bg-bluenight-500 selection:text-mirage-600">
-        <div className="pt-14 lg:pt-48 md:flex">
+        <div className="pt-14 md:pt-56 md:flex">
           <Fade className="md:col-6 ">
             <div className="relative">
               <div>
-                <h1 className="text-mygreen-100   text-center md:text-left mb-4 md:mb-0">
+                <h1 className="text-mygreen-100 text-center md:text-left mb-4 md:mb-0">
                   Hello there! I’m <br />
-                  <span className="text-blue-950  leading-normal text-xl text-center md:text-left lg:text-3xl">
+                  <span className="text-blue-950 leading-normal text-xl text-center md:text-left lg:text-3xl">
                     Haris Kurtishi
                   </span>
                 </h1>
@@ -48,44 +48,37 @@ export default function HeaderSection() {
                   </Button>
                 </Link>
               </div>
-
-              <div
-                className="hidden lg:block absolute -bottom-52 -right-56 "
-                style={{ zIndex: '-3' }}
-              >
-                {/* <SVG src="/svg/headerbg.svg" className="  " alt="facebook icon" /> */}
-              </div>
             </div>
           </Fade>
 
-          <div className="col-12 relative md:col-5 md:offset-1 md:flex md:justify-center pt-24 md:pt-14 lg:mt-24">
+          <div className="col-12 relative md:col-5 md:offset-1 md:flex md:justify-center pt-24 md:pt-14 lg:mt-[92px] ">
             <div>
               <div
-                className="flex absolute justify-center shadow-xl transition-all md:top-64  top-96 lg:top-[155px] z-50 left-6 lg:left-2  p-2 bg-mirage-60"
+                className="flex absolute justify-center drop-shadow-2xl shadow-2xl transition-all md:top-48 md:-left-12 top-96 lg:top-[155px] z-50 left-2 lg:left-10 rounded-md md:px-4 md:py-3 p-2 bg-mirage-60/10 backdrop-blur"
                 style={{ zIndex: '45' }}
               >
-                <div className="flex gap-2">
+                <div className="flex gap-2 ">
                   <div className="flex justify-center">
                     <SVG src="/svg/nextjs.svg" className="w-6 h-6" alt="reddot" />
                   </div>
-                  <p className="text-sm md:text-base text-mirage-700 flex items-center">Next Js</p>
+                  <p className="text-sm md:text-base text-mirage-60 flex items-center">Next Js</p>
                 </div>
               </div>
 
               <div
-                className="flex absolute justify-center shadow-xl transition-all right-2 md:right-18 lg:right-10 top-[480px] md:top-[440px] lg:top-72 p-2 bg-mirage-60"
+                className="flex absolute rounded-md drop-shadow-2xl justify-center shadow-2xl transition-all right-2 md:right-18 lg:right-10 top-[540px] md:top-[380px] lg:top-80 md:px-4 md:py-3 p-2 bg-mirage-60/10 backdrop-blur"
                 style={{ zIndex: '45' }}
               >
                 <div className="flex gap-2">
                   <div className="flex justify-center">
                     <SVG src="/svg/react.svg" className="w-6 h-6  fill-current" alt="reddot" />
                   </div>
-                  <p className="text-sm md:text-base text-mirage-700 flex items-center">React Js</p>
+                  <p className="text-sm md:text-base text-mirage-60 flex items-center">React Js</p>
                 </div>
               </div>
 
               <div
-                className="flex absolute justify-center shadow-xl transition-all right-4 top-64 md:top-0 lg:top-0 md:right-18 lg:right-8  p-2 bg-mirage-60"
+                className="flex absolute rounded-md justify-center shadow-2xl drop-shadow-2xl transition-all right-0 top-72 md:-top-20 lg:-top-20 md:right-18 lg:right-0  md:px-4 md:py-3 p-2 bg-mirage-60/10 backdrop-blur"
                 style={{ zIndex: '45' }}
               >
                 <div className="flex gap-2">
@@ -96,7 +89,7 @@ export default function HeaderSection() {
                       alt="reddot"
                     />
                   </div>
-                  <p className="text-sm md:text-base text-mirage-700 flex items-center">
+                  <p className="text-sm md:text-base text-mirage-60 flex items-center">
                     Tailwind Css
                   </p>
                 </div>
@@ -104,11 +97,10 @@ export default function HeaderSection() {
             </div>
 
             <div
-              className="absolute md:left-10 left-14 lg:left-28 lg:bottom-20 transition-all duration-300 "
+              className="absolute md:left-10 left-10 lg:left-32 lg:bottom-2 md:bottom-[31%]  -bottom-[494%]  top-[114.5%]  transition-all duration-300 bg-mirage-600 pt-20  md:pt-8 lg:pt-16  md:-top-[14.5%] lg:-top-[36.5%] md:p-6 rounded-t-full rounded-b-2xl shadow-2xl drop-shadow-2xl"
               style={{ zIndex: '1' }}
             >
               <Image
-                // loader={myLoader}
                 priority
                 src="/images/hero.png"
                 layout="intrinsic"
@@ -117,6 +109,7 @@ export default function HeaderSection() {
                 quality={100}
                 width={280}
                 height={380}
+                className="pt-20"
               />
             </div>
           </div>

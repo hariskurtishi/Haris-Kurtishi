@@ -27,7 +27,7 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className="sticky top-0 z-50 flex items-center bg-mirage-700 selection:bg-bluenight-500 selection:text-mirage-600 text-mirage-60">
+    <div className="sticky top-0 z-50 flex items-center  selection:bg-bluenight-500 selection:text-mirage-600 text-mirage-60 backdrop-blur-lg bg-mirage-700/70	">
       <div className="container">
         <div className="justify-between row">
           <div className="flex items-center col-1">
@@ -69,7 +69,7 @@ export default function Navigation() {
               <NavItem href="contact">Contact</NavItem>
             </ul>
           </div>
-          <div className="md:flex justify-center col-12 lg:-mt-1 lg:col-1 lg:mr-3 hidden">
+          <div className="lg:flex justify-center col-12 lg:-mt-1 lg:col-1 lg:mr-3 hidden">
             <Link href="resume.pdf" passHref className="" aria-label="Resume">
               <Button as="a" variant="primary">
                 Resume

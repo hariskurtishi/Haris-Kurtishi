@@ -33,7 +33,7 @@ export default function Projects() {
               />
             </div>
           </div>
-          <div className="px-4 py-6  md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+          <div className="px-4 py-6 card2 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
             <div>
               <Link href="https://github.com/hariskurtishi/dashboard">
                 <a>
