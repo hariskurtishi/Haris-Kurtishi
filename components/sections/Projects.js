@@ -149,7 +149,49 @@ export default function Projects() {
             </div>
           </div>
         </main> */}
-
+        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+          <div className="flex flex-col justify-start ">
+            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
+              <Image
+                priority
+                src="/images/ecommerce.png"
+                layout="intrinsic"
+                alt="blog"
+                objectFit="inherit"
+                quality={100}
+                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                width={812}
+                height={548}
+              />
+            </div>
+          </div>
+          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
+            <div>
+              <Link href="https://github.com/hariskurtishi/ecomerce">
+                <a>
+                  <div className=" text-sm flex items-center space-x-3">
+                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://www.beautenece.ch/">
+                <a>
+                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
+                    <h1>Beautenece</h1>
+                  </div>
+                  <p className="text-mirage-60 text-sm mb-4">
+                    The store is not polished yet, but you can see what it looks at the moment.
+                  </p>
+                </a>
+              </Link>
+              <p className="text-mirage-60">
+                Full Stack ECommerce Application for a Swiss fragrance company built with Next Js,
+                React Js and Sanity CMS.
+              </p>
+            </div>
+          </div>
+        </main>
         <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
@@ -307,50 +349,6 @@ export default function Projects() {
               <p className="text-mirage-60">
                 Housemarketplace where you can list your house for sale or rent. <br /> Built with
                 React Js
-              </p>
-            </div>
-          </div>
-        </main>
-
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
-          <div className="flex flex-col justify-start ">
-            <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
-              <Image
-                priority
-                src="/images/ecommerce.png"
-                layout="intrinsic"
-                alt="blog"
-                objectFit="inherit"
-                quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
-                width={812}
-                height={548}
-              />
-            </div>
-          </div>
-          <div className="px-4 py-6 md:py-0 md:px-14 grid content-center justify-between text-mirage-40">
-            <div>
-              <Link href="https://github.com/hariskurtishi/ecomerce">
-                <a>
-                  <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
-                  </div>
-                </a>
-              </Link>
-              <Link href="https://www.beautenece.ch/">
-                <a>
-                  <div className="text-4xl transition-all  hover:text-bluenight-500 font-bold py-4">
-                    <h1>Beautenece</h1>
-                  </div>
-                  <p className="text-mirage-60 text-sm mb-4">
-                    The store is not polished yet, but you can see what it looks at the moment.
-                  </p>
-                </a>
-              </Link>
-              <p className="text-mirage-60">
-                Full Stack ECommerce Application for a Swiss fragrance company built with Next Js,
-                React Js and Sanity CMS.
               </p>
             </div>
           </div>
