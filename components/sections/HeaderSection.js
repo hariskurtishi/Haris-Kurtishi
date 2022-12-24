@@ -96,10 +96,7 @@ export default function HeaderSection() {
               </div>
             </div>
 
-            <div
-              className="absolute md:left-10 left-10 lg:left-32 lg:bottom-2 md:bottom-[31%]  -bottom-[494%]  top-[114.5%]  transition-all duration-300 bg-mirage-600 pt-20  md:pt-8 lg:pt-16  md:-top-[14.5%] lg:-top-[36.5%] md:p-6 rounded-t-full rounded-b-2xl shadow-2xl drop-shadow-2xl"
-              style={{ zIndex: '1' }}
-            >
+            <div className="absolute md:bottom-2 xl:bottom-0 lg:bottom-20" style={{ zIndex: '1' }}>
               <Image
                 priority
                 src="/images/hero.png"
@@ -108,8 +105,7 @@ export default function HeaderSection() {
                 objectFit="cover"
                 quality={100}
                 width={280}
-                height={380}
-                className="pt-20"
+                height={430}
               />
             </div>
           </div>

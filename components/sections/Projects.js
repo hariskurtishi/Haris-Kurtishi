@@ -17,7 +17,7 @@ export default function Projects() {
       </div>
 
       <Fade cascade damping={0.1} className=" container py-14 md:py-24">
-        {/* <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        {/* <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -27,7 +27,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -38,8 +38,8 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/web3">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG src="/svg/github.svg" className="hover:text-bluenight-500 w-6 h-6 fill-current" alt="button" />
+                   
                   </div>
                 </a>
               </Link>
@@ -59,7 +59,7 @@ export default function Projects() {
             </div>
           </div>
         </main> */}
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -69,7 +69,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -80,8 +80,11 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/ecomerce">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG
+                      src="/svg/github.svg"
+                      className="hover:text-bluenight-500 w-6 h-6 fill-current"
+                      alt="button"
+                    />
                   </div>
                 </a>
               </Link>
@@ -102,7 +105,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -112,7 +115,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -123,8 +126,11 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/pastrimpro">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG
+                      src="/svg/github.svg"
+                      className="hover:text-bluenight-500 w-6 h-6 fill-current"
+                      alt="button"
+                    />
                   </div>
                 </a>
               </Link>
@@ -139,7 +145,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -149,7 +155,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -160,8 +166,11 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/dashboard">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG
+                      src="/svg/github.svg"
+                      className="hover:text-bluenight-500 w-6 h-6 fill-current"
+                      alt="button"
+                    />
                   </div>
                 </a>
               </Link>
@@ -183,7 +192,7 @@ export default function Projects() {
             </div>
           </div>
         </main>
-        {/* <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        {/* <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -193,7 +202,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -204,8 +213,8 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/better_netflix">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG src="/svg/github.svg" className="hover:text-bluenight-500 w-6 h-6 fill-current" alt="button" />
+                   
                   </div>
                 </a>
               </Link>
@@ -230,7 +239,7 @@ export default function Projects() {
           </div>
         </main> */}
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -240,7 +249,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -251,8 +260,11 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/musict">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG
+                      src="/svg/github.svg"
+                      className="hover:text-bluenight-500 w-6 h-6 fill-current"
+                      alt="button"
+                    />
                   </div>
                 </a>
               </Link>
@@ -268,7 +280,7 @@ export default function Projects() {
           </div>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -278,7 +290,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -289,8 +301,11 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/gym_app">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG
+                      src="/svg/github.svg"
+                      className="hover:text-bluenight-500 w-6 h-6 fill-current"
+                      alt="button"
+                    />
                   </div>
                 </a>
               </Link>
@@ -311,7 +326,7 @@ export default function Projects() {
           </div>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -321,7 +336,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -332,7 +347,11 @@ export default function Projects() {
               <Link href="/">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
+                    <SVG
+                      src="/svg/github.svg"
+                      className="hover:text-bluenight-500 w-6 h-6 fill-current"
+                      alt="button"
+                    />
                     <h1 className="hover:text-bluenight-500 ">
                       Github Repo not available due to the companies policy.
                     </h1>
@@ -351,7 +370,7 @@ export default function Projects() {
           </div>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -361,7 +380,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -372,8 +391,11 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/house-marketplace">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG
+                      src="/svg/github.svg"
+                      className="hover:text-bluenight-500 w-6 h-6 fill-current"
+                      alt="button"
+                    />
                   </div>
                 </a>
               </Link>
@@ -392,7 +414,7 @@ export default function Projects() {
           </div>
         </main>
 
-        <main className="items-center w-full h-full  bg-mirage-700 rounded-3xl shadow-xl grid md:grid-cols-2 gap-8  ">
+        <main className="items-center w-full h-full   shadow-xl grid md:grid-cols-2 gap-8  ">
           <div className="flex flex-col justify-start ">
             <div className="flex flex-col w-full object-cover h-6/6 justify-items-start overflow-hidden">
               <Image
@@ -402,7 +424,7 @@ export default function Projects() {
                 alt="blog"
                 objectFit="inherit"
                 quality={100}
-                className="rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl"
+                className=""
                 width={812}
                 height={548}
               />
@@ -413,8 +435,11 @@ export default function Projects() {
               <Link href="https://github.com/hariskurtishi/bank">
                 <a>
                   <div className=" text-sm flex items-center space-x-3">
-                    <SVG src="/svg/github.svg" className="w-4 h-4 fill-current" alt="button" />
-                    <h1 className="hover:text-bluenight-500 ">Github Repo</h1>
+                    <SVG
+                      src="/svg/github.svg"
+                      className="hover:text-bluenight-500 w-6 h-6 fill-current"
+                      alt="button"
+                    />
                   </div>
                 </a>
               </Link>
