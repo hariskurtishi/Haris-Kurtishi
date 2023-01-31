@@ -16,7 +16,7 @@ export default function Footer() {
               </div>
 
               <div className="my-12 text-lg font-medium text-center text-mirage-60 md:text-base">
-                © All Rights Reserved. 2022 Made by {}
+                © All Rights Reserved. 2023 Made by {}
                 <a className="transition-all" rel="noopener noreferrer">
                   <span className="text-bluenight-500">Haris Kurtishi</span>
                 </a>
